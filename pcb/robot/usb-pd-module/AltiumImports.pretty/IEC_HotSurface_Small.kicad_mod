@@ -1,0 +1,15 @@
+(footprint "IEC_HotSurface_Small" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 0)
+  (fp_text reference "REF**" (at -10.0711 -12.3571 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 0.762 0.762) (thickness 0.1778) bold) (justify left bottom))
+    (tstamp 9d5d10f6-f773-4c9b-be80-7aeb82e7ad60)
+  )
+  (fp_text value "CAUTION HOT SURFACE" (at -10.0711 13.3731 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 0.762 0.762) (thickness 0.1778)) (justify left bottom))
+    (tstamp 9188fa67-c349-433d-bfd7-0555e2217129)
+  )
+  (fp_line (start 0 -2.345167) (end 2.7178 2.3622) (layer "F.SilkS") (width 0.3556) (tstamp 579d09c5-bcb8-4e9c-ae80-f5cca7f2538a))
+  (fp_line (start -2.7178 2.3622) (end 0 -2.345167) (layer "F.SilkS") (width 0.3556) (tstamp 6704715e-6b40-40d0-9eac-901c99a5582e))
+  (fp_line (start -2.7178 2.3622) (end 2.7178 2.3622) (layer "F.SilkS") (width 0.3556) (tstamp c2654807-2b99-4b1c-9e8e-f474d28f8595))
+)

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "AltiumImports")(type "KiCad")(uri "${KIPRJMOD}/AltiumImports.pretty")(options "")(descr ""))
+  (lib (name "RP2040_minimal")(type "KiCad")(uri "${KIPRJMOD}/mcu/RP2040_minimal/RP2040_minimal.pretty")(options "")(descr ""))
+)

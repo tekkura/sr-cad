@@ -1,0 +1,18 @@
+(footprint "_ALTIUM_WORK_00001_MCHP-CDB_Library_Database_.._Footprints_TP_1mm_SMD.PcbLib_TP_1mm_SMD" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 0)
+  (fp_text reference "REF**" (at -0.128049 -3.205932 -90 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 0.6604 0.6604) (thickness 0.2) bold) (justify left bottom))
+    (tstamp 6c40c8af-8fdf-4f9a-880e-9098dd857c91)
+  )
+  (fp_text value "Test Point No BOM" (at 11.5443 -9.1313 -180 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.2)) (justify left bottom))
+    (tstamp 64e6affe-60fc-4527-a3db-d28802aed510)
+  )
+  (fp_line (start 0 -0.499999) (end 0 0.499999) (layer "Eco1.User") (width 0.1) (tstamp 1db88e7b-4310-40bb-bcac-dabf607be304))
+  (fp_line (start 0.499999 0) (end -0.499999 0) (layer "Eco1.User") (width 0.1) (tstamp 7950babc-438f-4428-9615-25c8f7bc0792))
+  (fp_circle (center 0 0) (end 0 0.635) (layer "Eco1.User") (width 0.1) (fill none) (tstamp deca4323-4202-4c20-89c3-caf26a9d4908))
+  (fp_circle (center 0 0) (end 0 0.5) (layer "Eco2.User") (width 0.1) (fill none) (tstamp ccdf60b8-f02f-41c8-a856-2967e5306823))
+  (pad "1" smd circle (at 0 0 90) (size 1 1) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_paste_margin -1) (tstamp 5bb374bb-8417-423b-ba1c-079670fb2d32))
+)

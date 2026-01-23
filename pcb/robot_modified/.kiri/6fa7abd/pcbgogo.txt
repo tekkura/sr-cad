@@ -1,0 +1,8 @@
+Hello, 
+
+We are planning to provide all the parts ourselves as we are depending on a few parts that are not regularly in stock with typical distributors. Most of these rare parts we have in-house but in small quantities on cut tape. I'd like to confirm a few things about your need for spare parts and blank tape. I know other fab houses have spare part or minimum blank tape length requirements. Does pcbgogo also have such requirements? If so, where can I read more about them?
+
+Also, I wanted to ask if you work with Digikey's Digi-Reels? We have most of the major components in-house already, but we need to order a lot of the smaller passives (capacitors, resistors, etc.). It looks like there is a lot of waste associate with this, so would it be better for us to order these all on a single Digi-Reel to reduce wasted parts? I guess this would also make assembly easier on your end if you only have to set up the feeder once. Please let me know if you have any requirements/preferences for how to order such a Digi-Reel. 
+
+Best regards,
+Christopher

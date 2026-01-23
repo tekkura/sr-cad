@@ -1,0 +1,14 @@
+(footprint "Fiducial10-20" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 0)
+  (fp_text reference "REF**" (at 1.8542 -0.8382 -90 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 0.762 0.762) (thickness 0.254) bold) (justify left bottom))
+    (tstamp 776c1785-9195-4936-bedf-3f7e0dcc9c96)
+  )
+  (fp_text value "CMP-0077181-1" (at -3.3655 -0.8255 -90 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 0.762 0.762) (thickness 0.254)) (justify left bottom))
+    (tstamp 38b8914e-2b6e-4407-b316-a8fbcf874a74)
+  )
+  (pad "1" smd circle (at 0 0) (size 1 1) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.5) (tstamp 549ab6c9-a2a9-4010-8be5-ff5d9dad2bf9))
+)

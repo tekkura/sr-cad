@@ -1,0 +1,16 @@
+(footprint "Net-Tie_20milWide_60milLong" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 0)
+  (fp_text reference "REF**" (at 2.03835 -0.2667 -90 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 0.762 0.762) (thickness 0.254) bold) (justify left bottom))
+    (tstamp 4ba8b361-d1d7-463f-9b41-ff290cc8fe9a)
+  )
+  (fp_text value "CMP-0078142-3" (at -3.7973 0.0127 -90 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 0.762 0.762) (thickness 0.254)) (justify left bottom))
+    (tstamp 91569cc5-6cc9-474c-9250-8a8e690c857c)
+  )
+  (pad "1" smd rect (at -0.762 0) (size 1.524 0.508) (layers "In2.Cu")
+    (solder_mask_margin -0.254) (solder_paste_margin -0.254) (tstamp 05ea0bb8-a3e8-4935-bd53-106ab38e3b9e))
+  (pad "2" smd rect (at 0.762 0) (size 1.524 0.508) (layers "In2.Cu")
+    (solder_mask_margin -0.254) (solder_paste_margin -0.254) (tstamp ff764a66-ac4d-4dac-aad8-1772fa4e7c77))
+)

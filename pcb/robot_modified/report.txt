@@ -1,0 +1,962 @@
+Info: Processing symbol 'R3:AltiumImports:0402'.
+Info: Processing symbol 'R13:AltiumImports:2010'.
+Info: Processing symbol 'R12:AltiumImports:2010'.
+Info: Processing symbol 'TP54:AltiumImports:_ALTIUM_WORK_00001_MCHP-CDB_Library_Database_.._Footprints_TP_1mm_SMD.PcbLib_TP_1mm_SMD'.
+Info: Processing symbol 'R11:AltiumImports:RES_C_1206'.
+Info: Processing symbol 'R10:AltiumImports:0603'.
+Info: Processing symbol 'R9:AltiumImports:0603'.
+Info: Processing symbol 'TP55:AltiumImports:_ALTIUM_WORK_00001_MCHP-CDB_Library_Database_.._Footprints_TP_1mm_SMD.PcbLib_TP_1mm_SMD'.
+Info: Processing symbol 'R8:AltiumImports:0603'.
+Info: Processing symbol 'R7:AltiumImports:0402'.
+Info: Processing symbol 'R6:AltiumImports:2010'.
+Info: Processing symbol 'TP56:AltiumImports:_ALTIUM_WORK_00001_MCHP-CDB_Library_Database_.._Footprints_TP_1mm_SMD.PcbLib_TP_1mm_SMD'.
+Info: Processing symbol 'R5:AltiumImports:5106'.
+Info: Processing symbol 'R4:AltiumImports:0603'.
+Info: Processing symbol 'R14:AltiumImports:5106'.
+Info: Processing symbol 'TP57:AltiumImports:_ALTIUM_WORK_00001_MCHP-CDB_Library_Database_.._Footprints_TP_1mm_SMD.PcbLib_TP_1mm_SMD'.
+Info: Processing symbol 'R2:AltiumImports:2010'.
+Info: Processing symbol 'R1:AltiumImports:5106'.
+Info: Processing symbol 'TP58:AltiumImports:_ALTIUM_WORK_00001_MCHP-CDB_Library_Database_.._Footprints_TP_1mm_SMD.PcbLib_TP_1mm_SMD'.
+Info: Processing symbol 'Q9:AltiumImports:NXP-SOT23_M'.
+Info: Processing symbol 'Q8:AltiumImports:NXP-SOT23_M'.
+Info: Processing symbol 'TP59:AltiumImports:_ALTIUM_WORK_00001_MCHP-CDB_Library_Database_.._Footprints_TP_1mm_SMD.PcbLib_TP_1mm_SMD'.
+Info: Processing symbol 'TP60:AltiumImports:TESTPOINT'.
+Info: Processing symbol 'Q7:AltiumImports:_ALTIUM_WORK_00001_MCHP-CDB_Library_Database_.._Footprints_SOIC-8.PcbLib_SOIC-8'.
+Info: Processing symbol 'TP61:AltiumImports:TESTPOINT'.
+Info: Processing symbol 'TP62:AltiumImports:Keystone5012'.
+Info: Processing symbol 'U1:AltiumImports:PREYBG0056'.
+Info: Processing symbol 'R22:AltiumImports:0603'.
+Info: Processing symbol 'R30:AltiumImports:0603'.
+Info: Processing symbol 'R29:AltiumImports:0603'.
+Info: Processing symbol 'TP45:AltiumImports:Testpoint_Keystone_Compact'.
+Info: Processing symbol 'R28:AltiumImports:FP-CRGP0402-IPC_A'.
+Info: Processing symbol 'R27:AltiumImports:_ALTIUM_WORK_00001_MCHP-CDB_Library_Database_MCHP-CDB.DbLib_Resistor_RES_C_0402'.
+Info: Processing symbol 'TP46:AltiumImports:Testpoint_Keystone_Compact'.
+Info: Processing symbol 'R26:AltiumImports:0402'.
+Info: Processing symbol 'R25:AltiumImports:0603'.
+Info: Processing symbol 'TP47:AltiumImports:Testpoint_Keystone_Compact'.
+Info: Processing symbol 'R24:AltiumImports:_ALTIUM_WORK_00001_MCHP-CDB_Library_Database_MCHP-CDB.DbLib_Resistor_RES_C_0402'.
+Info: Processing symbol 'TP48:AltiumImports:Testpoint_Keystone_Compact'.
+Info: Processing symbol 'R23:AltiumImports:_ALTIUM_WORK_00001_MCHP-CDB_Library_Database_MCHP-CDB.DbLib_Resistor_RES_C_0402'.
+Info: Processing symbol 'Q6:AltiumImports:_ALTIUM_WORK_00001_MCHP-CDB_Library_Database_.._Footprints_SOIC-8.PcbLib_SOIC-8'.
+Info: Processing symbol 'TP49:AltiumImports:Testpoint_Keystone_Compact'.
+Info: Processing symbol 'R21:AltiumImports:FP-CRCW0603-e3-IPC_B'.
+Info: Processing symbol 'TP50:AltiumImports:Testpoint_Keystone_Compact'.
+Info: Processing symbol 'R20:AltiumImports:0402'.
+Info: Processing symbol 'TP51:AltiumImports:Testpoint_Keystone_Compact'.
+Info: Processing symbol 'R19:AltiumImports:0402'.
+Info: Processing symbol 'R18:AltiumImports:0603'.
+Info: Processing symbol 'TP52:AltiumImports:_ALTIUM_WORK_00001_MCHP-CDB_Library_Database_.._Footprints_TP_1mm_SMD.PcbLib_TP_1mm_SMD'.
+Info: Processing symbol 'R17:AltiumImports:0603'.
+Info: Processing symbol 'R16:AltiumImports:0603L'.
+Info: Processing symbol 'R15:AltiumImports:0402'.
+Info: Processing symbol 'TP53:AltiumImports:_ALTIUM_WORK_00001_MCHP-CDB_Library_Database_.._Footprints_TP_1mm_SMD.PcbLib_TP_1mm_SMD'.
+Info: Processing symbol 'J14:AltiumImports:TERM_BLK_ED555-2DS'.
+Info: Processing symbol 'JP11:AltiumImports:CONN_PEC03SAAN'.
+Info: Processing symbol 'JP10:AltiumImports:CONN_PEC02SAAN'.
+Info: Processing symbol 'JP9:AltiumImports:CONN_PEC02SAAN'.
+Info: Processing symbol 'JP6:AltiumImports:CONN_PEC02SAAN'.
+Info: Processing symbol 'JP5:AltiumImports:Samtec_HTSW-102-07-G-S'.
+Info: Processing symbol 'JP4:AltiumImports:Samtec_HTSW-102-07-G-S'.
+Info: Processing symbol 'JP3:AltiumImports:Samtec_HTSW-102-07-G-S'.
+Info: Processing symbol 'U5:AltiumImports:CSP6_568AL'.
+Info: Processing symbol 'JP2:AltiumImports:CONN_PEC03SAAN'.
+Info: Processing symbol 'JP1:AltiumImports:CONN_PEC03SAAN'.
+Info: Processing symbol 'J15:AltiumImports:TERM_BLK_ED555-2DS'.
+Info: Processing symbol 'U6:AltiumImports:RUG0008A'.
+Info: Processing symbol 'JP12:AltiumImports:CONN_PEC02SAAN'.
+Info: Processing symbol 'J13:AltiumImports:_ALTIUM_WORK_00001_MCHP-CDB_Library_Database_MCHP-CDB.DbLib_Connector_HDR_M_1.27_2x5_TH_V_FCI_20021111-00010T4LF'.
+Info: Processing symbol 'J10:AltiumImports:_ALTIUM_WORK_00001_MCHP-CDB_Library_Database_MCHP-CDB.DbLib_Connector_HDR_M_2.54_2x3'.
+Info: Processing symbol 'J9:AltiumImports:CONN_2510-6002'.
+Info: Processing symbol 'ZZ1:AltiumImports:AssemblyNote'.
+Info: Processing symbol 'J8:AltiumImports:CONN_22-05-3041'.
+Info: Processing symbol 'J6:AltiumImports:FP-M20-9990246-MFG'.
+Info: Processing symbol 'ZZ2:AltiumImports:AssemblyNote'.
+Info: Processing symbol 'J5:AltiumImports:On-Shore_ED120_4DS'.
+Info: Processing symbol 'ZZ3:AltiumImports:AssemblyNote'.
+Info: Processing symbol 'J4:AltiumImports:CON_USB3.1-C_RCPT_SMD_RA_ACP_12401610E4#2A'.
+Info: Processing symbol 'J3:AltiumImports:On-Shore_ED120_2DS'.
+Info: Processing symbol 'J2:AltiumImports:On-Shore_ED120_2DS'.
+Info: Processing symbol 'JP33:AltiumImports:CONN_PEC02SAAN'.
+Info: Processing symbol 'Q5:AltiumImports:DQG0008A'.
+Info: Processing symbol 'Q4:AltiumImports:DNH0008A'.
+Info: Processing symbol 'Q3:AltiumImports:DNH0008A'.
+Info: Processing symbol 'Q2:AltiumImports:DNH0008A'.
+Info: Processing symbol 'Q1:AltiumImports:DNH0008A'.
+Info: Processing symbol 'NT1:AltiumImports:Net-Tie_20milWide_60milLong'.
+Info: Processing symbol 'LOGO5:AltiumImports:IEC_HotSurface_Small'.
+Info: Processing symbol 'L2:AltiumImports:SPM6530'.
+Info: Processing symbol 'L1:AltiumImports:MPIM252010F'.
+Info: Processing symbol 'JP36:AltiumImports:CONN_PEC02SAAN'.
+Info: Processing symbol 'JP35:AltiumImports:CONN_PEC02SAAN'.
+Info: Processing symbol 'JP34:AltiumImports:CONN_PEC02SAAN'.
+Info: Processing symbol 'TP44:AltiumImports:Keystone5002'.
+Info: Processing symbol 'JP32:AltiumImports:CONN_PEC02SAAN'.
+Info: Processing symbol 'JP25:AltiumImports:CONN_PEC02SAAN'.
+Info: Processing symbol 'JP24:AltiumImports:CONN_PEC02SAAN'.
+Info: Processing symbol 'JP23:AltiumImports:CONN_PEC02SAAN'.
+Info: Processing symbol 'JP19:AltiumImports:CONN_PEC02SAAN'.
+Info: Processing symbol 'U2:AltiumImports:DBZ0003A_N'.
+Info: Processing symbol 'JP16:AltiumImports:CONN_PEC02SAAN'.
+Info: Processing symbol 'JP15:AltiumImports:CONN_PEC02SAAN'.
+Info: Processing symbol 'U3:AltiumImports:_ALTIUM_WORK_00001_MCHP-CDB_Library_Database_MCHP-CDB.DbLib_MCHP-Analog_SOT-23-5'.
+Info: Processing symbol 'JP14:AltiumImports:CONN_PEC02SAAN'.
+Info: Processing symbol 'JP13:AltiumImports:CONN_PEC02SAAN'.
+Info: Processing symbol 'U4:AltiumImports:_ALTIUM_WORK_00001_MCHP-CDB_Library_Database_MCHP-CDB.DbLib_MCHP-Interface_QFN-40_6X6_m5_4m6epad'.
+Info: Processing symbol 'S1:AltiumImports:KSR'.
+Info: Processing symbol 'TP11:AltiumImports:Keystone5002'.
+Info: Processing symbol 'SH-JP10:AltiumImports:FP-SNT-100-BK-G-MFG'.
+Info: Processing symbol 'SH-JP9:AltiumImports:FP-SNT-100-BK-G-MFG'.
+Info: Processing symbol 'TP12:AltiumImports:Keystone5002'.
+Info: Processing symbol 'SH-JP6:AltiumImports:FP-SNT-100-BK-G-MFG'.
+Info: Processing symbol 'SH-JP5:AltiumImports:FP-SNT-100-BK-G-MFG'.
+Info: Processing symbol 'SH-JP4:AltiumImports:FP-SNT-100-BK-G-MFG'.
+Info: Processing symbol 'TP13:AltiumImports:_ALTIUM_WORK_00001_MCHP-CDB_Library_Database_.._Footprints_TP_1mm_SMD.PcbLib_TP_1mm_SMD'.
+Info: Processing symbol 'SH-JP3:AltiumImports:FP-SNT-100-BK-G-MFG'.
+Info: Processing symbol 'SH-JP2:AltiumImports:FP-SNT-100-BK-G-MFG'.
+Info: Processing symbol 'TP14:AltiumImports:_ALTIUM_WORK_00001_MCHP-CDB_Library_Database_.._Footprints_TP_1mm_SMD.PcbLib_TP_1mm_SMD'.
+Info: Processing symbol 'SH-JP1:AltiumImports:FP-SNT-100-BK-G-MFG'.
+Info: Processing symbol 'SH-JP11:AltiumImports:FP-SNT-100-BK-G-MFG'.
+Info: Processing symbol 'TP15:AltiumImports:Keystone5002'.
+Info: Processing symbol 'RT1:AltiumImports:SEMI-103AT-2_V'.
+Info: Processing symbol 'TP16:AltiumImports:Keystone5002'.
+Info: Processing symbol 'R65:AltiumImports:1206'.
+Info: Processing symbol 'TP17:AltiumImports:Keystone5002'.
+Info: Processing symbol 'R64:AltiumImports:0402L'.
+Info: Processing symbol 'TP18:AltiumImports:Keystone5002'.
+Info: Processing symbol 'TP19:AltiumImports:Keystone5002'.
+Info: Processing symbol 'R63:AltiumImports:0402L'.
+Info: Processing symbol 'TP20:AltiumImports:Keystone5002'.
+Info: Processing symbol 'R62:AltiumImports:0402L'.
+Info: Processing symbol 'TP21:AltiumImports:Keystone5000'.
+Info: Processing symbol 'TP7:AltiumImports:Keystone5002'.
+Info: Processing symbol 'TP3:AltiumImports:Keystone5002'.
+Info: Processing symbol 'TP4:AltiumImports:Keystone5002'.
+Info: Processing symbol 'TP2:AltiumImports:Keystone5002'.
+Info: Processing symbol 'TP1:AltiumImports:Keystone5002'.
+Info: Processing symbol 'SH-JP37:AltiumImports:FP-SNT-100-BK-G-MFG'.
+Info: Processing symbol 'TP5:AltiumImports:Keystone5002'.
+Info: Processing symbol 'SH-JP36:AltiumImports:FP-SNT-100-BK-G-MFG'.
+Info: Processing symbol 'SH-JP35:AltiumImports:FP-SNT-100-BK-G-MFG'.
+Info: Processing symbol 'SH-JP34:AltiumImports:FP-SNT-100-BK-G-MFG'.
+Info: Processing symbol 'TP6:AltiumImports:Keystone5002'.
+Info: Processing symbol 'SH-JP33:AltiumImports:FP-SNT-100-BK-G-MFG'.
+Info: Processing symbol 'SH-JP32:AltiumImports:FP-SNT-100-BK-G-MFG'.
+Info: Processing symbol 'R61:AltiumImports:0402L'.
+Info: Processing symbol 'SH-JP25:AltiumImports:FP-SNT-100-BK-G-MFG'.
+Info: Processing symbol 'SH-JP24:AltiumImports:FP-SNT-100-BK-G-MFG'.
+Info: Processing symbol 'TP8:AltiumImports:Keystone5002'.
+Info: Processing symbol 'SH-JP23:AltiumImports:FP-SNT-100-BK-G-MFG'.
+Info: Processing symbol 'SH-JP19:AltiumImports:FP-SNT-100-BK-G-MFG'.
+Info: Processing symbol 'TP9:AltiumImports:Keystone5002'.
+Info: Processing symbol 'SH-JP16:AltiumImports:FP-SNT-100-BK-G-MFG'.
+Info: Processing symbol 'SH-JP15:AltiumImports:FP-SNT-100-BK-G-MFG'.
+Info: Processing symbol 'SH-JP14:AltiumImports:FP-SNT-100-BK-G-MFG'.
+Info: Processing symbol 'TP10:AltiumImports:Keystone5002'.
+Info: Processing symbol 'SH-JP13:AltiumImports:FP-SNT-100-BK-G-MFG'.
+Info: Processing symbol 'SH-JP12:AltiumImports:FP-SNT-100-BK-G-MFG'.
+Info: Processing symbol 'R39:AltiumImports:1206'.
+Info: Processing symbol 'R47:AltiumImports:_ALTIUM_WORK_00001_MCHP-CDB_Library_Database_.._Footprints_RES_C_0402.PcbLib_RES_C_0402'.
+Info: Processing symbol 'TP35:AltiumImports:Keystone5002'.
+Info: Processing symbol 'R46:AltiumImports:1206'.
+Info: Processing symbol 'R45:AltiumImports:0402'.
+Info: Processing symbol 'TP36:AltiumImports:Keystone5002'.
+Info: Processing symbol 'R44:AltiumImports:0402'.
+Info: Processing symbol 'R43:AltiumImports:0402'.
+Info: Processing symbol 'TP37:AltiumImports:Keystone5002'.
+Info: Processing symbol 'R42:AltiumImports:0402'.
+Info: Processing symbol 'R41:AltiumImports:0402'.
+Info: Processing symbol 'R40:AltiumImports:0402'.
+Info: Processing symbol 'TP38:AltiumImports:Keystone5002'.
+Info: Processing symbol 'R48:AltiumImports:FP-CRGP0402-IPC_A'.
+Info: Processing symbol 'R38:AltiumImports:5106'.
+Info: Processing symbol 'TP39:AltiumImports:Keystone5002'.
+Info: Processing symbol 'R37:AltiumImports:1206'.
+Info: Processing symbol 'R35:AltiumImports:FP-CRGP0402-IPC_A'.
+Info: Processing symbol 'TP40:AltiumImports:Keystone5002'.
+Info: Processing symbol 'TP41:AltiumImports:Keystone5002'.
+Info: Processing symbol 'R34:AltiumImports:FP-CRGP0402-IPC_A'.
+Info: Processing symbol 'R33:AltiumImports:_ALTIUM_WORK_00001_MCHP-CDB_Library_Database_MCHP-CDB.DbLib_Resistor_RES_C_0402'.
+Info: Processing symbol 'TP42:AltiumImports:Keystone5002'.
+Info: Processing symbol 'R32:AltiumImports:_ALTIUM_WORK_00001_MCHP-CDB_Library_Database_.._Footprints_RES_C_0402.PcbLib_RES_C_0402'.
+Info: Processing symbol 'TP43:AltiumImports:Keystone5002'.
+Info: Processing symbol 'R31:AltiumImports:_ALTIUM_WORK_00001_MCHP-CDB_Library_Database_MCHP-CDB-Offline.DbLib_Resistor_RES_C_0402'.
+Info: Processing symbol 'R53:AltiumImports:_ALTIUM_WORK_00001_MCHP-CDB_Library_Database_.._Footprints_RES_C_0402.PcbLib_RES_C_0402'.
+Info: Processing symbol 'TP22:AltiumImports:Keystone5000'.
+Info: Processing symbol 'R60:AltiumImports:0402L'.
+Info: Processing symbol 'TP23:AltiumImports:Keystone5000'.
+Info: Processing symbol 'R59:AltiumImports:0402L'.
+Info: Processing symbol 'R58:AltiumImports:_ALTIUM_WORK_00001_MCHP-CDB_Library_Database_.._Footprints_RES_C_0402.PcbLib_RES_C_0402'.
+Info: Processing symbol 'TP24:AltiumImports:Keystone5000'.
+Info: Processing symbol 'R57:AltiumImports:_ALTIUM_WORK_00001_MCHP-CDB_Library_Database_.._Footprints_RES_C_0402.PcbLib_RES_C_0402'.
+Info: Processing symbol 'R56:AltiumImports:_ALTIUM_WORK_00001_MCHP-CDB_Library_Database_MCHP-CDB.DbLib_Resistor_RES_C_0402'.
+Info: Processing symbol 'R55:AltiumImports:FP-CRGP0402-IPC_A'.
+Info: Processing symbol 'TP25:AltiumImports:Keystone5003'.
+Info: Processing symbol 'R54:AltiumImports:FP-CRGP0402-IPC_A'.
+Info: Processing symbol 'TP26:AltiumImports:Keystone5003'.
+Info: Processing symbol '!PCB1:'.
+Info: Processing symbol 'TP27:AltiumImports:Keystone5004'.
+Info: Processing symbol 'TP28:AltiumImports:Keystone5002'.
+Info: Processing symbol 'R52:AltiumImports:_ALTIUM_WORK_00001_MCHP-CDB_Library_Database_MCHP-CDB.DbLib_Resistor_RES_C_0402'.
+Info: Processing symbol 'TP29:AltiumImports:Keystone5002'.
+Info: Processing symbol 'R51:AltiumImports:_ALTIUM_WORK_00001_MCHP-CDB_Library_Database_.._Footprints_RES_C_0402.PcbLib_RES_C_0402'.
+Info: Processing symbol 'TP30:AltiumImports:Keystone5002'.
+Info: Processing symbol 'TP31:AltiumImports:Keystone5002'.
+Info: Processing symbol 'R50:AltiumImports:_ALTIUM_WORK_00001_MCHP-CDB_Library_Database_MCHP-CDB.DbLib_Resistor_RES_C_0402'.
+Info: Processing symbol 'TP32:AltiumImports:Keystone5002'.
+Info: Processing symbol 'TP33:AltiumImports:Keystone5002'.
+Info: Processing symbol 'R49:AltiumImports:_ALTIUM_WORK_00001_MCHP-CDB_Library_Database_MCHP-CDB-Offline.DbLib_Resistor_RES_C_0402'.
+Info: Processing symbol 'TP34:AltiumImports:Keystone5002'.
+Info: Processing symbol 'D10:AltiumImports:SOD-523'.
+Info: Processing symbol 'C26:AltiumImports:0402L'.
+Info: Processing symbol 'D2:AltiumImports:SOD-523'.
+Info: Processing symbol 'D3:AltiumImports:SOD-123'.
+Info: Processing symbol 'C25:AltiumImports:_ALTIUM_WORK_00001_MCHP-CDB_Library_Database_MCHP-CDB.DbLib_Capacitor_CAP_C_0402'.
+Info: Processing symbol 'D4:AltiumImports:SOD-523'.
+Info: Processing symbol 'C24:AltiumImports:0402L'.
+Info: Processing symbol 'D5:AltiumImports:SOD-523'.
+Info: Processing symbol 'C23:AltiumImports:0805_HV'.
+Info: Processing symbol 'D6:AltiumImports:SOD-123'.
+Info: Processing symbol 'D7:AltiumImports:SOD-123'.
+Info: Processing symbol 'C22:AltiumImports:0805_HV'.
+Info: Processing symbol 'D8:AltiumImports:SOD-123'.
+Info: Processing symbol 'C21:AltiumImports:0805_HV'.
+Info: Processing symbol 'D9:AltiumImports:SOD-523'.
+Info: Processing symbol 'C20:AltiumImports:_ALTIUM_WORK_00001_MCHP-CDB_Library_Database_.._Footprints_CAP_C_0603.PcbLib_CAP_C_0603'.
+Info: Processing symbol 'D1:AltiumImports:SOD-523'.
+Info: Processing symbol 'C19:AltiumImports:_ALTIUM_WORK_00001_MCHP-CDB_Library_Database_.._Footprints_CAP_C_0603.PcbLib_CAP_C_0603'.
+Info: Processing symbol 'D11:AltiumImports:SOD-323'.
+Info: Processing symbol 'C18:AltiumImports:_ALTIUM_WORK_00001_MCHP-CDB_Library_Database_MCHP-CDB.DbLib_Capacitor_CAP_C_0603'.
+Info: Processing symbol 'C17:AltiumImports:0402'.
+Info: Processing symbol 'D12:AltiumImports:SOD-323'.
+Info: Processing symbol 'C16:AltiumImports:0402'.
+Info: Processing symbol 'D13:AltiumImports:LED_LTST-C190'.
+Info: Processing symbol 'C15:AltiumImports:0402L'.
+Info: Processing symbol 'D14:AltiumImports:LED_LTST-C190'.
+Info: Processing symbol 'C14:AltiumImports:0402L'.
+Info: Processing symbol 'D15:AltiumImports:_ALTIUM_WORK_00001_MCHP-CDB_Library_Database_.._Footprints_LED_0603_Green.PcbLib_LED_0603_GREEN'.
+Info: Processing symbol 'D16:AltiumImports:SOT-23-3'.
+Info: Processing symbol 'D17:AltiumImports:_ALTIUM_WORK_00001_MCHP-CDB_Library_Database_.._Footprints_LED_0603_Green.PcbLib_LED_0603_GREEN'.
+Info: Processing symbol 'C13:AltiumImports:0402'.
+Info: Processing symbol 'C49:AltiumImports:CAP_C_0402'.
+Info: Processing symbol 'C39:AltiumImports:0402'.
+Info: Processing symbol 'C40:AltiumImports:0402L'.
+Info: Processing symbol 'C38:AltiumImports:0603L'.
+Info: Processing symbol 'C41:AltiumImports:0402L'.
+Info: Processing symbol 'C42:AltiumImports:0402L'.
+Info: Processing symbol 'C37:AltiumImports:0603L'.
+Info: Processing symbol 'C43:AltiumImports:0402L'.
+Info: Processing symbol 'C45:AltiumImports:_ALTIUM_WORK_00001_MCHP-CDB_Library_Database_.._Footprints_CAP_C_0402.PcbLib_CAP_C_0402'.
+Info: Processing symbol 'C36:AltiumImports:0603L'.
+Info: Processing symbol 'C46:AltiumImports:_ALTIUM_WORK_00001_MCHP-CDB_Library_Database_MCHP-CDB.DbLib_Capacitor_CAP_C_0603'.
+Info: Processing symbol 'C47:AltiumImports:_ALTIUM_WORK_00001_MCHP-CDB_Library_Database_MCHP-CDB.DbLib_Capacitor_CAP_C_0402'.
+Info: Processing symbol 'C35:AltiumImports:0402L'.
+Info: Processing symbol 'C48:AltiumImports:_ALTIUM_WORK_00001_MCHP-CDB_Library_Database_MCHP-CDB.DbLib_Capacitor_CAP_C_0402'.
+Info: Processing symbol 'C34:AltiumImports:0603L'.
+Info: Processing symbol 'J1:AltiumImports:On-Shore_ED120_2DS'.
+Info: Processing symbol 'C50:AltiumImports:CAP_C_0603'.
+Info: Processing symbol 'C33:AltiumImports:_ALTIUM_WORK_00001_MCHP-CDB_Library_Database_.._Footprints_CAP_C_0402.PcbLib_CAP_C_0402'.
+Info: Processing symbol 'C51:AltiumImports:CAP_C_0402'.
+Info: Processing symbol 'C52:AltiumImports:CAP_C_0402'.
+Info: Processing symbol 'C53:AltiumImports:_ALTIUM_WORK_00001_MCHP-CDB_Library_Database_.._Footprints_CAP_C_0402.PcbLib_CAP_C_0402'.
+Info: Processing symbol 'C32:AltiumImports:_ALTIUM_WORK_00001_MCHP-CDB_Library_Database_MCHP-CDB.DbLib_Capacitor_CAP_C_0402'.
+Info: Processing symbol 'C54:AltiumImports:0603L'.
+Info: Processing symbol 'C31:AltiumImports:0805_HV'.
+Info: Processing symbol 'C30:AltiumImports:0805_HV'.
+Info: Processing symbol 'C55:AltiumImports:0603L'.
+Info: Processing symbol 'C29:AltiumImports:0805_HV'.
+Info: Processing symbol 'C28:AltiumImports:0805_HV'.
+Info: Processing symbol 'C56:AltiumImports:0603L'.
+Info: Processing symbol 'C27:AltiumImports:0805_HV'.
+Info: Processing symbol 'C9:AltiumImports:0805_HV'.
+Info: Processing symbol '*2:'.
+Info: Processing symbol 'C11:AltiumImports:0402L'.
+Info: Processing symbol 'H3:AltiumImports:Bumpon_SJ5003Transparent'.
+Info: Processing symbol 'FID5:AltiumImports:Fiducial10-20'.
+Info: Processing symbol 'C6:AltiumImports:0603'.
+Info: Processing symbol 'C10:AltiumImports:0805_HV'.
+Info: Processing symbol 'C1:AltiumImports:0805L'.
+Info: Processing symbol 'H1:AltiumImports:Bumpon_SJ5003Transparent'.
+Info: Processing symbol 'H2:AltiumImports:Bumpon_SJ5003Transparent'.
+Info: Processing symbol 'FID2:AltiumImports:Fiducial10-20'.
+Info: Processing symbol 'FID3:AltiumImports:Fiducial10-20'.
+Info: Processing symbol 'C2:AltiumImports:0402'.
+Info: Processing symbol 'FID6:AltiumImports:Fiducial10-20'.
+Info: Processing symbol 'C8:AltiumImports:0805_HV'.
+Info: Processing symbol 'C7:AltiumImports:0805_HV'.
+Info: Processing symbol 'C3:AltiumImports:0402'.
+Info: Processing symbol 'C4:AltiumImports:0805L'.
+Info: Processing symbol 'C5:AltiumImports:0402'.
+Info: Processing symbol '*1:'.
+Info: Processing symbol 'H4:AltiumImports:Bumpon_SJ5003Transparent'.
+Info: Processing symbol 'C12:AltiumImports:0603'.
+Info: Processing symbol 'FB1:AltiumImports:IND_C_0603'.
+Info: Processing symbol 'D18:AltiumImports:_ALTIUM_WORK_00001_MCHP-CDB_Library_Database_.._Footprints_LED_0603_Orange.PcbLib_LED_0603_Orange'.
+Info: Processing symbol 'FID1:AltiumImports:Fiducial10-20'.
+Info: Processing symbol 'FID4:AltiumImports:Fiducial10-20'.
+Updated TP35 properties.
+Reconnected TP30 pin 1 from /Designator/U_Charger_Circuit/SDRV to /Charger/Charger_Circuit/SDRV.
+Updated TP30 properties.
+Updated TP6 properties.
+Reconnected copper zone from /Protection/BAT_Protection to /Protection/BAT_Protection.
+Removed unused net /Designator/U_Charger_Circuit/D-_1.
+Removed unused net /Designator/U_Charger_Circuit/IBAT.
+Reconnected copper zone from /Protection/BAT_Protection to /Protection/BAT_Protection.
+Reconnected copper zone from /Charger/Charger_Circuit/SW1 to /Charger/Charger_Circuit/SW1.
+Updated TP34 properties.
+Removed unused net /Designator/U_Charger_Circuit/D+_1.
+Updated TP7 properties.
+Removed unused net /Designator/U_Charger_Circuit/BTST1.
+Removed unused net /Designator/U_Charger_Circuit/BTST2.
+Reconnected copper zone from /Protection/BAT_Protection to /Protection/BAT_Protection.
+Updated TP33 properties.
+Reconnected copper zone from /Charger/Charger_Circuit/SW2 to /Charger/Charger_Circuit/SW2.
+Updated TP32 properties.
+Updated TP31 properties.
+Reconnected copper zone from /Charger/Charger_Circuit/SW1 to /Charger/Charger_Circuit/SW1.
+Updated TP38 properties.
+Reconnected TP3 pin 1 from /Designator/U_Charger_Circuit/BTST1 to /Charger/Charger_Circuit/BTST1.
+Updated TP41 properties.
+Reconnected via from /USB-PD/USB-PD_Circuit/VBUS_DIS to /USB-PD/USB-PD_Circuit/VBUS_DIS.
+Reconnected via from /Protection/BAT_Protection to /Protection/BAT_Protection.
+Removed unused net /Designator/VDD.
+Updated TP40 properties.
+Reconnected via from /Protection/BAT_Protection to /Protection/BAT_Protection.
+Removed unused net /Designator/U_Charger_Circuit/SW2.
+Updated TP4 properties.
+Updated TP39 properties.
+Reconnected via from /Protection/BAT_Protection to /Protection/BAT_Protection.
+Reconnected TP4 pin 1 from /Designator/U_Charger_Circuit/SW1 to /Charger/Charger_Circuit/SW1.
+Reconnected via from /Protection/BAT_Protection to /Protection/BAT_Protection.
+Reconnected copper zone from /Protection/BAT_Physical to /Protection/BAT_Physical.
+Removed unused net /Designator/U_Charger_Circuit/SW1.
+Reconnected via from /Protection/BAT_Protection to /Protection/BAT_Protection.
+Reconnected TP37 pin 1 from /Designator/U_Charger_Circuit/IBAT to /Charger/Charger_Circuit/IBAT.
+Removed unused net /Designator/U_Charger_Circuit/SDRV.
+Reconnected via from /Protection/BAT_Protection to /Protection/BAT_Protection.
+Updated TP5 properties.
+Updated TP37 properties.
+Updated TP28 properties.
+Reconnected TP5 pin 1 from /Designator/U_Charger_Circuit/SW1 to /Charger/Charger_Circuit/SW1.
+Reconnected copper zone from /Protection/CS to /Protection/CS.
+Updated TP36 properties.
+Reconnected copper zone from /Protection/BAT_Protection to /Protection/BAT_Protection.
+Removed unused net /Designator/U_Charger_Circuit/PMID.
+Updated TP16 properties.
+Removed unused net /Designator/BAT_Physical.
+Reconnected TP20 pin 1 from /Designator/U_Charger_Circuit/D+_1 to /Charger/Charger_Circuit/D+_1.
+Reconnected TP10 pin 1 from /Designator/U_Charger_Circuit/SW2 to /Charger/Charger_Circuit/SW2.
+Updated TP20 properties.
+Removed unused net /Designator/BAT_Protection.
+Reconnected TP19 pin 1 from /Designator/U_Charger_Circuit/D-_1 to /Charger/Charger_Circuit/D-_1.
+Updated TP19 properties.
+Removed unused net /Designator/Designator/ORIENTATION.
+Removed unused net /Designator/CS.
+Updated TP18 properties.
+Updated TP17 properties.
+Updated TP11 properties.
+Removed unused net /Designator/CTR.
+Removed unused net /Designator/Designator/FAULT_IN_N.
+Removed unused net /Designator/Designator/SPI_MOSI.
+Removed unused net /Designator/Designator/1.5A_IND.
+Removed unused net /Designator/Designator/EN_SNK.
+Updated TP15 properties.
+Updated TP12 properties.
+Removed unused net /Designator/Designator/3.0A_IND.
+Removed unused net /Designator/Designator/CAP_MISMATCH.
+Updated TP14 properties.
+Removed unused net /Designator/Designator/CC1.
+Removed unused net /Designator/Designator/CC1_R.
+Reconnected TP12 pin 1 from /Designator/U_Charger_Circuit/BTST2 to /Charger/Charger_Circuit/BTST2.
+Removed unused net /Designator/Designator/CC2.
+Updated TP13 properties.
+Removed unused net /Designator/Designator/CC2_R.
+Removed unused net /Designator/Designator/DAC_I.
+Removed unused net /Designator/Designator/VBUS_DIS.
+Reconnected copper zone from /Protection/BAT_Physical to /Protection/BAT_Physical.
+Updated TP8 properties.
+Updated TP29 properties.
+Reconnected copper zone from /Protection/BAT_Physical to /Protection/BAT_Physical.
+Reconnected copper zone from /Protection/CS to /Protection/CS.
+Updated TP27 properties.
+Reconnected copper zone from /Protection/BAT_PRO to /Protection/BAT_PRO.
+Removed unused net /Designator/Designator/VBUS_F.
+Reconnected copper zone from /Protection/BAT_Physical to /Protection/BAT_Physical.
+Updated TP26 properties.
+Updated TP9 properties.
+Updated TP25 properties.
+Reconnected copper zone from /Charger/Charger_Circuit/SW2 to /Charger/Charger_Circuit/SW2.
+Reconnected copper zone from /Charger/Charger_Circuit/PMID to /Charger/Charger_Circuit/PMID.
+Removed unused net /Designator/PACK.
+Reconnected TP24 pin 1 from /Designator/U_Charger_Circuit/PMID to /Charger/Charger_Circuit/PMID.
+Reconnected copper zone from /Protection/BAT_Physical to /Protection/BAT_Physical.
+Updated TP24 properties.
+Reconnected copper zone from /Protection/BAT_Protection to /Protection/BAT_Protection.
+Reconnected TP9 pin 1 from /Designator/U_Charger_Circuit/SW2 to /Charger/Charger_Circuit/SW2.
+Reconnected copper zone from /Charger/Charger_Circuit/SW1 to /Charger/Charger_Circuit/SW1.
+Updated TP23 properties.
+Reconnected copper zone from /Charger/Charger_Circuit/SW2 to /Charger/Charger_Circuit/SW2.
+Removed unused net /Designator/Designator/SPI_MOSI_SI.
+Reconnected copper zone from /USB-PD/USB-PD_Circuit/VBUS_F to /USB-PD/USB-PD_Circuit/VBUS_F.
+Updated TP22 properties.
+Removed unused net /Designator/BAT_PRO.
+Updated TP21 properties.
+Updated TP10 properties.
+Reconnected via from /Charger/Charger_Circuit/SW1 to /Charger/Charger_Circuit/SW1.
+Reconnected U1 pin F6 from /Designator/U_Charger_Circuit/SDRV to /Charger/Charger_Circuit/SDRV.
+Reconnected via from /Charger/Charger_Circuit/SW1 to /Charger/Charger_Circuit/SW1.
+Reconnected U1 pin F7 from /Designator/U_Charger_Circuit/BTST2 to /Charger/Charger_Circuit/BTST2.
+Reconnected U1 pin H6 from /Designator/U_Charger_Circuit/IBAT to /Charger/Charger_Circuit/IBAT.
+Reconnected via from /Charger/Charger_Circuit/SW1 to /Charger/Charger_Circuit/SW1.
+Reconnected via from /Charger/Charger_Circuit/SW1 to /Charger/Charger_Circuit/SW1.
+Updated U2 properties.
+Reconnected via from /Charger/Charger_Circuit/SW1 to /Charger/Charger_Circuit/SW1.
+Updated U3 properties.
+Reconnected U1 pin F3 from /Designator/U_Charger_Circuit/D-_1 to /Charger/Charger_Circuit/D-_1.
+Reconnected via from /Charger/Charger_Circuit/SW1 to /Charger/Charger_Circuit/SW1.
+Updated U4 properties.
+Reconnected U4 pin 2 from /Designator/Designator/CC2_R to /USB-PD/USB-PD_Circuit/CC2_R.
+Reconnected U4 pin 4 from /Designator/Designator/CC1_R to /USB-PD/USB-PD_Circuit/CC1_R.
+Reconnected via from /Charger/Charger_Circuit/SW1 to /Charger/Charger_Circuit/SW1.
+Reconnected U4 pin 11 from /Designator/Designator/1.5A_IND to /USB-PD/USB-PD_Circuit/1.5A_IND.
+Reconnected U4 pin 12 from /Designator/Designator/DAC_I to /USB-PD/USB-PD_Circuit/DAC_I.
+Reconnected U4 pin 20 from /Designator/Designator/SPI_MOSI_SI to /USB-PD/USB-PD_Circuit/SPI_MOSI_SI.
+Reconnected U1 pin D3 from /Designator/U_Charger_Circuit/SW1 to /Charger/Charger_Circuit/SW1.
+Reconnected via from /Charger/Charger_Circuit/SW2 to /Charger/Charger_Circuit/SW2.
+Reconnected U1 pin B5 from /Designator/U_Charger_Circuit/SW2 to /Charger/Charger_Circuit/SW2.
+Reconnected U1 pin C2 from /Designator/U_Charger_Circuit/PMID to /Charger/Charger_Circuit/PMID.
+Reconnected U1 pin C3 from /Designator/U_Charger_Circuit/SW1 to /Charger/Charger_Circuit/SW1.
+Reconnected U1 pin C5 from /Designator/U_Charger_Circuit/SW2 to /Charger/Charger_Circuit/SW2.
+Reconnected via from /Charger/Charger_Circuit/SW2 to /Charger/Charger_Circuit/SW2.
+Reconnected U1 pin D1 from /Designator/U_Charger_Circuit/BTST1 to /Charger/Charger_Circuit/BTST1.
+Reconnected U1 pin D2 from /Designator/U_Charger_Circuit/PMID to /Charger/Charger_Circuit/PMID.
+Reconnected U4 pin 25 from /Designator/Designator/SPI_MOSI to /USB-PD/USB-PD_Circuit/SPI_MOSI.
+Reconnected U1 pin D5 from /Designator/U_Charger_Circuit/SW2 to /Charger/Charger_Circuit/SW2.
+Reconnected via from /Charger/Charger_Circuit/SW2 to /Charger/Charger_Circuit/SW2.
+Reconnected U1 pin E2 from /Designator/U_Charger_Circuit/PMID to /Charger/Charger_Circuit/PMID.
+Reconnected U1 pin E3 from /Designator/U_Charger_Circuit/SW1 to /Charger/Charger_Circuit/SW1.
+Reconnected via from /Charger/Charger_Circuit/BTST2 to /Charger/Charger_Circuit/BTST2.
+Reconnected U1 pin E5 from /Designator/U_Charger_Circuit/SW2 to /Charger/Charger_Circuit/SW2.
+Reconnected U1 pin F2 from /Designator/U_Charger_Circuit/D+_1 to /Charger/Charger_Circuit/D+_1.
+Reconnected via from /Charger/Charger_Circuit/SW1 to /Charger/Charger_Circuit/SW1.
+Reconnected via from /Charger/Charger_Circuit/BTST1 to /Charger/Charger_Circuit/BTST1.
+Updated U6 properties.
+Reconnected U6 pin 1 from /Designator/BAT_PRO to /Protection/BAT_PRO.
+Reconnected U6 pin 2 from /Designator/VDD to /Protection/VDD.
+Reconnected via from /Charger/Charger_Circuit/SW1 to /Charger/Charger_Circuit/SW1.
+Reconnected U6 pin 4 from /Designator/CS to /Protection/CS.
+Reconnected U6 pin 5 from /Designator/CTR to /Protection/CTR.
+Reconnected via from /Charger/Charger_Circuit/SW1 to /Charger/Charger_Circuit/SW1.
+Reconnected U6 pin 6 from /Designator/PACK to /Protection/PACK.
+Reconnected via from /Charger/Charger_Circuit/SW1 to /Charger/Charger_Circuit/SW1.
+Reconnected via from /Charger/Charger_Circuit/SW1 to /Charger/Charger_Circuit/SW1.
+Updated ZZ1 properties.
+Reconnected via from /USB-PD/USB-PD_Circuit/CC1_R to /USB-PD/USB-PD_Circuit/CC1_R.
+Updated ZZ2 properties.
+Reconnected via from /USB-PD/USB-PD_Circuit/CC1_R to /USB-PD/USB-PD_Circuit/CC1_R.
+Updated ZZ3 properties.
+Reconnected via from /USB-PD/USB-PD_Circuit/CC1 to /USB-PD/USB-PD_Circuit/CC1.
+Reconnected via from /USB-PD/USB-PD_Circuit/EN_SNK to /USB-PD/USB-PD_Circuit/EN_SNK.
+Reconnected via from /USB-PD/USB-PD_Circuit/CC2 to /USB-PD/USB-PD_Circuit/CC2.
+Reconnected U4 pin 39 from /Designator/Designator/FAULT_IN_N to /USB-PD/USB-PD_Circuit/FAULT_IN_N.
+Reconnected via from /Charger/Charger_Circuit/SW1 to /Charger/Charger_Circuit/SW1.
+Reconnected U4 pin 26 from /Designator/Designator/ORIENTATION to /USB-PD/USB-PD_Circuit/ORIENTATION.
+Reconnected U4 pin 30 from /Designator/Designator/3.0A_IND to /USB-PD/USB-PD_Circuit/3.0A_IND.
+Reconnected U4 pin 36 from /Designator/Designator/EN_SNK to /USB-PD/USB-PD_Circuit/EN_SNK.
+Reconnected via from /Charger/Charger_Circuit/SW1 to /Charger/Charger_Circuit/SW1.
+Reconnected U4 pin 37 from /Designator/Designator/CAP_MISMATCH to /USB-PD/USB-PD_Circuit/CAP_MISMATCH.
+Reconnected U4 pin 38 from /Designator/Designator/VBUS_DIS to /USB-PD/USB-PD_Circuit/VBUS_DIS.
+Reconnected via from /Charger/Charger_Circuit/SW1 to /Charger/Charger_Circuit/SW1.
+Reconnected U1 pin B3 from /Designator/U_Charger_Circuit/SW1 to /Charger/Charger_Circuit/SW1.
+Reconnected via from /Charger/Charger_Circuit/SW1 to /Charger/Charger_Circuit/SW1.
+Reconnected via from /Charger/Charger_Circuit/SW1 to /Charger/Charger_Circuit/SW1.
+Updated U5 properties.
+Reconnected via from /Charger/Charger_Circuit/SW1 to /Charger/Charger_Circuit/SW1.
+Reconnected U5 pin 1 from /Designator/BAT_Protection to /Protection/BAT_Protection.
+Reconnected U5 pin 3 from /Designator/BAT_Protection to /Protection/BAT_Protection.
+Reconnected U5 pin 4 from /Designator/BAT_Physical to /Protection/BAT_Physical.
+Reconnected U5 pin 6 from /Designator/BAT_Physical to /Protection/BAT_Physical.
+Reconnected via from /Charger/Charger_Circuit/D-_1 to /Charger/Charger_Circuit/D-_1.
+Updated TP50 properties.
+Reconnected via from /Protection/VDD to /Protection/VDD.
+Updated TP51 properties.
+Reconnected via from /Protection/VDD to /Protection/VDD.
+Reconnected via from /Charger/Charger_Circuit/SDRV to /Charger/Charger_Circuit/SDRV.
+Updated TP52 properties.
+Reconnected TP52 pin 1 from /Designator/Designator/CC1 to /USB-PD/USB-PD_Circuit/CC1.
+Reconnected via from /Charger/Charger_Circuit/SDRV to /Charger/Charger_Circuit/SDRV.
+Reconnected via from /Charger/Charger_Circuit/D+_1 to /Charger/Charger_Circuit/D+_1.
+Reconnected via from /Protection/CTR to /Protection/CTR.
+Updated TP53 properties.
+Reconnected TP53 pin 1 from /Designator/Designator/CC2 to /USB-PD/USB-PD_Circuit/CC2.
+Reconnected via from /Charger/Charger_Circuit/D-_1 to /Charger/Charger_Circuit/D-_1.
+Reconnected via from /Charger/Charger_Circuit/PMID to /Charger/Charger_Circuit/PMID.
+Reconnected via from /Charger/Charger_Circuit/PMID to /Charger/Charger_Circuit/PMID.
+Updated TP54 properties.
+Add net /USB-PD/USB-PD_Circuit/DAC_I.
+Reconnected TP54 pin 1 from /Designator/Designator/DAC_I to /USB-PD/USB-PD_Circuit/DAC_I.
+Reconnected via from /Protection/BAT_Protection to /Protection/BAT_Protection.
+Updated TP42 properties.
+Reconnected via from /Protection/BAT_Protection to /Protection/BAT_Protection.
+Updated TP43 properties.
+Reconnected via from /Protection/BAT_Protection to /Protection/BAT_Protection.
+Updated TP44 properties.
+Reconnected via from /Protection/BAT_Protection to /Protection/BAT_Protection.
+Reconnected via from /Protection/BAT_Protection to /Protection/BAT_Protection.
+Updated TP45 properties.
+Reconnected via from /Charger/Charger_Circuit/PMID to /Charger/Charger_Circuit/PMID.
+Updated TP46 properties.
+Reconnected via from /Protection/BAT_Protection to /Protection/BAT_Protection.
+Reconnected via from /Protection/BAT_Protection to /Protection/BAT_Protection.
+Updated TP47 properties.
+Reconnected via from /Protection/BAT_Protection to /Protection/BAT_Protection.
+Updated TP48 properties.
+Reconnected via from /Protection/CTR to /Protection/CTR.
+Updated TP49 properties.
+Reconnected via from /Charger/Charger_Circuit/SW2 to /Charger/Charger_Circuit/SW2.
+Reconnected TP58 pin 1 from /Designator/Designator/3.0A_IND to /USB-PD/USB-PD_Circuit/3.0A_IND.
+Reconnected via from /Charger/Charger_Circuit/SW2 to /Charger/Charger_Circuit/SW2.
+Updated TP59 properties.
+Reconnected via from /Charger/Charger_Circuit/SW2 to /Charger/Charger_Circuit/SW2.
+Updated TP60 properties.
+Reconnected via from /Charger/Charger_Circuit/SW2 to /Charger/Charger_Circuit/SW2.
+Updated TP61 properties.
+Reconnected via from /Charger/Charger_Circuit/SW2 to /Charger/Charger_Circuit/SW2.
+Updated TP62 properties.
+Add net /USB-PD/USB-PD_Circuit/3.0A_IND.
+Updated U1 properties.
+Reconnected via from /Charger/Charger_Circuit/SW2 to /Charger/Charger_Circuit/SW2.
+Reconnected U1 pin A2 from /Designator/U_Charger_Circuit/PMID to /Charger/Charger_Circuit/PMID.
+Reconnected via from /Charger/Charger_Circuit/SW2 to /Charger/Charger_Circuit/SW2.
+Reconnected U1 pin A3 from /Designator/U_Charger_Circuit/SW1 to /Charger/Charger_Circuit/SW1.
+Reconnected U1 pin A5 from /Designator/U_Charger_Circuit/SW2 to /Charger/Charger_Circuit/SW2.
+Reconnected via from /Charger/Charger_Circuit/SW2 to /Charger/Charger_Circuit/SW2.
+Reconnected U1 pin B2 from /Designator/U_Charger_Circuit/PMID to /Charger/Charger_Circuit/PMID.
+Reconnected TP56 pin 1 from /Designator/Designator/FAULT_IN_N to /USB-PD/USB-PD_Circuit/FAULT_IN_N.
+Reconnected via from /Charger/Charger_Circuit/PMID to /Charger/Charger_Circuit/PMID.
+Updated TP55 properties.
+Reconnected via from /Charger/Charger_Circuit/SW2 to /Charger/Charger_Circuit/SW2.
+Add net /USB-PD/USB-PD_Circuit/ORIENTATION.
+Reconnected TP55 pin 1 from /Designator/Designator/ORIENTATION to /USB-PD/USB-PD_Circuit/ORIENTATION.
+Reconnected via from /Charger/Charger_Circuit/SW2 to /Charger/Charger_Circuit/SW2.
+Reconnected via from /Charger/Charger_Circuit/SW2 to /Charger/Charger_Circuit/SW2.
+Updated TP56 properties.
+Reconnected via from /Protection/BAT_Protection to /Protection/BAT_Protection.
+Reconnected via from /Charger/Charger_Circuit/SW2 to /Charger/Charger_Circuit/SW2.
+Reconnected via from /Charger/Charger_Circuit/SW2 to /Charger/Charger_Circuit/SW2.
+Reconnected via from /Charger/Charger_Circuit/SW2 to /Charger/Charger_Circuit/SW2.
+Updated TP57 properties.
+Add net /USB-PD/USB-PD_Circuit/1.5A_IND.
+Reconnected TP57 pin 1 from /Designator/Designator/1.5A_IND to /USB-PD/USB-PD_Circuit/1.5A_IND.
+Reconnected via from /Charger/Charger_Circuit/SW2 to /Charger/Charger_Circuit/SW2.
+Updated TP58 properties.
+Reconnected C3 pin 2 from /Designator/U_Charger_Circuit/SW1 to /Charger/Charger_Circuit/SW1.
+Updated C12 properties.
+Updated C11 properties.
+Updated C10 properties.
+Updated C9 properties.
+Updated C8 properties.
+Updated C7 properties.
+Updated C6 properties.
+Updated C5 properties.
+Updated C4 properties.
+Updated C13 properties.
+Add net /Charger/Charger_Circuit/SW1.
+Reconnected C3 pin 1 from /Designator/U_Charger_Circuit/BTST1 to /Charger/Charger_Circuit/BTST1.
+Add net /Charger/Charger_Circuit/BTST1.
+Updated TP3 properties.
+Updated C3 properties.
+Updated C2 properties.
+Updated C1 properties.
+Updated J4 properties.
+Reconnected J4 pin A5 from /Designator/Designator/CC1 to /USB-PD/USB-PD_Circuit/CC1.
+Updated C19 properties.
+Updated C24 properties.
+Reconnected C23 pin 1 from /Designator/U_Charger_Circuit/PMID to /Charger/Charger_Circuit/PMID.
+Updated C23 properties.
+Reconnected C22 pin 1 from /Designator/U_Charger_Circuit/PMID to /Charger/Charger_Circuit/PMID.
+Updated C22 properties.
+Reconnected C21 pin 1 from /Designator/U_Charger_Circuit/PMID to /Charger/Charger_Circuit/PMID.
+Add net /Charger/Charger_Circuit/PMID.
+Updated C21 properties.
+Updated C20 properties.
+Reconnected J4 pin B5 from /Designator/Designator/CC2 to /USB-PD/USB-PD_Circuit/CC2.
+Updated C18 properties.
+Updated C17 properties.
+Updated C16 properties.
+Updated C15 properties.
+Updated C14 properties.
+Reconnected C13 pin 2 from /Designator/U_Charger_Circuit/SW2 to /Charger/Charger_Circuit/SW2.
+Add net /Charger/Charger_Circuit/SW2.
+Reconnected C13 pin 1 from /Designator/U_Charger_Circuit/BTST2 to /Charger/Charger_Circuit/BTST2.
+Add net /Charger/Charger_Circuit/BTST2.
+Reconnected JP11 pin 2 from /Designator/U_Charger_Circuit/SDRV to /Charger/Charger_Circuit/SDRV.
+Updated JP6 properties.
+Add net /Charger/Charger_Circuit/D-_1.
+Reconnected JP6 pin 2 from /Designator/U_Charger_Circuit/D-_1 to /Charger/Charger_Circuit/D-_1.
+Updated JP9 properties.
+Updated JP10 properties.
+Add net /Charger/Charger_Circuit/D+_1.
+Reconnected JP10 pin 2 from /Designator/U_Charger_Circuit/D+_1 to /Charger/Charger_Circuit/D+_1.
+Updated JP11 properties.
+Add net /Charger/Charger_Circuit/SDRV.
+Updated JP5 properties.
+Updated JP12 properties.
+Updated JP13 properties.
+Updated JP14 properties.
+Updated JP15 properties.
+Updated JP16 properties.
+Updated JP19 properties.
+Updated JP23 properties.
+Updated JP25 properties.
+Updated JP32 properties.
+Add net /Protection/BAT_Protection.
+Updated J5 properties.
+Updated J6 properties.
+Updated J8 properties.
+Updated J9 properties.
+Updated J10 properties.
+Updated J13 properties.
+Updated J14 properties.
+Add net /Protection/CS.
+Reconnected J14 pin 1 from /Designator/CS to /Protection/CS.
+Reconnected C24 pin 1 from /Designator/U_Charger_Circuit/PMID to /Charger/Charger_Circuit/PMID.
+Reconnected J14 pin 2 from /Designator/BAT_Protection to /Protection/BAT_Protection.
+Updated J15 properties.
+Add net /Protection/BAT_Physical.
+Reconnected J15 pin 1 from /Designator/BAT_Physical to /Protection/BAT_Physical.
+Updated JP1 properties.
+Updated JP2 properties.
+Updated JP3 properties.
+Updated JP4 properties.
+Updated FID3 properties.
+Updated D15 properties.
+Updated D16 properties.
+Updated D17 properties.
+Updated D18 properties.
+Updated FB1 properties.
+Updated FID1 properties.
+Add net /Protection/CTR.
+Updated FID2 properties.
+Updated C56 properties.
+Updated D14 properties.
+Reconnected C55 pin 2 from /Designator/BAT_PRO to /Protection/BAT_PRO.
+Updated FID4 properties.
+Add net /Protection/BAT_PRO.
+Updated FID5 properties.
+Updated C55 properties.
+Updated FID6 properties.
+Reconnected C54 pin 1 from /Designator/VDD to /Protection/VDD.
+Updated H1 properties.
+Updated H2 properties.
+Reconnected D6 pin 1 from /Designator/U_Charger_Circuit/SW1 to /Charger/Charger_Circuit/SW1.
+Reconnected C56 pin 2 from /Designator/CTR to /Protection/CTR.
+Updated D1 properties.
+Updated D2 properties.
+Updated D3 properties.
+Reconnected D3 pin 1 from /Designator/U_Charger_Circuit/PMID to /Charger/Charger_Circuit/PMID.
+Reconnected D3 pin 2 from /Designator/U_Charger_Circuit/SW1 to /Charger/Charger_Circuit/SW1.
+Updated D4 properties.
+Updated D5 properties.
+Updated D6 properties.
+Updated H3 properties.
+Updated D7 properties.
+Reconnected D7 pin 2 from /Designator/U_Charger_Circuit/SW2 to /Charger/Charger_Circuit/SW2.
+Updated D8 properties.
+Reconnected D8 pin 1 from /Designator/U_Charger_Circuit/SW2 to /Charger/Charger_Circuit/SW2.
+Updated D9 properties.
+Updated D10 properties.
+Updated D11 properties.
+Updated D12 properties.
+Updated D13 properties.
+Updated C32 properties.
+Updated C39 properties.
+Updated C38 properties.
+Updated C37 properties.
+Updated C36 properties.
+Updated C35 properties.
+Updated C34 properties.
+Updated C33 properties.
+Reconnected C32 pin 2 from /Designator/Designator/CC2 to /USB-PD/USB-PD_Circuit/CC2.
+Add net /USB-PD/USB-PD_Circuit/CC2.
+Updated C40 properties.
+Updated C31 properties.
+Updated C30 properties.
+Updated C29 properties.
+Updated C28 properties.
+Updated C27 properties.
+Updated C26 properties.
+Reconnected C25 pin 2 from /Designator/Designator/CC1 to /USB-PD/USB-PD_Circuit/CC1.
+Add net /USB-PD/USB-PD_Circuit/CC1.
+Updated C25 properties.
+Updated C50 properties.
+Updated H4 properties.
+Updated J1 properties.
+Updated J2 properties.
+Updated J3 properties.
+Add net /Protection/VDD.
+Updated C54 properties.
+Updated C53 properties.
+Updated C52 properties.
+Updated C51 properties.
+Updated JP24 properties.
+Updated C49 properties.
+Updated C48 properties.
+Updated C47 properties.
+Updated C46 properties.
+Updated C45 properties.
+Updated C43 properties.
+Updated C42 properties.
+Updated C41 properties.
+Updated R55 properties.
+Updated R51 properties.
+Reconnected R51 pin 1 from /Designator/Designator/EN_SNK to /USB-PD/USB-PD_Circuit/EN_SNK.
+Updated R52 properties.
+Reconnected R52 pin 1 from /Designator/Designator/CC2 to /USB-PD/USB-PD_Circuit/CC2.
+Add net /USB-PD/USB-PD_Circuit/CC2_R.
+Reconnected R52 pin 2 from /Designator/Designator/CC2_R to /USB-PD/USB-PD_Circuit/CC2_R.
+Updated R53 properties.
+Add net /USB-PD/USB-PD_Circuit/CAP_MISMATCH.
+Reconnected R53 pin 2 from /Designator/Designator/CAP_MISMATCH to /USB-PD/USB-PD_Circuit/CAP_MISMATCH.
+Updated R54 properties.
+Reconnected R50 pin 2 from /Designator/Designator/CC1_R to /USB-PD/USB-PD_Circuit/CC1_R.
+Updated R56 properties.
+Updated R57 properties.
+Updated R58 properties.
+Updated R59 properties.
+Reconnected R59 pin 2 from /Designator/BAT_Physical to /Protection/BAT_Physical.
+Updated R60 properties.
+Reconnected R60 pin 2 from /Designator/BAT_Protection to /Protection/BAT_Protection.
+Updated R61 properties.
+Reconnected R61 pin 1 from /Designator/BAT_Physical to /Protection/BAT_Physical.
+Updated R47 properties.
+Updated JP33 properties.
+Updated R39 properties.
+Updated R40 properties.
+Updated R41 properties.
+Updated R42 properties.
+Updated R43 properties.
+Updated R44 properties.
+Updated R45 properties.
+Updated R46 properties.
+Reconnected R61 pin 2 from /Designator/VDD to /Protection/VDD.
+Updated R48 properties.
+Updated R49 properties.
+Add net /USB-PD/USB-PD_Circuit/SPI_MOSI_SI.
+Reconnected R49 pin 1 from /Designator/Designator/SPI_MOSI_SI to /USB-PD/USB-PD_Circuit/SPI_MOSI_SI.
+Add net /USB-PD/USB-PD_Circuit/SPI_MOSI.
+Reconnected R49 pin 2 from /Designator/Designator/SPI_MOSI to /USB-PD/USB-PD_Circuit/SPI_MOSI.
+Updated R50 properties.
+Reconnected R50 pin 1 from /Designator/Designator/CC1 to /USB-PD/USB-PD_Circuit/CC1.
+Add net /USB-PD/USB-PD_Circuit/CC1_R.
+Updated SH-JP24 properties.
+Updated SH-JP10 properties.
+Updated SH-JP11 properties.
+Updated SH-JP12 properties.
+Updated SH-JP13 properties.
+Updated SH-JP14 properties.
+Updated SH-JP15 properties.
+Updated SH-JP16 properties.
+Updated SH-JP19 properties.
+Updated SH-JP23 properties.
+Updated SH-JP9 properties.
+Updated SH-JP25 properties.
+Updated SH-JP32 properties.
+Updated SH-JP33 properties.
+Updated SH-JP34 properties.
+Updated SH-JP35 properties.
+Updated SH-JP36 properties.
+Updated SH-JP37 properties.
+Updated TP1 properties.
+Updated TP2 properties.
+Updated R65 properties.
+Updated R62 properties.
+Reconnected R62 pin 1 from /Designator/BAT_Physical to /Protection/BAT_Physical.
+Reconnected R62 pin 2 from /Designator/BAT_PRO to /Protection/BAT_PRO.
+Updated R63 properties.
+Add net /Protection/PACK.
+Reconnected R63 pin 1 from /Designator/PACK to /Protection/PACK.
+Reconnected R63 pin 2 from /Designator/BAT_Protection to /Protection/BAT_Protection.
+Updated R64 properties.
+Reconnected R64 pin 2 from /Designator/CTR to /Protection/CTR.
+Updated R38 properties.
+Reconnected R65 pin 2 from /Designator/CS to /Protection/CS.
+Updated RT1 properties.
+Updated S1 properties.
+Updated SH-JP1 properties.
+Updated SH-JP2 properties.
+Updated SH-JP3 properties.
+Updated SH-JP4 properties.
+Updated SH-JP5 properties.
+Updated SH-JP6 properties.
+Reconnected Q9 pin 1 from /Designator/Designator/EN_SNK to /USB-PD/USB-PD_Circuit/EN_SNK.
+Reconnected Q6 pin 3 from /Designator/Designator/VBUS_F to /USB-PD/USB-PD_Circuit/VBUS_F.
+Updated Q7 properties.
+Reconnected Q7 pin 1 from /Designator/Designator/VBUS_F to /USB-PD/USB-PD_Circuit/VBUS_F.
+Reconnected Q7 pin 2 from /Designator/Designator/VBUS_F to /USB-PD/USB-PD_Circuit/VBUS_F.
+Reconnected Q7 pin 3 from /Designator/Designator/VBUS_F to /USB-PD/USB-PD_Circuit/VBUS_F.
+Updated Q8 properties.
+Add net /USB-PD/USB-PD_Circuit/VBUS_DIS.
+Reconnected Q8 pin 1 from /Designator/Designator/VBUS_DIS to /USB-PD/USB-PD_Circuit/VBUS_DIS.
+Updated Q9 properties.
+Add net /USB-PD/USB-PD_Circuit/EN_SNK.
+Reconnected Q6 pin 2 from /Designator/Designator/VBUS_F to /USB-PD/USB-PD_Circuit/VBUS_F.
+Updated R1 properties.
+Updated R2 properties.
+Updated R3 properties.
+Updated R4 properties.
+Updated R5 properties.
+Updated R6 properties.
+Updated R7 properties.
+Updated R8 properties.
+Updated R37 properties.
+Updated LOGO5 properties.
+Updated JP34 properties.
+Updated JP35 properties.
+Updated JP36 properties.
+Updated L1 properties.
+Reconnected L1 pin 1 from /Designator/U_Charger_Circuit/SW1 to /Charger/Charger_Circuit/SW1.
+Reconnected L1 pin 2 from /Designator/U_Charger_Circuit/SW2 to /Charger/Charger_Circuit/SW2.
+Updated L2 properties.
+Reconnected L2 pin 1 from /Designator/U_Charger_Circuit/SW2 to /Charger/Charger_Circuit/SW2.
+Reconnected L2 pin 2 from /Designator/U_Charger_Circuit/SW1 to /Charger/Charger_Circuit/SW1.
+Reconnected R8 pin 1 from /Designator/U_Charger_Circuit/SW1 to /Charger/Charger_Circuit/SW1.
+Updated NT1 properties.
+Updated Q1 properties.
+Updated Q2 properties.
+Updated Q3 properties.
+Updated Q4 properties.
+Updated Q5 properties.
+Updated Q6 properties.
+Add net /USB-PD/USB-PD_Circuit/VBUS_F.
+Reconnected Q6 pin 1 from /Designator/Designator/VBUS_F to /USB-PD/USB-PD_Circuit/VBUS_F.
+Updated R31 properties.
+Reconnected R23 pin 1 from /Designator/Designator/VBUS_F to /USB-PD/USB-PD_Circuit/VBUS_F.
+Updated R24 properties.
+Updated R25 properties.
+Updated R26 properties.
+Updated R27 properties.
+Updated R28 properties.
+Updated R29 properties.
+Updated R30 properties.
+Updated R10 properties.
+Reconnected R31 pin 2 from /Designator/Designator/VBUS_DIS to /USB-PD/USB-PD_Circuit/VBUS_DIS.
+Updated R32 properties.
+Reconnected R32 pin 2 from /Designator/Designator/EN_SNK to /USB-PD/USB-PD_Circuit/EN_SNK.
+Updated R33 properties.
+Updated R34 properties.
+Add net /USB-PD/USB-PD_Circuit/FAULT_IN_N.
+Reconnected R34 pin 1 from /Designator/Designator/FAULT_IN_N to /USB-PD/USB-PD_Circuit/FAULT_IN_N.
+Updated R35 properties.
+Updated R22 properties.
+Updated R9 properties.
+Reconnected R10 pin 1 from /Designator/U_Charger_Circuit/SW2 to /Charger/Charger_Circuit/SW2.
+Updated R11 properties.
+Updated R12 properties.
+Updated R13 properties.
+Updated R14 properties.
+Updated R15 properties.
+Updated R16 properties.
+Updated R17 properties.
+Updated R18 properties.
+Updated R19 properties.
+Updated R20 properties.
+Add net /Charger/Charger_Circuit/IBAT.
+Reconnected R20 pin 2 from /Designator/U_Charger_Circuit/IBAT to /Charger/Charger_Circuit/IBAT.
+Updated R21 properties.
+Updated R23 properties.
+Warning: Copper zone on layer Bottom Layer at (208.4959 mm, 62.6110 mm) has no pads connected.
+Warning: Copper zone on layer Bottom Layer at (192.2907 mm, 57.0230 mm) has no pads connected.
+Warning: Copper zone on layer Top Layer at (212.1535 mm, 154.6098 mm) has no pads connected.
+Warning: Copper zone on layer Bottom Layer at (212.2254 mm, 154.6177 mm) has no pads connected.
+Warning: Via connected to unknown net ().
+Warning: Copper zone on layer Top Layer at (203.0912 mm, 77.9780 mm) has no pads connected.
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: No net found for symbol FID2 pin 1.
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: No net found for symbol FID6 pin 1.
+Warning: No net found for symbol FID5 pin 1.
+Warning: No net found for symbol FID4 pin 1.
+Warning: No net found for symbol FID3 pin 1.
+Warning: No net found for symbol FID1 pin 1.
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Error: U4 pad 18 not found in AltiumImports:_ALTIUM_WORK_00001_MCHP-CDB_Library_Database_MCHP-CDB.DbLib_MCHP-Interface_QFN-40_6X6_m5_4m6epad.
+Error: Cannot add *2 (no footprint assigned).
+Error: Cannot add *1 (no footprint assigned).
+Error: Cannot add !PCB1 (no footprint assigned).
+
+
+Info: Total warnings: 82, errors: 4.

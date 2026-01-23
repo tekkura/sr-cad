@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "robot")(type "KiCad")(uri "${KIPRJMOD}/robot.pretty")(options "")(descr ""))
+  (lib (name "AltiumImports")(type "KiCad")(uri "${KIPRJMOD}/AltiumImports.pretty")(options "")(descr ""))
+  (lib (name "packages3D")(type "KiCad")(uri "${KIPRJMOD}/packages3D")(options "")(descr ""))
+  (lib (name "ALTIUM_EMBEDDED_MODELS")(type "KiCad")(uri "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS")(options "")(descr ""))
+)

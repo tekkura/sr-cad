@@ -8467,7 +8467,7 @@
 		(at 433.07 193.04 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "06181ba5-a9a6-400e-bee9-7c2cb484795f")
@@ -11847,7 +11847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Note this chip already has 22V Vbus to short (CC pins) protection so no external one required. "
+		(property "Description" "Note this chip already has 22V Vbus to short (CC pins) protection so no external one required."
 			(at 287.02 233.68 0)
 			(effects
 				(font

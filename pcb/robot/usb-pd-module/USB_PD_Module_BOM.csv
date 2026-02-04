@@ -1,28 +1,24 @@
-"Reference";"Qty";"Part Number";"Value";"DNP";"Exclude from BOM";"Exclude from Board";"Footprint";"Manufacturer"
-"C45,C46";"2";"GRM1555C1H270JA01J";"27pF";"";"";"";"robot:C_0402_1005Metric";"Murata"
-"C47,C48,C50,C51,C52,C53,C54";"7";"GRM155R61E105KA12D";"1uF";"";"";"";"robot:C_0402_1005Metric";"Murata"
-"C49";"1";"CL10A225KP8NNNC";"2.2uF";"";"";"";"robot:C_0603_1608Metric";"Samsung"
-"C97,C100,C101";"3";"GRM188R61E475KE11D";"4.7uF";"";"";"";"robot:C_0603_1608Metric";"Murata"
-"H1,H2";"2";"";"MountingHole";"";"Excluded from BOM";"";"robot:MountingHole_2.2mm_M2_2mm_clearance";""
-"J4";"1";"USB4151-GF-C";"USB4151-GF-C";"";"";"";"robot:GCT_USB4151-GF-C_REVA";"GCT"
-"J9";"1";"";"Conn_01x16";"";"Excluded from BOM";"";"robot:Castellated 1x16 2.54mm";""
-"L4";"1";"IHLP2020BZERR47M01";"0.47uH";"";"";"";"robot:Vishay-IHLP-2020BZ-FP_1.905x2.79-3D_2.0-0-0-MFG";"Vishay"
-"NT21,NT22";"2";"N/A";"NetTie_2";"";"Excluded from BOM";"";"robot:NetTie-_SMD_Pad6mil";"N/A"
-"R12";"1";"WR06X1003FTL";"100k";"";"";"";"robot:R_0603_1608Metric";"Walsin Technology"
-"R13";"1";"DNP";"DNP";"DNP";"Excluded from BOM";"";"robot:R_0603_1608Metric";"DNP"
-"R32,R33";"2";"RC0402FR-1310RL";"10";"";"";"";"robot:R_0402_1005Metric";"Yageo"
-"R34,R35";"2";"RMCF0603JT2K20";"2.2k";"";"";"";"robot:R_0603_1608Metric";"Stackpole Electronics"
-"R36";"1";"RMCF0603JT200K";"200k";"";"";"";"robot:R_0603_1608Metric";"Stackpole Electronics"
-"R37,R39";"2";"ERJ-3EKF6493V";"649k";"";"";"";"robot:R_0603_1608Metric";"Panasonic"
-"R38,R40";"2";"RMCF0603JT120K";"120k";"";"";"";"robot:R_0603_1608Metric";"Stackpole Electronics"
-"R57,R75";"2";"RMCF0603ZT0R00";"0";"";"";"";"robot:R_0603_1608Metric";"Stackpole Electronics"
-"R65";"1";"AC0603JR-0710ML";"10M";"";"";"";"robot:R_0603_1608Metric";"Yageo"
-"R73,R74";"2";"RMCF0805ZT0R00";"0";"";"";"";"robot:R_0805_2012Metric";"Stackpole Electronics"
-"R95";"1";"RMCF0603ZT0R00";"0";"";"";"";"robot:R_0603_1608Metric_3pin_Switch";"Stackpole Electronics"
-"S4";"1";"JS202011JCQN";"JS202011JCQN";"";"";"";"robot:SW_JS202011JCQN";"C&K"
-"TP3,TP4,TP5,TP6,TP7,TP8,TP13,TP14,TP15";"9";"RCUCTE";"SMD_0603";"";"";"";"robot:TestPoint_SMD_0603";"KOA Speer Electronics, Inc."
-"U11";"1";"MAX77958EWV+T";"MAX77958EWV+T";"";"";"";"robot:MAX77958EWV&plus_T";"Maxim"
-"U15,U19,U20,U21,U22,U23";"6";"TPD1E05U06DPYR";"TPD1E05U06";"";"";"";"robot:TPD1E05U06DPYR";"Texas Instruments"
-"U16";"1";"fpf1048bucx";"fpf1048bucx";"";"";"";"robot:BGA6N50P3X2_146X96X62N";"onsemi"
-"U17";"1";"TPS61253AYFFT";"TPS61253AYFFT";"";"";"";"robot:Texas_Instruments-YFF0009-BGA9C40P3X3_119X129X62";"Texas Instruments"
-"U24";"1";"TVS0500DRVR";"TVS0500DRV";"";"";"";"robot:TVS0500DRVR";"Texas Instruments"
+Reference;Qty;Part Number;Value;Footprint;Manufacturer
+C45,C46;2;GRM1555C1H270JA01J;27pF;robot:C_0402_1005Metric;Murata
+C47,C48,C50,C51,C52,C53,C54;7;GRM155R61E105KA12D;1uF;robot:C_0402_1005Metric;Murata
+C49;1;CL10A225KP8NNNC;2.2uF;robot:C_0603_1608Metric;Samsung
+C97,C100,C101;3;GRM188R61E475KE11D;4.7uF;robot:C_0603_1608Metric;Murata
+J4;1;USB4151-GF-C;USB4151-GF-C;robot:GCT_USB4151-GF-C_REVA;GCT
+L4;1;IHLP2020BZERR47M01;0.47uH;robot:Vishay-IHLP-2020BZ-FP_1.905x2.79-3D_2.0-0-0-MFG;Vishay
+R12;1;WR06X1003FTL;100k;robot:R_0603_1608Metric;Walsin Technology
+R32,R33;2;RC0402FR-1310RL;10;robot:R_0402_1005Metric;Yageo
+R34,R35;2;RMCF0603JT2K20;2.2k;robot:R_0603_1608Metric;Stackpole Electronics
+R36;1;RMCF0603JT200K;200k;robot:R_0603_1608Metric;Stackpole Electronics
+R37,R39;2;ERJ-3EKF6493V;649k;robot:R_0603_1608Metric;Panasonic
+R38,R40;2;RMCF0603JT120K;120k;robot:R_0603_1608Metric;Stackpole Electronics
+R57,R75;2;RMCF0603ZT0R00;0;robot:R_0603_1608Metric;Stackpole Electronics
+R65;1;AC0603JR-0710ML;10M;robot:R_0603_1608Metric;Yageo
+R73,R74;2;RMCF0805ZT0R00;0;robot:R_0805_2012Metric;Stackpole Electronics
+R95;1;RMCF0603ZT0R00;0;robot:R_0603_1608Metric_3pin_Switch;Stackpole Electronics
+S4;1;JS202011JCQN;JS202011JCQN;robot:SW_JS202011JCQN;C&K
+TP3,TP4,TP5,TP6,TP7,TP8,TP13,TP14,TP15;9;RCUCTE;SMD_0603;robot:TestPoint_SMD_0603;KOA Speer Electronics, Inc.
+U11;1;MAX77958EWV+T;MAX77958EWV+T;robot:MAX77958EWV&plus_T;Maxim
+U15,U19,U20,U21,U22,U23;6;TPD1E05U06DPYR;TPD1E05U06;robot:TPD1E05U06DPYR;Texas Instruments
+U16;1;fpf1048bucx;fpf1048bucx;robot:BGA6N50P3X2_146X96X62N;onsemi
+U17;1;TPS61253AYFFT;TPS61253AYFFT;robot:Texas_Instruments-YFF0009-BGA9C40P3X3_119X129X62;Texas Instruments
+U24;1;TVS0500DRVR;TVS0500DRV;robot:TVS0500DRVR;Texas Instruments

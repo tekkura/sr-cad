@@ -1,8 +1,0 @@
-"Manufacturer","Part Number","Ref","Qty Single Board","Description","Batch Size","Qty Total Batch","Stock","Need to Buy","Value","Footprint"
-"Suprise Collection","26650-5000-1","BT2","1","Single-cell battery","5","5","0","5","DNP","robot:battery26650"
-"Murata","GRM31CD80J107MEA8K","C79,C91,C96,C106,C107,C108","6","Unpolarized capacitor","5","30","20","10","100uF","robot:C_1206_3216Metric"
-"Cal-Chip Electronics, Inc.","GMC32X5R107M16NT","C133,C135,C138","3","Unpolarized capacitor","5","15","0","15","100uF","robot:C_1210_3225Metric"
-"Würth Elektronik","760308102207","L5","1","Inductor symbol for simulation only","5","5","0","5","8uH",""
-"Adafruit","4639","M1,M2","2","","5","10","0","10","~",""
-"Panasonic","ERJ-PA3J201V","R105","1","Resistor","5","5","0","5","200","robot:R_0603_1608Metric"
-"Pololu","4939","W1,W2","2","","5","10","0","10","~",""

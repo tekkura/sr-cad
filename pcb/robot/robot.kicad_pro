@@ -331,7 +331,16 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|1104900|647700|4bf4d970-130f-4758-9a11-9f046beb93d4|84edcd1a-e2f7-4c9c-ab78-c576131a3dd0|/0c7b298e-2d07-4b1f-b033-e95f02d45089/3b094808-5035-436e-9542-e9e286dde93f|/0c7b298e-2d07-4b1f-b033-e95f02d45089/3b094808-5035-436e-9542-e9e286dde93f|/0c7b298e-2d07-4b1f-b033-e95f02d45089/3b094808-5035-436e-9542-e9e286dde93f",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1663700|1016000|65f2bf9f-fa60-4d02-a28e-eced3bd70223|00000000-0000-0000-0000-000000000000|/0c7b298e-2d07-4b1f-b033-e95f02d45089/3b094808-5035-436e-9542-e9e286dde93f|/0c7b298e-2d07-4b1f-b033-e95f02d45089/3b094808-5035-436e-9542-e9e286dde93f|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -839,7 +848,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "gerbers\\robot_bom.csv",
+    "bom_export_filename": "gerbers\\robot_modified_bom.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ";",
@@ -948,6 +957,108 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DIGIKEY-PURCHASE-URL",
+          "name": "DIGIKEY-PURCHASE-URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PACKAGE",
+          "name": "PACKAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PRICE",
+          "name": "PRICE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "AVAILABILITY",
+          "name": "AVAILABILITY",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TEXAS_INSTRUMENTS-PURCHASE-URL",
+          "name": "TEXAS_INSTRUMENTS-PURCHASE-URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DigiKey_Part_Number",
+          "name": "DigiKey_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFANUFACTURER",
+          "name": "MFANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MOUSER-PURCHASE-URL",
+          "name": "MOUSER-PURCHASE-URL",
           "show": false
         }
       ],

@@ -6564,7 +6564,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Flag at ~ 1.8V so ensure to choose V_GS < 1.8V. "
+		(property "Description" "Flag at ~ 1.8V so ensure to choose V_GS < 1.8V."
 			(at 177.8 176.53 0)
 			(effects
 				(font

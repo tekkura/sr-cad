@@ -3960,7 +3960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" " 10V"
+		(property "Description" "10V"
 			(at 158.115 96.52 0)
 			(effects
 				(font

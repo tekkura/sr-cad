@@ -5332,7 +5332,7 @@
 		)
 		(uuid "e05b4a66-6167-4e22-acc9-c8bd6628ab4a")
 	)
-	(text "NOTE: Only ONE of R96 (CC1) / R97 (CC2) should be populated for a direct \nmale USB-C plug configuration. Default: R3 populated, R4 DNP. \nThe unused CC-position contact must remain floating - do NOT tie it \nto 5V, GND, Rp, Rd, or the other CC line."
+	(text "NOTE: Only ONE of R3 (CC1) / R4 (CC2) should be populated for a direct \nmale USB-C plug configuration. Default: R3 populated, R4 DNP. \nThe unused CC-position contact must remain floating - do NOT tie it \nto 5V, GND, Rp, Rd, or the other CC line."
 		(exclude_from_sim no)
 		(at 151.13 167.894 0)
 		(effects

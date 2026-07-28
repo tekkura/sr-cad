@@ -579,20 +579,6 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.1,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "microvia_diameter": 0.25,
-        "microvia_drill": 0.15,
-        "name": "Power_Module",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "via_diameter": 0.45,
-        "via_drill": 0.2
-      },
-      {
         "clearance": 0.15,
         "diff_pair_gap": 0.15,
         "diff_pair_width": 0.15,
@@ -605,6 +591,15 @@
         "track_width": 0.16,
         "via_diameter": 0.45,
         "via_drill": 0.2
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "power_1A",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(61, 0, 255)",
+        "wire_width": 8
       },
       {
         "bus_width": 12,
@@ -701,7 +696,7 @@
         "pattern": "/MCU/D-"
       },
       {
-        "netclass": "Power_Module",
+        "netclass": "Default",
         "pattern": "/VBUS_Phone_PS"
       }
     ]

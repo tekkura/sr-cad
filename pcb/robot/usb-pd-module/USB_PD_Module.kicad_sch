@@ -5332,6 +5332,17 @@
 		)
 		(uuid "e05b4a66-6167-4e22-acc9-c8bd6628ab4a")
 	)
+	(text "NOTE: Only ONE of R96 (CC1) / R97 (CC2) should be populated for a direct \nmale USB-C plug configuration. Default: R3 populated, R4 DNP. \nThe unused CC-position contact must remain floating - do NOT tie it \nto 5V, GND, Rp, Rd, or the other CC line."
+		(exclude_from_sim no)
+		(at 151.13 167.894 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e39ed292-7e2e-49b7-b9dc-aaec88c2073b")
+	)
 	(text "Pull ups based on single slave device\nand reducing power consumption."
 		(exclude_from_sim no)
 		(at 323.85 180.34 0)
@@ -5402,7 +5413,7 @@
 		(uuid "028e79b5-5966-4c01-b61e-7750c2852b58")
 	)
 	(junction
-		(at 220.98 153.67)
+		(at 220.98 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0a812931-3391-499d-bfb1-3c382674b0fe")
@@ -5444,12 +5455,6 @@
 		(uuid "2a3b106f-455c-42a0-8c08-09e9b8d0038b")
 	)
 	(junction
-		(at 109.855 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "30a11810-fee1-4f97-b053-352dfba2a08a")
-	)
-	(junction
 		(at 219.71 220.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5480,6 +5485,12 @@
 		(uuid "365a6038-f67a-4b16-bb29-d0e51d53e76a")
 	)
 	(junction
+		(at 96.52 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3cf5b8d5-041f-42f4-bb4b-3c7e6f56124c")
+	)
+	(junction
 		(at 185.42 233.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5490,6 +5501,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "54cef68c-a5da-4830-bb43-2e399fc58993")
+	)
+	(junction
+		(at 101.6 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5bf72d8a-c255-420d-85ff-25f39c3485be")
 	)
 	(junction
 		(at 154.94 177.8)
@@ -5520,12 +5537,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82fc7184-a857-4ff6-be33-5d21be68d80d")
-	)
-	(junction
-		(at 109.855 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "82fe5df9-96ca-4bad-89ae-1c1f6b92e1af")
 	)
 	(junction
 		(at 213.36 175.26)
@@ -5702,6 +5713,10 @@
 		(uuid "fd9c866d-8def-4cd0-9cf6-522a7867fabc")
 	)
 	(no_connect
+		(at 427.99 185.42)
+		(uuid "37829d87-aa90-4264-94f1-141e04c5fc6b")
+	)
+	(no_connect
 		(at 309.88 256.54)
 		(uuid "5f665866-bf9c-491e-8e49-611052ec12a4")
 	)
@@ -5720,6 +5735,10 @@
 	(no_connect
 		(at 88.9 176.53)
 		(uuid "a15f9c81-c3fa-42d4-8210-4d2c2cc461ce")
+	)
+	(no_connect
+		(at 265.43 118.11)
+		(uuid "a6c4147c-20a8-4893-8b5c-dbfb971eb7b2")
 	)
 	(no_connect
 		(at 88.9 163.83)
@@ -5817,6 +5836,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 175.26) (xy 213.36 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "082186b4-4f51-4289-bcc0-19ed2e55a99f")
+	)
+	(wire
+		(pts
 			(xy 438.15 266.7) (xy 454.66 266.7)
 		)
 		(stroke
@@ -5827,7 +5856,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 175.26) (xy 213.36 175.26)
+			(xy 175.26 175.26) (xy 185.42 175.26)
 		)
 		(stroke
 			(width 0)
@@ -6137,16 +6166,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 128.27) (xy 109.855 128.27)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "28a8fc8f-c201-4d0f-98de-8d7096393a24")
-	)
-	(wire
-		(pts
 			(xy 416.56 264.16) (xy 427.99 264.16)
 		)
 		(stroke
@@ -6277,16 +6296,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.855 130.81) (xy 143.51 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31b7a532-76cd-4b6f-b85b-4614695f22a5")
-	)
-	(wire
-		(pts
 			(xy 162.56 137.16) (xy 162.56 138.43)
 		)
 		(stroke
@@ -6307,7 +6316,17 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 153.67) (xy 220.98 153.67)
+			(xy 193.04 177.8) (xy 200.66 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35791666-d039-43c5-9474-53a010476e23")
+	)
+	(wire
+		(pts
+			(xy 212.09 151.13) (xy 220.98 151.13)
 		)
 		(stroke
 			(width 0)
@@ -6347,7 +6366,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 156.21) (xy 220.98 153.67)
+			(xy 220.98 153.67) (xy 220.98 151.13)
 		)
 		(stroke
 			(width 0)
@@ -6447,7 +6466,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 153.67) (xy 204.47 153.67)
+			(xy 187.96 151.13) (xy 204.47 151.13)
 		)
 		(stroke
 			(width 0)
@@ -6617,7 +6636,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 177.8) (xy 200.66 177.8)
+			(xy 154.94 177.8) (xy 185.42 177.8)
 		)
 		(stroke
 			(width 0)
@@ -6814,16 +6833,6 @@
 			(type default)
 		)
 		(uuid "7383b547-5eb4-440f-b271-2b24b84ad510")
-	)
-	(wire
-		(pts
-			(xy 220.98 163.83) (xy 220.98 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "759224f0-9bba-41ec-8c32-071e6ac68a1f")
 	)
 	(wire
 		(pts
@@ -7117,17 +7126,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.855 128.27) (xy 146.05 128.27)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "96a525a6-96b5-4d6c-a98a-7c5cae2aeda4")
-	)
-	(wire
-		(pts
-			(xy 241.3 153.67) (xy 220.98 153.67)
+			(xy 241.3 151.13) (xy 220.98 151.13)
 		)
 		(stroke
 			(width 0)
@@ -7204,6 +7203,16 @@
 			(type default)
 		)
 		(uuid "a3ab6dc6-f1e7-4480-9110-56b280b807b8")
+	)
+	(wire
+		(pts
+			(xy 101.6 130.81) (xy 143.51 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3f81d44-b9f1-49e4-94fe-f01c3b1f604d")
 	)
 	(wire
 		(pts
@@ -7407,7 +7416,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 130.81) (xy 109.855 130.81)
+			(xy 88.9 130.81) (xy 101.6 130.81)
 		)
 		(stroke
 			(width 0)
@@ -7447,7 +7456,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 205.74) (xy 241.3 153.67)
+			(xy 241.3 205.74) (xy 241.3 151.13)
 		)
 		(stroke
 			(width 0)
@@ -7487,6 +7496,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 128.27) (xy 146.05 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4191022-c54b-4f1e-a6ab-a665110bec33")
+	)
+	(wire
+		(pts
 			(xy 356.87 163.83) (xy 356.87 160.02)
 		)
 		(stroke
@@ -7515,6 +7534,16 @@
 		)
 		(uuid "c68ead25-8375-4d64-8bce-942fc4c7f322")
 	)
+	(wire
+		(pts
+			(xy 88.9 128.27) (xy 96.52 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca0bd7ac-79d3-419f-b75a-4f6bf67ec1e0")
+	)
 	(polyline
 		(pts
 			(xy 412.75 284.48) (xy 457.2 284.48)
@@ -7534,6 +7563,16 @@
 			(type default)
 		)
 		(uuid "cb1a2468-375a-43be-a022-4b3b51c1dd65")
+	)
+	(wire
+		(pts
+			(xy 220.98 162.56) (xy 220.98 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc8e1104-7bbb-427e-809e-548bdf93fee3")
 	)
 	(wire
 		(pts
@@ -7914,6 +7953,16 @@
 			(type default)
 		)
 		(uuid "f4b73325-f21c-4002-a37a-da7797875127")
+	)
+	(wire
+		(pts
+			(xy 218.44 162.56) (xy 220.98 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f680ff3a-1f4f-44c9-bb01-eab30a19c017")
 	)
 	(wire
 		(pts
@@ -8316,7 +8365,7 @@
 		(uuid "653a52cc-8a25-45c2-ae91-980d044593fd")
 	)
 	(label "USB_Phone_SYS"
-		(at 187.96 153.67 0)
+		(at 187.96 151.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8506,7 +8555,7 @@
 		(uuid "a9a6b4a8-d5d7-49a2-9f3d-8dfbd1c4afc6")
 	)
 	(label "PGND"
-		(at 220.98 166.37 180)
+		(at 218.44 162.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9162,7 +9211,7 @@
 	)
 	(symbol
 		(lib_id "robot:C")
-		(at 220.98 160.02 0)
+		(at 220.98 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9170,7 +9219,7 @@
 		(dnp no)
 		(uuid "1b428a80-2243-4213-86e0-3cd7cd1dbe29")
 		(property "Reference" "C48"
-			(at 224.79 158.7499 0)
+			(at 224.79 156.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9179,7 +9228,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 224.79 161.2899 0)
+			(at 224.79 158.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9188,7 +9237,7 @@
 			)
 		)
 		(property "Footprint" "robot:C_0402_1005Metric"
-			(at 221.9452 163.83 0)
+			(at 221.9452 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9197,7 +9246,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 220.98 160.02 0)
+			(at 220.98 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9206,7 +9255,7 @@
 			)
 		)
 		(property "Description" "10V"
-			(at 226.06 163.83 0)
+			(at 226.06 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9214,7 +9263,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 220.98 160.02 0)
+			(at 220.98 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9223,7 +9272,7 @@
 			)
 		)
 		(property "Part Number" "GRM155R61E105KA12D"
-			(at 220.98 160.02 0)
+			(at 220.98 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9232,7 +9281,7 @@
 			)
 		)
 		(property "Stock" "10"
-			(at 220.98 160.02 0)
+			(at 220.98 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9241,7 +9290,7 @@
 			)
 		)
 		(property "Type" "SMD"
-			(at 220.98 160.02 0)
+			(at 220.98 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9384,7 +9433,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 208.28 153.67 90)
+		(at 208.28 151.13 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9392,7 +9441,7 @@
 		(dnp no)
 		(uuid "262804f9-8066-4631-9f87-cef78a608c00")
 		(property "Reference" "R75"
-			(at 208.28 151.13 90)
+			(at 208.28 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9400,7 +9449,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 208.28 153.67 90)
+			(at 208.28 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9408,7 +9457,7 @@
 			)
 		)
 		(property "Footprint" "robot:R_0603_1608Metric"
-			(at 208.28 155.448 90)
+			(at 208.28 152.908 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9417,7 +9466,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 208.28 153.67 0)
+			(at 208.28 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9426,7 +9475,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 208.28 153.67 0)
+			(at 208.28 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9434,7 +9483,7 @@
 			)
 		)
 		(property "Manufacturer" "Stackpole Electronics"
-			(at 208.28 153.67 90)
+			(at 208.28 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9443,7 +9492,7 @@
 			)
 		)
 		(property "Part Number" "RMCF0603ZT0R00"
-			(at 208.28 153.67 90)
+			(at 208.28 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9452,7 +9501,7 @@
 			)
 		)
 		(property "Stock" "15"
-			(at 208.28 153.67 0)
+			(at 208.28 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9461,7 +9510,7 @@
 			)
 		)
 		(property "Type" "SMD"
-			(at 208.28 153.67 0)
+			(at 208.28 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12545,7 +12594,7 @@
 	)
 	(symbol
 		(lib_id "robot:TestPoint")
-		(at 109.855 128.27 0)
+		(at 96.52 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12554,7 +12603,7 @@
 		(fields_autoplaced yes)
 		(uuid "7aef7dbb-9848-42aa-b8bf-96ec78f1faef")
 		(property "Reference" "TP3"
-			(at 111.76 123.6979 0)
+			(at 98.425 123.6979 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12563,7 +12612,7 @@
 			)
 		)
 		(property "Value" "SMD_0603"
-			(at 111.76 126.2379 0)
+			(at 98.425 126.2379 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12572,7 +12621,7 @@
 			)
 		)
 		(property "Footprint" "robot:TestPoint_SMD_0603"
-			(at 114.935 128.27 0)
+			(at 101.6 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12581,7 +12630,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.935 128.27 0)
+			(at 101.6 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12590,7 +12639,7 @@
 			)
 		)
 		(property "Description" "SMD Test Point 0603 size."
-			(at 109.855 128.27 0)
+			(at 96.52 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12599,7 +12648,7 @@
 			)
 		)
 		(property "Manufacturer" "KOA Speer Electronics, Inc."
-			(at 109.855 128.27 0)
+			(at 96.52 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12608,7 +12657,7 @@
 			)
 		)
 		(property "Part Number" "RCUCTE"
-			(at 109.855 128.27 0)
+			(at 96.52 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12617,7 +12666,7 @@
 			)
 		)
 		(property "Stock" ""
-			(at 109.855 128.27 0)
+			(at 96.52 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12626,7 +12675,7 @@
 			)
 		)
 		(property "Type" "SMD"
-			(at 109.855 128.27 0)
+			(at 96.52 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13399,6 +13448,108 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 189.23 175.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9d484ac3-859f-4156-8f71-a109253a224a")
+		(property "Reference" "R3"
+			(at 189.23 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 189.23 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "robot:R_0603_1608Metric"
+			(at 189.23 177.038 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 189.23 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Stackpole Electronics"
+			(at 189.23 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RMCF0603ZT0R00"
+			(at 189.23 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "15"
+			(at 189.23 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 189.23 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b475341-8e1f-4f71-ba61-b8f0cbb425b1")
+		)
+		(pin "2"
+			(uuid "3cc5f361-4c5e-48cc-8698-3f553deecba0")
+		)
+		(instances
+			(project "USB_PD_Module"
+				(path "/1213eb3f-2f42-4894-baf0-9e4094815e35"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "TPD1E05U06_1")
 		(lib_id "robot:TPD1E05U06_1")
 		(at 166.37 194.31 0)
@@ -13766,6 +13917,108 @@
 			(project "USB_PD_Module"
 				(path "/1213eb3f-2f42-4894-baf0-9e4094815e35"
 					(reference "U17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 189.23 177.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "bca1c6f2-1e08-4bef-ac20-4ed9f7b7fce4")
+		(property "Reference" "R4"
+			(at 189.23 180.594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 189.23 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "robot:R_0603_1608Metric"
+			(at 189.23 179.578 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 189.23 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Stackpole Electronics"
+			(at 189.23 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RMCF0603ZT0R00"
+			(at 189.23 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "15"
+			(at 189.23 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 189.23 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43227dc5-8fd8-4a72-9305-3754da013074")
+		)
+		(pin "2"
+			(uuid "5a1f0b16-ff99-4e03-9ba3-4ea7b45e9425")
+		)
+		(instances
+			(project "USB_PD_Module"
+				(path "/1213eb3f-2f42-4894-baf0-9e4094815e35"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -15080,7 +15333,7 @@
 	)
 	(symbol
 		(lib_id "robot:TestPoint")
-		(at 109.855 130.81 0)
+		(at 101.6 130.81 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15089,7 +15342,7 @@
 		(dnp no)
 		(uuid "e4639132-0514-449a-8dc8-8df1cd62d3cd")
 		(property "Reference" "TP4"
-			(at 112.395 135.3821 0)
+			(at 104.14 135.3821 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15098,7 +15351,7 @@
 			)
 		)
 		(property "Value" "SMD_0603"
-			(at 112.395 132.8421 0)
+			(at 104.14 132.8421 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15107,7 +15360,7 @@
 			)
 		)
 		(property "Footprint" "robot:TestPoint_SMD_0603"
-			(at 114.935 130.81 0)
+			(at 106.68 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15116,7 +15369,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.935 130.81 0)
+			(at 106.68 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15125,7 +15378,7 @@
 			)
 		)
 		(property "Description" "SMD Test Point 0603 size."
-			(at 109.855 130.81 0)
+			(at 101.6 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15134,7 +15387,7 @@
 			)
 		)
 		(property "Manufacturer" "KOA Speer Electronics, Inc."
-			(at 109.855 130.81 0)
+			(at 101.6 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15143,7 +15396,7 @@
 			)
 		)
 		(property "Part Number" "RCUCTE"
-			(at 109.855 130.81 0)
+			(at 101.6 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15152,7 +15405,7 @@
 			)
 		)
 		(property "Stock" ""
-			(at 109.855 130.81 0)
+			(at 101.6 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15161,7 +15414,7 @@
 			)
 		)
 		(property "Type" "SMD"
-			(at 109.855 130.81 0)
+			(at 101.6 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)

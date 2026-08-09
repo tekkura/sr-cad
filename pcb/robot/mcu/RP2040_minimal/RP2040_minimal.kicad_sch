@@ -2570,9 +2570,9 @@
 		)
 		(uuid "2eb00d0f-00e4-4b24-bbfd-9e015afcf2d5")
 	)
-	(text "SN74AHC125 removed - cannot pass proportional analog voltage \n(digital logic threshold corrupts the reading). Replaced with passive \nhigh-impedance divider + RC filter, relying on RP2040's internal \nclamp diodes for overvoltage protection (VPIN abs max = IOVDD+0.5V; \nfault current <40µA via 510k/100k dividers, well under RP2040's \nclamp current budget). C=22nF sized for ~10ms settling given ~83.6kΩ \nThevenin source impedance. Firmware: do NOT enable internal \npull-up/pull-down on GPIO26-29 (ADC0-3) - would corrupt the \ndivider ratio. GPIO22 (former OE line) is now free."
+	(text "SN74AHC125 removed - digital logic buffer cannot pass a proportional\nanalog voltage (output saturates to rail based on VIH/VIL threshold,\nnot the true input level). Replaced with passive high-impedance\ndivider + RC filter, protected by RP2040's own internal clamp diodes\n(VPIN abs. max = IOVDD+0.5V per RP2040 datasheet 5.2.3.1). Fault\ncurrent limited to <40uA by 510k/100k dividers (R16/R17, R9/R12) -\nnegligible vs. RP2040's total 50mA IOVDD/VSS current budget.\nC=22nF sized for ~10ms settling given ~83.6kOhm Thevenin source Z.\nADC2/ADC3 channels (R22/R23, C36/C37) marked DNP - unused.\nFIRMWARE NOTE: do NOT enable internal pull-up/down on GPIO26-29\n(ADC0-3) - 50-80kOhm internal pull is same order as divider Z and\nwould corrupt the reading. GPIO22 (former shared OE line) is free."
 		(exclude_from_sim no)
-		(at 277.622 281.178 0)
+		(at 275.336 281.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2634,6 +2634,16 @@
 			(justify left bottom)
 		)
 		(uuid "f8f51b72-66f7-4289-8e39-1dfeae954c39")
+	)
+	(text "New VRect sense divider (R9 510k / R12 100k), mirrors USB_V divider\nR16/R17. Gives ~3.28V at VRect=20V (TVS D10 SMF13A already bounds\nVRect below this). Not present before this revision - VRect used to\nfeed the ADC front-end directly with no scaling/protection at all."
+		(exclude_from_sim no)
+		(at 254.508 242.824 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ff424aab-4acb-4fca-b2d4-2699d7b62c43")
 	)
 	(junction
 		(at 223.52 60.96)

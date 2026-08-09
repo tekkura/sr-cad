@@ -131,6 +131,140 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "easyeda2kicad:0402WGJ0474TCE"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0402WGJ0474TCE"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:R0402"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_470KR-474-5_C25562.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "470KΩ (474) ±5%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL(厚声)"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "0402WGJ0474TCE"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C25562"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Resistors"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0402WGJ0474TCE_0_1"
+				(rectangle
+					(start -2.54 1.02)
+					(end 2.54 -1.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "robot:BQ27742YZFR-G1"
 			(pin_names
 				(offset 1.016)
@@ -4107,12 +4241,6 @@
 		(uuid "1c9728fa-7c41-43e2-9aa9-c0a5f4b36ccc")
 	)
 	(junction
-		(at 315.595 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "28494534-a4b9-49e0-8d05-1f3bd187515c")
-	)
-	(junction
 		(at 180.34 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4251,12 +4379,6 @@
 		(uuid "b4cd9437-957a-4f0b-9ae7-b1e687ef7f36")
 	)
 	(junction
-		(at 315.595 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b509499a-2316-473e-ae92-565e278b67b9")
-	)
-	(junction
 		(at 170.815 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4269,6 +4391,12 @@
 		(uuid "bab22d6b-d5a0-4d4c-a966-8827c8ccb578")
 	)
 	(junction
+		(at 316.23 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be89c08d-a37e-490d-8325-9847bcad722a")
+	)
+	(junction
 		(at 315.595 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4279,6 +4407,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d10e0f2a-5e45-4a51-8379-a72f0ed684a8")
+	)
+	(junction
+		(at 316.23 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1ccb8ac-3037-46af-96fc-69e723fe646a")
 	)
 	(junction
 		(at 99.06 156.21)
@@ -4439,16 +4573,6 @@
 			(type default)
 		)
 		(uuid "096494e3-e525-4651-a396-2119804c677e")
-	)
-	(wire
-		(pts
-			(xy 315.595 107.95) (xy 315.595 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d79ed78-2678-4e15-bb4f-8a66edca3562")
 	)
 	(wire
 		(pts
@@ -4642,16 +4766,6 @@
 	)
 	(wire
 		(pts
-			(xy 315.595 91.44) (xy 315.595 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36165807-ec8c-4364-9135-c322d9acb8fa")
-	)
-	(wire
-		(pts
 			(xy 365.125 198.12) (xy 410.21 198.12)
 		)
 		(stroke
@@ -4699,6 +4813,16 @@
 			(type default)
 		)
 		(uuid "3e186239-16e7-43a3-ad29-5f6696b6ce66")
+	)
+	(wire
+		(pts
+			(xy 316.23 91.44) (xy 316.23 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41492a76-7ed8-4a16-908b-9f2689ec5491")
 	)
 	(wire
 		(pts
@@ -4909,16 +5033,6 @@
 			(type default)
 		)
 		(uuid "6ea41660-adf1-4dc8-badf-f7c34cd60d6f")
-	)
-	(wire
-		(pts
-			(xy 327.66 110.49) (xy 315.595 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "708ea804-d844-4310-a0e8-99b96314a63d")
 	)
 	(wire
 		(pts
@@ -5372,6 +5486,16 @@
 	)
 	(wire
 		(pts
+			(xy 316.23 110.49) (xy 327.66 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7499163-363c-49c9-86de-07ee9cac0e91")
+	)
+	(wire
+		(pts
 			(xy 340.995 198.12) (xy 352.425 198.12)
 		)
 		(stroke
@@ -5389,6 +5513,16 @@
 			(type default)
 		)
 		(uuid "b86aa4c3-1a27-42e6-a8aa-4a5f1a493b87")
+	)
+	(wire
+		(pts
+			(xy 316.23 91.44) (xy 317.5 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8879e41-b308-4b29-b86d-06213dcecb02")
 	)
 	(wire
 		(pts
@@ -5572,7 +5706,17 @@
 	)
 	(wire
 		(pts
-			(xy 282.575 110.49) (xy 315.595 110.49)
+			(xy 316.23 106.68) (xy 316.23 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9c43049-9fe8-4f96-a407-b8ffe38d14d5")
+	)
+	(wire
+		(pts
+			(xy 282.575 110.49) (xy 316.23 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5712,7 +5856,7 @@
 	)
 	(wire
 		(pts
-			(xy 315.595 91.44) (xy 317.5 91.44)
+			(xy 315.595 91.44) (xy 316.23 91.44)
 		)
 		(stroke
 			(width 0)
@@ -6188,110 +6332,6 @@
 			(project "robot"
 				(path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/aaf20b87-68dc-43c9-a7d3-4ceda8b87424"
 					(reference "BT2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "robot:C")
-		(at 315.595 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "0d987ea1-5330-4229-afe8-1ccf5d8fef12")
-		(property "Reference" "C99"
-			(at 319.405 102.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 319.405 105.4099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "robot:C_0402_1005Metric"
-			(at 316.5602 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 315.595 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10V"
-			(at 321.945 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 315.595 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "GRM155R61E105KA12D"
-			(at 315.595 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "10"
-			(at 315.595 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
-			(at 315.595 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c233dbd0-542b-4113-9598-4a3efba86603")
-		)
-		(pin "2"
-			(uuid "37b69faa-3fcb-4579-80b4-937ce4d02f8d")
-		)
-		(instances
-			(project "robot"
-				(path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/aaf20b87-68dc-43c9-a7d3-4ceda8b87424"
-					(reference "C99")
 					(unit 1)
 				)
 			)
@@ -10810,6 +10850,109 @@
 			(project "robot"
 				(path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/aaf20b87-68dc-43c9-a7d3-4ceda8b87424"
 					(reference "#FLG0106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:0402WGJ0474TCE")
+		(at 316.23 101.6 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb71e798-bbbc-464f-b1e4-74b8c6cebf65")
+		(property "Reference" "R13"
+			(at 319.278 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0402WGJ0474TCE"
+			(at 320.04 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0402"
+			(at 308.61 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_470KR-474-5_C25562.html"
+			(at 306.07 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "470KΩ"
+			(at 313.944 101.092 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 303.53 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGJ0474TCE"
+			(at 300.99 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25562"
+			(at 298.45 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0402WGJ0474TCE"
+			(at 316.23 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "71d02dbb-7aa1-47e9-80d4-36accf3708d2")
+		)
+		(pin "1"
+			(uuid "693fff38-0e0e-4a33-ab7d-7d8fe941599b")
+		)
+		(instances
+			(project ""
+				(path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/aaf20b87-68dc-43c9-a7d3-4ceda8b87424"
+					(reference "R13")
 					(unit 1)
 				)
 			)

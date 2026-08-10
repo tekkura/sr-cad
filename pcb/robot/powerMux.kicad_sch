@@ -2197,7 +2197,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "510k"
+		(property "Value" "1M"
 			(at 176.53 124.4599 0)
 			(effects
 				(font
@@ -2241,7 +2241,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RMCF0603JT510K"
+		(property "Part Number" "FRC0603F1004TS"
 			(at 173.99 123.19 0)
 			(effects
 				(font

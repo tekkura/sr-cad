@@ -5613,7 +5613,7 @@
 		)
 		(uuid "ccafc844-1f69-499d-9916-c1ce66c01344")
 	)
-	(label "ADC0"
+	(label "USB_SNS"
 		(at 127 46.99 180)
 		(effects
 			(font
@@ -5783,7 +5783,7 @@
 		)
 		(uuid "f51e6a8a-bdd9-4a1c-ae5c-9394167ef284")
 	)
-	(label "ADC0"
+	(label "USB_SNS"
 		(at 182.88 111.76 180)
 		(effects
 			(font
@@ -13191,7 +13191,7 @@
 				(justify left)
 			)
 		)
-		(pin "ADC0" input
+		(pin "USB_SNS" input
 			(at 172.72 111.76 0)
 			(uuid "8ff7c6b2-198e-4945-8d12-785ff888bfa3")
 			(effects
@@ -13421,7 +13421,7 @@
 				(justify left)
 			)
 		)
-		(pin "ADC1" input
+		(pin "WLC_SNS" input
 			(at 148.59 127 180)
 			(uuid "843dc554-61d9-438b-8fed-7b13184f49a0")
 			(effects

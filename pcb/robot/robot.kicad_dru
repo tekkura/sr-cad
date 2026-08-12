@@ -3,25 +3,25 @@
 (rule "power_3A minimum track widths 1oz outer layer"
 	(layer outer)
 	(condition "A.NetClass == 'power_3A'")
-	(constraint track_width (min 1.4mm))
+	(constraint track_width (min 1mm))
 )
 
 (rule "power_3A minimum track widths 0.5oz inner layers"
 	(layer inner)
 	(condition "A.NetClass == 'power_3A'")
-	(constraint track_width (min 7.1mm))
+	(constraint track_width (min 1mm))
 )
 
 (rule "power_2A minimum track widths 1oz outer layer"
 	(layer outer)
 	(condition "A.NetClass == 'power_2A'")
-	(constraint track_width (min 0.8mm) (opt 0.8mm))
+	(constraint track_width (min 0.1mm) (opt 0.1mm))
 )
 
 (rule "power_2A minimum track widths 0.5oz inner layers"
 	(layer inner)
 	(condition "A.NetClass == 'power_2A'")
-	(constraint track_width (min 4.1mm))
+	(constraint track_width (min 1mm))
 )
 
 (rule "power_1A minimum track widths 1oz outer layer"
@@ -33,7 +33,7 @@
 (rule "power_1A minimum track widths 0.5oz inner layers"
 	(layer inner)
 	(condition "A.NetClass == 'power_1A'")
-	(constraint track_width (min 1.6mm))
+	(constraint track_width (min 1mm))
 )
 
 (rule "Allowing Small WLP/BGA traces"

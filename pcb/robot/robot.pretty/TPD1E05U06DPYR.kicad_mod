@@ -1,49 +1,234 @@
-(footprint "TPD1E05U06DPYR" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (property "Manufacturer" "Texas Instruments")
-  (property "Part Number" "TPD1E05U06DPYR")
-  (property "Sheetfile" "USB-PD-PhonePC.kicad_sch")
-  (property "Sheetname" "USB-PD-PhonePC")
-  (property "VIO" "[1.8-3.8V] 1.8V compatible")
-  (solder_mask_margin 0.07)
-  (attr smd)
-  (fp_text reference "REF**" (at 0 0) (layer "F.Fab")
-      (effects (font (size 0.25 0.25) (thickness 0.0625)))
-    (tstamp d917f5fd-5758-4a2c-9ce1-761072f5ce3c)
-  )
-  (fp_text value "TPD1E05U06" (at 0 0) (layer "F.SilkS") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 8f0e92f1-96e0-4f2e-9a33-3100fc320742)
-  )
-  (fp_text user "*" (at -0.9 -0.3) (layer "F.SilkS") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 0341d4f4-011f-4032-b778-db98c7f294e2)
-  )
-  (fp_text user "*" (at -0.55 -0.35) (layer "F.Fab")
-      (effects (font (size 0.25 0.25) (thickness 0.0625)))
-    (tstamp b1f04cc8-b666-4be1-b0de-b3cc3d1a4b33)
-  )
-  (fp_line (start -0.6 -0.4) (end 0.6 -0.4)
-    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp df379eb7-b6fb-4682-9fbb-83a65c07c130))
-  (fp_line (start -0.6 0.4) (end -0.6 -0.4)
-    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 83fec45c-e4c6-4bbc-be06-130b24fc69b2))
-  (fp_line (start 0.6 -0.4) (end 0.6 0.4)
-    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp f99de0ec-dcf3-45b6-957c-013d952a970c))
-  (fp_line (start 0.6 0.4) (end -0.6 0.4)
-    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 6834db60-5c14-4c4d-972c-b9012776df4c))
-  (fp_line (start -0.55 -0.35) (end -0.55 0.35)
-    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 7a3ab6a5-9cde-4c7b-a1a6-5c748bff13e2))
-  (fp_line (start -0.55 0.35) (end 0.55 0.35)
-    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp f58cb1ee-6d3e-4e2e-92a2-64ed35e00065))
-  (fp_line (start 0.55 -0.35) (end -0.55 -0.35)
-    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 02122400-02a3-4a6a-8ff6-c3bbeefc6b87))
-  (fp_line (start 0.55 0.35) (end 0.55 -0.35)
-    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 4f03d2a4-5f92-4c7d-846b-f74538f9c95b))
-  (pad "1" smd roundrect (at -0.35 0 180) (size 0.3 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1666666667) (tstamp 93e777f1-785a-49a3-9d8a-52799044a2cb))
-  (pad "2" smd roundrect (at 0.35 0 180) (size 0.3 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1666666667) (tstamp 99e65110-bfbd-4748-a9bb-32d67ce7cd4d))
-  (model "${KIPRJMOD}/packages3D/DPY0002A.stp"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "TPD1E05U06DPYR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "a69d2d4c-c838-457e-9f43-452482e1c689")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.0625)
+			)
+		)
+	)
+	(property "Value" "TPD1E05U06"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f5b4fdfd-cb14-4425-b332-c5a78634cf2c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.ti.com/lit/gpn/tpd1e05u06"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "05ccca84-e20e-41c9-bd8e-0b4961f5b712")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c440e4d8-6675-4f99-a9ec-f569828219ae")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Texas Instruments"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9cdfa248-c863-47fe-892b-bf4a5404a225")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Number" "TPD1E05U06DPYR"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d7487c5a-8df5-4ecd-80e6-a13aa11b0cb7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "VIO" "[1.8-3.8V] 1.8V compatible"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b798d044-bf56-4e55-9695-f02ddb4f4b7a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b8df2a1e-3bde-46bb-b7ae-856587a27a78")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Type" "SMD"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "26ffb268-adc0-4a1a-bb07-64e0cba4787d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(solder_mask_margin 0.07)
+	(attr smd)
+	(fp_line
+		(start -0.6 -0.4)
+		(end 0.6 -0.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5bc58341-60b4-42fb-85e1-7432b7e4fbd8")
+	)
+	(fp_line
+		(start -0.6 0.4)
+		(end -0.6 -0.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d447d1cc-c3b9-450d-bbfc-02f59a765825")
+	)
+	(fp_line
+		(start 0.6 -0.4)
+		(end 0.6 0.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a667ffcb-803b-46a5-8d49-c5cef6785f6e")
+	)
+	(fp_line
+		(start 0.6 0.4)
+		(end -0.6 0.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ff2ccd7b-b4f2-4144-84bc-6654eb5461f6")
+	)
+	(fp_line
+		(start -0.55 -0.35)
+		(end -0.55 0.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "55f84af4-176c-4494-8197-a5b006c8f29e")
+	)
+	(fp_line
+		(start -0.55 0.35)
+		(end 0.55 0.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f84dc91f-34fe-49c4-8420-b198e6d6d5c4")
+	)
+	(fp_line
+		(start 0.55 -0.35)
+		(end -0.55 -0.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c1136712-bb22-4414-866b-698400e4eecc")
+	)
+	(fp_line
+		(start 0.55 0.35)
+		(end 0.55 -0.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5f732387-8b37-43c0-9ed7-1c130d0df815")
+	)
+	(fp_text user "*"
+		(at -0.55 -0.35 180)
+		(layer "F.Fab")
+		(uuid "5517ed95-f057-4160-a857-ab0138ed05be")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.0625)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.35 0 180)
+		(size 0.3 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1666666667)
+		(uuid "0897bb1b-d95a-49de-a5a1-f5e88c886370")
+	)
+	(pad "2" smd roundrect
+		(at 0.35 0 180)
+		(size 0.3 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1666666667)
+		(uuid "674bba81-5382-4c28-8c4e-68cfd33ecb71")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/packages3D/DPY0002A.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

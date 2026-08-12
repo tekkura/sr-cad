@@ -4,9 +4,10 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0.032 -3.1564 0)
+		(at 0.032 -4.73 180)
 		(layer "F.SilkS")
-		(uuid "114f9703-c5d4-4165-877f-ac411afb5d04")
+		(hide yes)
+		(uuid "16445450-8bfd-41ae-80a4-f6396255b2f1")
 		(effects
 			(font
 				(size 0.64 0.64)
@@ -14,10 +15,11 @@
 			)
 		)
 	)
-	(property "Value" "IC_TPS63021DSJR"
-		(at 4.096 3.1564 0)
+	(property "Value" "TPS63021DSJR"
+		(at 4.096 3.1564 180)
 		(layer "F.Fab")
-		(uuid "6ca8e710-e4e3-47a0-80b9-331115f093da")
+		(hide yes)
+		(uuid "d6da0fc9-7257-4f21-a989-bc6807a6c5eb")
 		(effects
 			(font
 				(size 0.64 0.64)
@@ -26,10 +28,10 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 0 0)
+		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4de53897-cad4-461e-ba9a-507128936da6")
+		(uuid "dd918e58-0079-4bf0-a978-27c15f043dd3")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37,14 +39,248 @@
 			)
 		)
 	)
-	(property "Description" ""
-		(at 0 0 0)
+	(property "Description" "High Efficiency Single Inductor Buck-Boost Converter with 4A Switch 14-VSON -40 to 85"
+		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2303a4d3-76c0-40b1-9a9d-0062cb29202c")
+		(uuid "ac0f2f21-a2d1-4321-8ba4-032c218cfe44")
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DigiKey_Part_Number" "296-27259-1-ND"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b8de5029-5fa4-4b7e-a057-4fa99ccf6e41")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MFANUFACTURER" "Texas Instruments"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c807ea31-b36c-4af3-8475-d55faecd34a4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS63021DSJR/Texas+Instruments/view-part/?ref=snap"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6cea37f5-e351-408d-a93f-3c1a2a0f9227")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MOUSER-PURCHASE-URL" "https://snapeda.com/shop?store=Mouser&id=296571"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "574586af-0202-4f69-9454-426b73bf28ab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "TEXAS_INSTRUMENTS-PURCHASE-URL" "https://snapeda.com/shop?store=Texas+Instruments&id=296571"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "05620dd7-2fd4-429a-8eb4-7f2e7c47cc9c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PACKAGE" "VSON-14 Texas Instruments"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8c80112a-2625-4cfc-bccd-fa274343a6a8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PRICE" "None"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea1fb759-a3ab-482e-92cb-e35c08b55e73")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "VSON-14 Texas Instruments"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f9d23ba-137a-4100-b1ad-7c49400fb269")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Check_prices" "https://www.snapeda.com/parts/TPS63021DSJR/Texas+Instruments/view-part/?ref=eda"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "152a1d2e-eecb-4f27-bdc2-cef05939e92b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "STANDARD" "Manufacturer Recommendations"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "58561905-fcbe-44ba-988c-10fd56a0ba5c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PARTREV" "I"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dbc48b3c-928b-4c3c-9120-814046f834a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MF" "Texas Instruments"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5851336c-86db-41eb-a917-ed00683c4646")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MP" "TPS63021DSJR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e06155ce-6bd6-460f-a2ac-4c43587aa748")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DIGIKEY-PURCHASE-URL" "https://snapeda.com/shop?store=DigiKey&id=296571"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "be75532d-7390-4263-b23f-4cc18f0d127a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MAXIMUM_PACKAGE_HEIGHT" "1.00mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4badae85-5d67-487a-ac54-c256930de8fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" "High Efficiency Single Inductor Buck-Boost Converter with 4A Switch"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6e632f93-f77b-4b47-a921-7ac7abdc2104")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "AVAILABILITY" "Good"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "206e8c87-12fb-4c64-8e6c-bbe967767830")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Number" "C202140"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e311b4c9-df72-4c08-9383-0c52b463bd00")
+		(effects
+			(font
+				(size 1 1)
 				(thickness 0.15)
 			)
 		)
@@ -64,7 +300,7 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "d6144604-c6da-462a-a017-68f060a1c081")
+		(uuid "eb8d1466-5ff1-45bc-becd-cb195a36d72f")
 	)
 	(fp_poly
 		(pts
@@ -96,7 +332,7 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "f7980ab6-ac4c-42fc-85ce-8e51e4fafd98")
+		(uuid "49ae964e-8b6d-4358-a341-3a755b8cd8a1")
 	)
 	(fp_poly
 		(pts
@@ -128,7 +364,7 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "e1deaff7-3c54-4fd7-819d-848bccf89b17")
+		(uuid "b613efc9-b557-4fba-b210-6c25667603dc")
 	)
 	(fp_poly
 		(pts
@@ -160,7 +396,7 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "d166c3b1-2de2-4822-a3e2-56f56596e2f5")
+		(uuid "9e5525ff-263e-459a-b2cd-f3b4f01a4522")
 	)
 	(fp_poly
 		(pts
@@ -192,7 +428,7 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "732d2666-73df-4257-8e3b-8644ed56bedc")
+		(uuid "73176184-2bb7-47c8-beb1-415414103af1")
 	)
 	(fp_poly
 		(pts
@@ -224,7 +460,7 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "88af049d-a8cf-41cd-82bb-01a8b31e219a")
+		(uuid "ce0a6c69-597c-4928-8aee-0bd8aa94ad2f")
 	)
 	(fp_poly
 		(pts
@@ -256,7 +492,7 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "92dfa874-ab8e-4fab-a4e0-7c862f1f75c9")
+		(uuid "8914f69e-910b-4f62-af4c-e2c644594160")
 	)
 	(fp_poly
 		(pts
@@ -288,7 +524,7 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "88463954-5fe9-46c9-a577-15ee29d26c69")
+		(uuid "588ae4e7-8328-4df8-a70e-483ebd1f7f5f")
 	)
 	(fp_poly
 		(pts
@@ -320,7 +556,7 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "1dd8daff-393f-406a-a46d-959c6847dd3b")
+		(uuid "45ebd290-e10b-495a-8350-27e109b93ffb")
 	)
 	(fp_poly
 		(pts
@@ -352,7 +588,7 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "1f9c1617-d21c-4b5f-80e3-7d3eca8b668e")
+		(uuid "40eccf1d-9eea-4ebb-ad71-f0415c690b8f")
 	)
 	(fp_poly
 		(pts
@@ -384,7 +620,7 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "b0c45a89-2a20-4f23-960f-7537535510ec")
+		(uuid "e5195273-6ec1-43dd-959b-427df365c554")
 	)
 	(fp_poly
 		(pts
@@ -415,7 +651,7 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "1b02cdbe-0a31-47fc-91ba-1335fd6ab387")
+		(uuid "11b7eb9d-598a-4111-85ef-ba11be785208")
 	)
 	(fp_poly
 		(pts
@@ -446,7 +682,7 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "507a10bf-d50a-4297-9f9a-15d654e194eb")
+		(uuid "a66d8119-a0e1-4490-bd98-fba3381d9158")
 	)
 	(fp_poly
 		(pts
@@ -477,7 +713,7 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "1afff777-8acc-47af-a3df-c8eab3b5b577")
+		(uuid "e0760343-bf79-47da-9532-f4ca0bbc6ffd")
 	)
 	(fp_poly
 		(pts
@@ -508,7 +744,7 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "60a57a20-bd67-45ad-a079-74e7fbde0119")
+		(uuid "56fa943e-89cc-4c0d-ab69-734d30abc9e3")
 	)
 	(fp_line
 		(start -1.5 -2)
@@ -518,7 +754,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "405880e8-85ed-4ee8-be2e-8062471b09ea")
+		(uuid "ecd44157-6e87-4bab-91a9-3a7571ac94f5")
 	)
 	(fp_line
 		(start -1.5 -1.94)
@@ -528,7 +764,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "597b4475-c1c8-441a-b2eb-b5b5556abb0f")
+		(uuid "4c0ecc2a-43af-4dec-9111-d68962da0078")
 	)
 	(fp_line
 		(start -1.5 2)
@@ -538,7 +774,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "bd50be0c-b536-4634-a084-aea0efe2eea1")
+		(uuid "c0bbb198-a4d9-468d-8904-69a97e04d75b")
 	)
 	(fp_line
 		(start -1.11 2)
@@ -548,7 +784,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "48b33f26-d243-4a7e-b71e-71201c5b11e9")
+		(uuid "dc5bde75-0f76-4ac4-9e4c-8f0c86659fb8")
 	)
 	(fp_line
 		(start 1.11 -2)
@@ -558,7 +794,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "cd9aff18-3af3-4c11-9725-bfb08d554f06")
+		(uuid "87675c92-fdcf-4665-bb90-15591e4957d3")
 	)
 	(fp_line
 		(start 1.5 -2)
@@ -568,7 +804,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "fc9f01ae-7291-4ef9-9b10-ce256d7530ba")
+		(uuid "310da595-62b1-439e-ac22-f93e9e7a3bce")
 	)
 	(fp_line
 		(start 1.5 1.94)
@@ -578,7 +814,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "d962106c-bb37-43b9-8e1b-174ac27eef92")
+		(uuid "56eb5ce4-762c-4e79-b1f2-8bb9d66cfd76")
 	)
 	(fp_line
 		(start 1.5 2)
@@ -588,7 +824,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "0f982e17-005a-41ae-849c-6eb2a55d0524")
+		(uuid "8f5e9f0f-79f8-429e-8cb6-8911d703f5e9")
 	)
 	(fp_circle
 		(center -2.2 -1.5)
@@ -599,7 +835,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "39e4ce33-1464-45eb-b960-738bf278a063")
+		(uuid "e1e97c8d-e438-4ba7-bcac-83f478e96486")
 	)
 	(fp_poly
 		(pts
@@ -612,7 +848,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "70b5c839-9a97-4a15-846f-72876c1eaa13")
+		(uuid "effbc2ad-5cb0-44ce-9e36-cc43bbf6e138")
 	)
 	(fp_poly
 		(pts
@@ -625,7 +861,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "ffc8045c-99a3-401e-8b58-57fc33e180df")
+		(uuid "1ce919e9-8aa6-4084-858a-c1f354614fe1")
 	)
 	(fp_poly
 		(pts
@@ -638,7 +874,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "383789b5-56c0-40b1-9970-1a026c82ba52")
+		(uuid "b6545e98-2b4c-402f-9cdb-d45aad824425")
 	)
 	(fp_poly
 		(pts
@@ -651,7 +887,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "9e82b3fd-72a4-4b88-84bb-c253350aa9a1")
+		(uuid "4d36e818-1c56-4903-9817-7b439252f49a")
 	)
 	(fp_line
 		(start -1.95 -2.45)
@@ -661,7 +897,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "8e04cc56-260d-4c46-83c3-c40effbb76eb")
+		(uuid "72554d82-4097-4041-ba95-b614db978c93")
 	)
 	(fp_line
 		(start -1.95 2.45)
@@ -671,7 +907,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "c4e6d362-6820-4fb7-ae54-0b41fd771d81")
+		(uuid "79d103d4-1944-47b8-b6e4-1f4a7804e37c")
 	)
 	(fp_line
 		(start 1.95 -2.45)
@@ -681,7 +917,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "349b60d3-6915-47a1-aa5b-dc120658689f")
+		(uuid "a5bfbabe-6f16-4b78-96f3-e75794d58cda")
 	)
 	(fp_line
 		(start 1.95 2.45)
@@ -691,7 +927,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "b6aed7fb-74b1-4187-bb5b-b82784540baf")
+		(uuid "53eaf270-b209-4d7c-bb81-17e16f115fb0")
 	)
 	(fp_line
 		(start -1.5 -2)
@@ -701,7 +937,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "3010588f-afc2-45ee-8b58-5cb00b733017")
+		(uuid "28861747-b9a3-495c-9c99-2d6fec5c57d9")
 	)
 	(fp_line
 		(start -1.5 2)
@@ -711,7 +947,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "8e1d2c5f-7178-4766-88b0-bd65077cb344")
+		(uuid "0aa3e558-9e88-4bb0-b98a-4e427ea5d60c")
 	)
 	(fp_line
 		(start 1.5 -2)
@@ -721,7 +957,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "3a50cead-4990-4713-847f-9673263aadcb")
+		(uuid "81aef53c-b88f-457d-b175-e552ef28e473")
 	)
 	(fp_line
 		(start 1.5 2)
@@ -731,7 +967,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "f0959c7d-2723-4e1a-95fc-2160c10ac134")
+		(uuid "4a85bdb1-faf7-49ab-a4b3-480e057b1b98")
 	)
 	(fp_circle
 		(center -2.2 -1.5)
@@ -742,91 +978,91 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "ac83ce7e-d152-4788-a640-fa0e112a1dd1")
+		(uuid "9ce7d220-ecac-401c-9cb3-11f86c7c41d4")
 	)
 	(pad "1" smd oval
 		(at -1.4 -1.5)
 		(size 0.6 0.24)
 		(layers "F.Cu" "F.Paste")
-		(uuid "19022720-9d5d-4e28-87a4-6de4f83487f3")
+		(uuid "ad99f733-084a-4a87-8cd9-ab9b594a334e")
 	)
 	(pad "2" smd oval
 		(at -1.4 -1)
 		(size 0.6 0.24)
 		(layers "F.Cu" "F.Paste")
-		(uuid "c8aca44c-245e-44df-8ca0-1bc3f7eec222")
+		(uuid "65607e85-6f3b-4271-8309-9293b6be5533")
 	)
 	(pad "3" smd oval
 		(at -1.4 -0.5)
 		(size 0.6 0.24)
 		(layers "F.Cu" "F.Paste")
-		(uuid "f58d5bea-c0e9-4bdf-8f80-901053248f4a")
+		(uuid "854a1265-624e-4a74-b94f-f8afc35a858b")
 	)
 	(pad "4" smd oval
 		(at -1.4 0)
 		(size 0.6 0.24)
 		(layers "F.Cu" "F.Paste")
-		(uuid "951c2c8d-4023-4d8e-b7f0-f3acb5ffe20e")
+		(uuid "fa33f9e0-b38e-4237-a466-5e9ed1e31573")
 	)
 	(pad "5" smd oval
 		(at -1.4 0.5)
 		(size 0.6 0.24)
 		(layers "F.Cu" "F.Paste")
-		(uuid "6f1a3dad-69b6-4bdd-9787-b8a36dfb2091")
+		(uuid "dc1fa757-825e-4a50-9278-aff6e2be034f")
 	)
 	(pad "6" smd oval
 		(at -1.4 1)
 		(size 0.6 0.24)
 		(layers "F.Cu" "F.Paste")
-		(uuid "8c3c750e-b05f-48ee-8417-25c8608312d1")
+		(uuid "8ad56b42-1c98-47a9-aa29-c63ac4b0edbb")
 	)
 	(pad "7" smd oval
 		(at -1.4 1.5)
 		(size 0.6 0.24)
 		(layers "F.Cu" "F.Paste")
-		(uuid "107b8133-cc3c-47f4-8acd-06b9015a45c0")
+		(uuid "03a18fae-ae57-4227-98f1-1fdd190ee649")
 	)
 	(pad "8" smd oval
 		(at 1.4 1.5)
 		(size 0.6 0.24)
 		(layers "F.Cu" "F.Paste")
-		(uuid "fe5f7b60-57b0-45c8-8afb-2d371c8b7773")
+		(uuid "e8274904-853b-491b-87a2-6f31e4feab08")
 	)
 	(pad "9" smd oval
 		(at 1.4 1)
 		(size 0.6 0.24)
 		(layers "F.Cu" "F.Paste")
-		(uuid "b12abe20-ba3e-42ac-86f6-14e6fe0c0477")
+		(uuid "18fd5126-71bf-499d-83f2-2833736b8cdd")
 	)
 	(pad "10" smd oval
 		(at 1.4 0.5)
 		(size 0.6 0.24)
 		(layers "F.Cu" "F.Paste")
-		(uuid "b111a062-55c9-4b6f-b3e4-0a3974adf062")
+		(uuid "58d9d78e-edf4-4d29-bc81-96769de457b8")
 	)
 	(pad "11" smd oval
 		(at 1.4 0)
 		(size 0.6 0.24)
 		(layers "F.Cu" "F.Paste")
-		(uuid "384ba832-4ef6-466b-8f14-584adc36eb56")
+		(uuid "c0c4c3b4-2b85-4d24-b738-5fdae822022b")
 	)
 	(pad "12" smd oval
 		(at 1.4 -0.5)
 		(size 0.6 0.24)
 		(layers "F.Cu" "F.Paste")
-		(uuid "f4266f6b-0b16-4f05-a983-341a1230766f")
+		(uuid "1034a235-353f-4bf8-8aa0-4c921ac865e2")
 	)
 	(pad "13" smd oval
 		(at 1.4 -1)
 		(size 0.6 0.24)
 		(layers "F.Cu" "F.Paste")
-		(uuid "1d86379d-f858-4176-bc98-3e9375964ddb")
+		(uuid "4b188216-9b52-4df7-8a47-2169fe0b3259")
 	)
 	(pad "14" smd oval
 		(at 1.4 -1.5)
 		(size 0.6 0.24)
 		(layers "F.Cu" "F.Paste")
-		(uuid "c6efd5a8-742a-4d98-bc60-ee2d45c00668")
+		(uuid "5d03155c-092b-41aa-aa0d-b179a7a809b4")
 	)
 	(pad "15" smd custom
 		(at 0 0)
@@ -849,142 +1085,18 @@
 				(fill yes)
 			)
 		)
-		(uuid "f023204a-499d-4189-9b9f-c9557be86071")
-	)
-	(pad "16" thru_hole circle
-		(at -0.5 -1)
-		(size 0.3 0.3)
-		(drill 0.2)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
-		(uuid "a46f63f9-e711-4864-987f-fc62f4ccc952")
-	)
-	(pad "17" thru_hole circle
-		(at 0 -1)
-		(size 0.3 0.3)
-		(drill 0.2)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
-		(uuid "245f48f8-06ba-4923-8228-6c4eee331bee")
-	)
-	(pad "18" thru_hole circle
-		(at 0.5 -1)
-		(size 0.3 0.3)
-		(drill 0.2)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
-		(uuid "3ec1713b-96aa-472c-a30c-3f0e924f3eb1")
-	)
-	(pad "19" thru_hole circle
-		(at -0.5 -0.5)
-		(size 0.3 0.3)
-		(drill 0.2)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
-		(uuid "fcbfe9c3-caad-46b8-88d0-8389d368dd86")
-	)
-	(pad "20" thru_hole circle
-		(at 0 -0.5)
-		(size 0.3 0.3)
-		(drill 0.2)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
-		(uuid "5fe60f45-da43-4967-896c-aa5f938a9d85")
-	)
-	(pad "21" thru_hole circle
-		(at 0.5 -0.5)
-		(size 0.3 0.3)
-		(drill 0.2)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
-		(uuid "83823544-423c-424f-b312-dec3694b2cdf")
-	)
-	(pad "22" thru_hole circle
-		(at -0.5 0)
-		(size 0.3 0.3)
-		(drill 0.2)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
-		(uuid "ac8dcce2-0a73-4099-a7f0-a8e110964c50")
-	)
-	(pad "23" thru_hole circle
-		(at 0 0)
-		(size 0.3 0.3)
-		(drill 0.2)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
-		(uuid "965163db-aff3-498f-8afa-fe56a39593c5")
-	)
-	(pad "24" thru_hole circle
-		(at 0.5 0)
-		(size 0.3 0.3)
-		(drill 0.2)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
-		(uuid "b8e4404b-bf18-46b0-87b5-611fd81ee732")
-	)
-	(pad "25" thru_hole circle
-		(at -0.5 0.5)
-		(size 0.3 0.3)
-		(drill 0.2)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
-		(uuid "15e5f74c-5d03-4d46-a437-237a2082ba60")
-	)
-	(pad "26" thru_hole circle
-		(at 0 0.5)
-		(size 0.3 0.3)
-		(drill 0.2)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
-		(uuid "77c9cab0-7892-4134-a87a-988fc737e01e")
-	)
-	(pad "27" thru_hole circle
-		(at 0.5 0.5)
-		(size 0.3 0.3)
-		(drill 0.2)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
-		(uuid "4feb3fdd-0db0-4b98-8111-852ec6b01367")
-	)
-	(pad "28" thru_hole circle
-		(at -0.5 1)
-		(size 0.3 0.3)
-		(drill 0.2)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
-		(uuid "eb415ba9-6c26-4d68-9dfa-da5ff8ef570f")
-	)
-	(pad "29" thru_hole circle
-		(at 0 1)
-		(size 0.3 0.3)
-		(drill 0.2)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
-		(uuid "a2596f28-2019-450c-a71b-6f3089113ef1")
-	)
-	(pad "30" thru_hole circle
-		(at 0.5 1)
-		(size 0.3 0.3)
-		(drill 0.2)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
-		(uuid "20b3afba-6741-45c3-bdae-ddb0106ba777")
+		(uuid "7ac5d1d7-5405-43ce-b1ac-2df20572c442")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/packages3D/TPS63021DSJR.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

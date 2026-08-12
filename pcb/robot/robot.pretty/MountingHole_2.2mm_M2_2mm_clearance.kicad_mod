@@ -1,29 +1,158 @@
-(footprint "MountingHole_2.2mm_M2_2mm_clearance" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (descr "Mounting Hole 2.7mm, no annular, M2.5")
-  (tags "mounting hole 2.7mm no annular m2.5")
-  (property "Manufacturer" "N/A")
-  (property "Part Number" "N/A")
-  (property "Sheetfile" "robot.kicad_sch")
-  (property "Sheetname" "")
-  (property "ki_description" "Mounting Hole without connection")
-  (property "ki_keywords" "mounting hole")
-  (attr exclude_from_pos_files)
-  (fp_text reference "REF**" (at 0 -3.7) (layer "F.SilkS") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 72898bb0-d311-4733-8b24-288360e40e96)
-  )
-  (fp_text value "MountingHole" (at 0 3.7) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 338b608e-f759-4e05-a346-a6fc5b926897)
-  )
-  (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 9647c50d-3919-418f-958c-11f3344d64d6)
-  )
-  (fp_circle (center 0 0) (end 3.1 0)
-    (stroke (width 0.05) (type solid)) (fill none) (layer "B.CrtYd") (tstamp 0afbb858-0f85-4270-b83b-69e27f1bac9f))
-  (fp_circle (center 0 0) (end 3.1 0)
-    (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp c25b9d1b-cac3-4366-89fb-b894f72ddf83))
-  (pad "" np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers "*.Mask") (tstamp 5cc681e7-3700-41be-8c7a-1639aaa0b764))
+(footprint "MountingHole_2.2mm_M2_2mm_clearance"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole 2.7mm, no annular, M2.5")
+	(tags "mounting hole 2.7mm no annular m2.5")
+	(property "Reference" "REF**"
+		(at 0 -3.7 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "9ec13ef8-c259-42ce-b05f-5359a7ff4a32")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MountingHole"
+		(at 0 3.7 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6e4f1a6a-2ebc-48d0-ac39-ded9c8e952c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e17a23dc-9d89-42d1-967f-a97aea53a940")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2eedfed9-8d31-4907-9bfd-967d3a5a798e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "N/A"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e07281ac-2a33-4f64-ac06-bc6d242c0ba2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Number" "N/A"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "03b198e0-c6ff-4b65-ae48-c0c43048ab73")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Stock" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a3938a36-c25f-42ed-a7e5-093c90f040f9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Type" "DNP"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "78b356b1-2b5e-41ba-ba4a-9fb09d1b2d25")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "exclude_from_bom" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fb8cc40f-0671-4e26-9bc8-74715fbd49ca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_circle
+		(center 0 0)
+		(end 3.1 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "f00c0b91-10d8-4bb0-ab72-0b3d98bb432a")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.1 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "27f06b7a-c28e-48b8-8589-9ebc64eee509")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "c8e65902-7d4f-46eb-a50e-86ae135bec93")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 2.2 2.2)
+		(drill 2.2)
+		(layers "*.Mask")
+		(uuid "592e2d8a-ae6f-40e5-9a09-57487f8990f7")
+	)
+	(embedded_fonts no)
 )

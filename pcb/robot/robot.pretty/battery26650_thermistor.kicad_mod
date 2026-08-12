@@ -1,42 +1,229 @@
-(footprint "battery26650_thermistor" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (property "Description" "Thermistor")
-  (property "Manufacturer" "Semitec")
-  (property "Part Number" "103AT-5-1P-FT")
-  (property "Sheetfile" "Protection.kicad_sch")
-  (property "Sheetname" "Protection")
-  (property "VIO" "VIO [1.2-5.5] (3.3V compatible)")
-  (property "dnp" "")
-  (property "ki_description" "Temperature dependent resistor")
-  (property "ki_keywords" "R res thermistor")
-  (attr through_hole exclude_from_pos_files)
-  (fp_text reference "REF**" (at -27.6 0 90) (layer "F.Fab")
-      (effects (font (size 0.25 0.25) (thickness 0.0625)))
-    (tstamp 986beb3e-40aa-43e3-9cff-3fc5fb0d8df6)
-  )
-  (fp_text value "DNP" (at 0.279 0) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.1)))
-    (tstamp 1028f52e-2d73-400f-83ca-9639b177f4b9)
-  )
-  (fp_circle (center -27.63 0) (end -26.03 0)
-    (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp cc86130f-44ca-4fc0-bfeb-cb523cef550d))
-  (fp_circle (center 27.63 0) (end 29.23 0)
-    (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp 1f8146a8-9f13-488e-b1b2-77ce55771c0f))
-  (fp_line (start -39.375 -14.375) (end 39.375 -14.375)
-    (stroke (width 0.12) (type solid)) (layer "F.Fab") (tstamp 25a2730b-839a-48da-bf4d-0e79d6be141c))
-  (fp_line (start -39.375 14.375) (end -39.375 -14.375)
-    (stroke (width 0.12) (type solid)) (layer "F.Fab") (tstamp 3283224d-d11e-484f-b055-892573f601de))
-  (fp_line (start -39.375 14.375) (end 39.375 14.375)
-    (stroke (width 0.12) (type solid)) (layer "F.Fab") (tstamp 8a71912c-d325-4740-917a-372bac0f3d57))
-  (fp_line (start 39.375 14.375) (end 39.375 -14.375)
-    (stroke (width 0.12) (type solid)) (layer "F.Fab") (tstamp 13cb3c18-4bff-46d5-8ba4-2d8959b83d3b))
-  (fp_rect (start -28.2 -1.6) (end -27 1.6)
-    (stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab") (tstamp 5b6654f1-41b0-4405-88b1-1d171cdb57b9))
-  (pad "1" thru_hole circle (at -27.605 -1 180) (size 1 1) (drill 0.5) (layers "*.Cu" "*.Mask") (tstamp 650ba43e-23ff-4a2c-99eb-2676ade5bb35))
-  (pad "2" thru_hole circle (at -27.605 1 180) (size 1 1) (drill 0.5) (layers "*.Cu" "*.Mask") (tstamp c34a0ae1-d832-46b5-9213-2d759e40ff52))
-  (model "${KIPRJMOD}/packages3D/NXRT15XH103FA1B040.step"
-    (offset (xyz -27.8 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 -90))
-  )
+(footprint "battery26650_thermistor"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -27.6 0 90)
+		(layer "F.Fab")
+		(uuid "853085c2-6a73-4001-ae05-2b5270430dff")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.0625)
+			)
+		)
+	)
+	(property "Value" "DNP"
+		(at 0.279 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0aa2c9bc-4f05-4084-8afb-f403a155da12")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "a601cd67-43ad-4c35-abb9-36788a5ee284")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" "Thermistor"
+		(at 200 -219.67 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "7d4abc7e-99b1-42b9-bcef-1796c9093eca")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Manufacturer" "Semitec"
+		(at 200 -219.67 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e8eaddd8-e553-4add-85a7-78ae168e5d5b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Number" "103AT-5-1P-FT"
+		(at 200 -219.67 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "086ff68c-5f4b-4b5a-ba05-1f32218dbb57")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Stock" "24"
+		(at 200 -219.67 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7fef0049-7281-4404-a393-2eac0d5ed277")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Type" "THT / DNP"
+		(at 200 -219.67 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e54b31e5-2939-4cda-9caf-41fc31af186d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "VIO" "VIO [1.2-5.5] (3.3V compatible)"
+		(at 200 -219.67 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "86531735-27e4-48dd-975e-eeb65f0e4040")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "dnp" ""
+		(at 200 -219.67 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "764f9ecc-f58d-4c6a-bd92-370cedb1faee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole exclude_from_pos_files dnp)
+	(fp_circle
+		(center 27.63 0)
+		(end 29.23 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d7e2ca84-b245-48d7-9047-23d3c98f1325")
+	)
+	(fp_circle
+		(center -27.63 0)
+		(end -26.03 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "8c12de33-07dc-4c14-a608-d3af7182d953")
+	)
+	(fp_line
+		(start 39.375 14.375)
+		(end 39.375 -14.375)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f92f81dc-ceac-4237-9a99-0aabad2369c8")
+	)
+	(fp_line
+		(start -39.375 14.375)
+		(end 39.375 14.375)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "158f6631-f02d-45cd-9235-6b49fbc67fc6")
+	)
+	(fp_line
+		(start -39.375 14.375)
+		(end -39.375 -14.375)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3e5e1b3d-0681-4d16-ad44-3f893d178790")
+	)
+	(fp_line
+		(start -39.375 -14.375)
+		(end 39.375 -14.375)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "26ca7f9a-8946-4e16-96b0-e664f226cd31")
+	)
+	(fp_rect
+		(start -28.2 -1.6)
+		(end -27 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "49933f39-e5dc-4c40-8ef9-6397e05af1d5")
+	)
+	(pad "1" thru_hole circle
+		(at -27.605 -1)
+		(size 1 1)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ffaf60b9-0d7c-4b9b-bce3-56041fe6ea00")
+	)
+	(pad "2" thru_hole circle
+		(at -27.605 1)
+		(size 1 1)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "46af064a-a7a0-424b-8d72-28ce4df9287f")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/packages3D/NXRT15XH103FA1B040.step"
+		(offset
+			(xyz -27.8 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
 )

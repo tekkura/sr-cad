@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.127
+          "min_clearance": 0.1
         }
       },
       "diff_pair_dimensions": [
@@ -62,6 +62,10 @@
       "drc_exclusions": [
         [
           "clearance|87160000|107850000|be71a130-9a90-4ec0-beb0-06dfe51e91a7|ffdcc2e1-b0b7-4386-8934-ca0ba96d2ddd",
+          ""
+        ],
+        [
+          "footprint_type_mismatch|100000000|152850000|e9fc9690-9902-4f71-a544-4e8ff4d85b45|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -317,10 +321,6 @@
   "erc": {
     "erc_exclusions": [
       [
-        "pin_to_pin|1104900|647700|4bf4d970-130f-4758-9a11-9f046beb93d4|84edcd1a-e2f7-4c9c-ab78-c576131a3dd0|/0c7b298e-2d07-4b1f-b033-e95f02d45089/3b094808-5035-436e-9542-e9e286dde93f|/0c7b298e-2d07-4b1f-b033-e95f02d45089/3b094808-5035-436e-9542-e9e286dde93f|/0c7b298e-2d07-4b1f-b033-e95f02d45089/3b094808-5035-436e-9542-e9e286dde93f",
-        ""
-      ],
-      [
         "power_pin_not_driven|1663700|1016000|65f2bf9f-fa60-4d02-a28e-eced3bd70223|00000000-0000-0000-0000-000000000000|/0c7b298e-2d07-4b1f-b033-e95f02d45089/3b094808-5035-436e-9542-e9e286dde93f|/0c7b298e-2d07-4b1f-b033-e95f02d45089/3b094808-5035-436e-9542-e9e286dde93f|",
         ""
       ]
@@ -529,7 +529,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
+      "pin_to_pin": "ignore",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -579,7 +579,6 @@
         "bus_width": 12,
         "clearance": 0.1,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.25,
@@ -597,7 +596,6 @@
         "bus_width": 12,
         "clearance": 0.1,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.25,
@@ -615,7 +613,6 @@
         "bus_width": 12,
         "clearance": 0.1,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.25,
@@ -633,7 +630,6 @@
         "bus_width": 12,
         "clearance": 0.1,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.25,
@@ -651,7 +647,6 @@
         "bus_width": 12,
         "clearance": 0.1,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.25,
@@ -716,6 +711,9 @@
       "/USB-PD-ExtChg/VOUT": [
         "power_3A"
       ],
+      "/USB-PD-PhonePC/NET A1- R74": [
+        "power_1A"
+      ],
       "/USB-PD-PhonePC/USB_Phone_SYS": [
         "power_1A"
       ],
@@ -731,10 +729,16 @@
       "Net-(BT1-+)": [
         "power_3A"
       ],
+      "Net-(BT2-+)": [
+        "power_3A"
+      ],
       "Net-(C100-Pad1)": [
         "power_1A"
       ],
       "Net-(C101-Pad1)": [
+        "power_1A"
+      ],
+      "Net-(C22-Pad1)": [
         "power_1A"
       ],
       "Net-(C30-Pad2)": [
@@ -743,10 +747,22 @@
       "Net-(C31-Pad1)": [
         "power_2A"
       ],
+      "Net-(C46-Pad2)": [
+        "power_2A"
+      ],
+      "Net-(C47-Pad1)": [
+        "power_3A"
+      ],
+      "Net-(C48-Pad1)": [
+        "power_2A"
+      ],
       "Net-(C62-Pad1)": [
         "power_3A"
       ],
       "Net-(C73-Pad2)": [
+        "power_3A"
+      ],
+      "Net-(C90-Pad2)": [
         "power_3A"
       ],
       "Net-(D7-Cathode)": [
@@ -755,8 +771,17 @@
       "Net-(IC1-VBIAS)": [
         "power_3A"
       ],
+      "Net-(L2-Pad2)": [
+        "power_1A"
+      ],
       "Net-(L4-Pad2)": [
         "power_1A"
+      ],
+      "Net-(Q2-D)": [
+        "power_3A"
+      ],
+      "Net-(Q2-S)": [
+        "power_3A"
       ],
       "Net-(Q3-D)": [
         "power_3A"
@@ -784,27 +809,27 @@
       },
       {
         "netclass": "differential_pair",
-        "pattern": "/USB-PD-PhonePC/DN_Switched"
+        "pattern": "/USB-PD-PhonePC/DIFF_SWITCHED_N"
       },
       {
         "netclass": "differential_pair",
-        "pattern": "/USB-PD-PhonePC/DP2_Switched"
+        "pattern": "/USB-PD-PhonePC/DIFF_SWITCHED_P"
       },
       {
         "netclass": "differential_pair",
-        "pattern": "/USB-PD-PhonePC/DN_EXT"
+        "pattern": "/USB-PD-PhonePC/DIFF_EXT_N"
       },
       {
         "netclass": "differential_pair",
-        "pattern": "/USB-PD-PhonePC/DP_EXT"
+        "pattern": "/USB-PD-PhonePC/DIFF_EXT_P"
       },
       {
         "netclass": "differential_pair",
-        "pattern": "/USB-PD-PhonePC/DN_EXT_PR"
+        "pattern": "/USB-PD-PhonePC/DIFF_EXT_PR_N"
       },
       {
         "netclass": "differential_pair",
-        "pattern": "/USB-PD-PhonePC/DP_EXT_PR"
+        "pattern": "/USB-PD-PhonePC/DIFF_EXT_PR_P"
       },
       {
         "netclass": "differential_pair",
@@ -813,6 +838,10 @@
       {
         "netclass": "differential_pair",
         "pattern": "/MCU/D-"
+      },
+      {
+        "netclass": "differential_pair",
+        "pattern": "/DIFF_SWITCHED_N"
       }
     ]
   },

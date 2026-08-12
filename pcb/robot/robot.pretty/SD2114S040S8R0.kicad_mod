@@ -1,88 +1,398 @@
-(footprint "SD2114S040S8R0" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (property "Description" "6A@0.45V")
-  (property "I_InMax" "3.2A")
-  (property "Manufacturer" "KYOCERA AVX")
-  (property "Part Number" "SD2114S040S8R0")
-  (property "Sheetfile" "Charger.kicad_sch")
-  (property "Sheetname" "Charger")
-  (property "VIO" "VIO [1.62-5.5] (1.8V compatible)")
-  (property "category" "Diode")
-  (attr smd)
-  (fp_text reference "REF**" (at 0 0.9) (layer "F.Fab")
-      (effects (font (size 0.5 0.5) (thickness 0.125)))
-    (tstamp b2c19d74-2a55-400f-9d6d-b9c749e7e6f1)
-  )
-  (fp_text value "D_Schottky" (at 0 0.8) (layer "F.SilkS") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp abfe6a6d-9107-463d-a07d-fbc6656dac9f)
-  )
-  (fp_text user "*" (at -3.3 -1.8) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 9eebfcae-bd7a-400f-a024-0531c50cbab1)
-  )
-  (fp_text user "*" (at -3.3 -1.8) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp d7ab44bd-09c8-4f00-82d3-59a55231a841)
-  )
-  (fp_line (start -2.7813 1.9812) (end 2.7813 1.9812)
-    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp dd01abb7-6da9-4378-be26-9dd42b0488ed))
-  (fp_line (start 2.7813 -1.9812) (end -2.7813 -1.9812)
-    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 9d8ec476-21a2-4f0d-82a6-f1224cafe842))
-  (fp_line (start -3.5814 -1.7526) (end -2.9083 -1.7526)
-    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 33e8cd9e-08ce-4873-b546-91066e9d97e4))
-  (fp_line (start -3.5814 1.7526) (end -3.5814 -1.7526)
-    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 1dc635e8-2fa4-46d2-99ee-38af23b6f50d))
-  (fp_line (start -2.9083 -2.1082) (end 2.9083 -2.1082)
-    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 0d564c6a-57ab-4344-a8e4-865c32292361))
-  (fp_line (start -2.9083 -1.7526) (end -2.9083 -2.1082)
-    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp a20afed6-0363-4d15-b6cc-f63ab36d656c))
-  (fp_line (start -2.9083 1.7526) (end -3.5814 1.7526)
-    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 4db6d1b1-bb12-4b89-a089-3ad94f20354c))
-  (fp_line (start -2.9083 2.1082) (end -2.9083 1.7526)
-    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp c6765f40-f606-45b2-9b8b-d3e18bbf038a))
-  (fp_line (start 2.9083 -2.1082) (end 2.9083 -1.7526)
-    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 674d701d-6938-4c0f-a299-c9ef1671b7a3))
-  (fp_line (start 2.9083 -1.7526) (end 3.5814 -1.7526)
-    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp f04f6122-71b3-45b9-a967-3f8ac4460bb1))
-  (fp_line (start 2.9083 1.7526) (end 2.9083 2.1082)
-    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 3c327c65-c1f1-4b8a-9e87-cbedead17d4e))
-  (fp_line (start 2.9083 2.1082) (end -2.9083 2.1082)
-    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 12b13ff3-4ea7-440f-8fd2-a948cf757c70))
-  (fp_line (start 3.5814 -1.7526) (end 3.5814 1.7526)
-    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 8ce57528-1d44-4de1-a3fb-6aab58d1d562))
-  (fp_line (start 3.5814 1.7526) (end 2.9083 1.7526)
-    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 5ad177ff-a24b-493c-b17c-9309d08a7f70))
-  (fp_line (start -2.6543 -1.8542) (end -2.6543 1.8542)
-    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp f4a7fa64-2b13-4297-93ae-74b5e61146d3))
-  (fp_line (start -2.6543 1.8542) (end 2.6543 1.8542)
-    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp cae6c94d-f8c1-4434-ba11-13e280093f3b))
-  (fp_line (start -0.412 -1.593) (end -0.412 -0.323)
-    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp ec8e7f83-f3b9-47b2-a7ee-f2c2484c5b10))
-  (fp_line (start 0.604 -0.958) (end -0.666 -0.958)
-    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 250b4e03-6158-48d9-9a69-f8ff45828aba))
-  (fp_line (start 2.6543 -1.8542) (end -2.6543 -1.8542)
-    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 6d743f24-9414-44b4-b7f1-5da7ddcd9d94))
-  (fp_line (start 2.6543 1.8542) (end 2.6543 -1.8542)
-    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp e3f41570-86eb-4cb1-b0f8-0927233a821b))
-  (fp_poly
-    (pts
-      (xy 0.35 -0.25)
-      (xy -0.412 -0.958)
-      (xy 0.35 -1.65)
-    )
-
-    (stroke (width 0.1) (type solid)) (fill solid) (layer "F.Fab") (tstamp b85e547f-f630-4a41-a1aa-7a43a5f823fc))
-  (pad "1" smd roundrect (at -2.325 0) (size 2 3.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.025) (tstamp c8b93750-aa33-489f-b394-f77ca186dd36))
-  (pad "2" smd roundrect (at 2.325 0) (size 2 3.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.025) (tstamp 854c4a81-f1c1-4be8-8e28-fb59c554197a))
-  (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_2114_3652Metric.step"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
-  (model "${KIPRJMOD}/packages3D/SD2114_AVX.step" hide
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "SD2114S040S8R0"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0.9 0)
+		(layer "F.Fab")
+		(uuid "af53163a-cad3-40b7-a4d1-166d51838d84")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+		)
+	)
+	(property "Value" "D_Schottky"
+		(at 0 0.8 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "77dbaf73-037a-401e-961a-31baa5e7994f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://datasheets.kyocera-avx.com/schottky.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "850e283c-d7a1-421c-a1df-d5c833033875")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "6A@0.45V"
+		(at 215.018076 9.327662 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1f85e844-d007-46a2-9b4a-0ae5c6d93e6f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "I_InMax" "3.2A"
+		(at 215.018076 9.327662 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0df49835-dae6-4df6-bd43-8f42b7738159")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "KYOCERA AVX"
+		(at 215.018076 9.327662 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "145acbfd-37b0-48fa-a732-3100c1130e16")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Number" "SD2114S040S8R0"
+		(at 215.018076 9.327662 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "46e4dd68-8458-4c60-be4b-e75bfd52ca44")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Stock" ""
+		(at 215.018076 9.327662 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e1d92672-2630-44f4-a243-1edd94a88b3f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Type" "SMD"
+		(at 215.018076 9.327662 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "16524ee2-07a1-463e-8865-81f126400c5f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "VIO" "VIO [1.62-5.5] (1.8V compatible)"
+		(at 215.018076 9.327662 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cbdba50c-fc64-4448-a585-57cc33d453a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.7813 1.9812)
+		(end 2.7813 1.9812)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "16aede19-a017-4333-9f3f-cf52ba1e1e83")
+	)
+	(fp_line
+		(start 2.7813 -1.9812)
+		(end -2.7813 -1.9812)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d0abadd7-fedc-4291-a46c-333b0fb758ba")
+	)
+	(fp_line
+		(start -3.5814 -1.7526)
+		(end -2.9083 -1.7526)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fe16ac75-c9f5-45c4-9f8d-a6aded0d7610")
+	)
+	(fp_line
+		(start -3.5814 1.7526)
+		(end -3.5814 -1.7526)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bf806b0a-6bf0-4cd3-a21e-534163ade6eb")
+	)
+	(fp_line
+		(start -2.9083 -2.1082)
+		(end 2.9083 -2.1082)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ffe21e78-2a3c-4e36-9735-a697cdc8bf60")
+	)
+	(fp_line
+		(start -2.9083 -1.7526)
+		(end -2.9083 -2.1082)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "79d23f05-87c0-4bf9-96fb-5f4113813ecd")
+	)
+	(fp_line
+		(start -2.9083 1.7526)
+		(end -3.5814 1.7526)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "30d1a7c5-ff24-431f-8d5e-02fe5b84fb45")
+	)
+	(fp_line
+		(start -2.9083 2.1082)
+		(end -2.9083 1.7526)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "eed37bd4-3985-44a3-b5f4-299bc9ee7e0d")
+	)
+	(fp_line
+		(start 2.9083 -2.1082)
+		(end 2.9083 -1.7526)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f5ea7819-242f-4eaf-a35f-d996ff34b84c")
+	)
+	(fp_line
+		(start 2.9083 -1.7526)
+		(end 3.5814 -1.7526)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "245c9b94-2bc0-477d-85ac-1ebf448de84f")
+	)
+	(fp_line
+		(start 2.9083 1.7526)
+		(end 2.9083 2.1082)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a09a0c2c-eceb-4504-b5a4-11fcf587f5b5")
+	)
+	(fp_line
+		(start 2.9083 2.1082)
+		(end -2.9083 2.1082)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4b350e26-6d31-4cd2-a70c-c178181ad679")
+	)
+	(fp_line
+		(start 3.5814 -1.7526)
+		(end 3.5814 1.7526)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "41f84184-da0a-4a33-8643-e4e6b97b4774")
+	)
+	(fp_line
+		(start 3.5814 1.7526)
+		(end 2.9083 1.7526)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1799b4b5-e2f5-4c27-a10a-36909bd93d24")
+	)
+	(fp_line
+		(start -2.6543 -1.8542)
+		(end -2.6543 1.8542)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d564132b-90b8-4b9a-a941-7a7426d08b1e")
+	)
+	(fp_line
+		(start -2.6543 1.8542)
+		(end 2.6543 1.8542)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "16ce36f8-c2e6-4898-8cee-78d903cc7c97")
+	)
+	(fp_line
+		(start -0.412 -1.593)
+		(end -0.412 -0.323)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d615dc43-84b2-4114-9a98-e366f228ee03")
+	)
+	(fp_line
+		(start 0.604 -0.958)
+		(end -0.666 -0.958)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7123901a-c1cb-4f13-af7f-84c0b0b2016c")
+	)
+	(fp_line
+		(start 2.6543 -1.8542)
+		(end -2.6543 -1.8542)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f369ee68-c585-4056-b577-fa4935bef145")
+	)
+	(fp_line
+		(start 2.6543 1.8542)
+		(end 2.6543 -1.8542)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8510cb11-950f-4963-93f0-f521179bfe6a")
+	)
+	(fp_poly
+		(pts
+			(xy 0.35 -0.25) (xy -0.412 -0.958) (xy 0.35 -1.65)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "d41cf54f-99b9-43de-ba00-8114504905f3")
+	)
+	(fp_text user "*"
+		(at -3.3 -1.8 0)
+		(layer "F.SilkS")
+		(uuid "267b5218-29e4-4eb6-a902-b2711ba5b3f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "*"
+		(at -3.3 -1.8 0)
+		(layer "F.Fab")
+		(uuid "88841b47-b988-488d-81a5-bef437013298")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.325 0)
+		(size 2 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.025)
+		(uuid "bb3af196-94f9-4b81-8461-4c059022b0c7")
+	)
+	(pad "2" smd roundrect
+		(at 2.325 0)
+		(size 2 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.025)
+		(uuid "a6d30a71-7e20-420f-9251-f71896e0c5bd")
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_2114_3652Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/packages3D/SD2114_AVX.step"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

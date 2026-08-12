@@ -1,23 +1,161 @@
-(footprint "THT_JumperLead" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
-  (tags "resistor")
-  (property "Manufacturer" "Stackpole Electronics")
-  (property "Part Number" "RMCF0603JT2K20")
-  (property "Sheetfile" "robot.kicad_sch")
-  (property "Sheetname" "")
-  (property "ki_description" "Resistor")
-  (property "ki_keywords" "R res resistor")
-  (attr through_hole)
-  (fp_text reference "REF**" (at 0.127 0.127) (layer "F.SilkS") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 4f6952ac-7935-434a-adf5-c2b911787ee4)
-  )
-  (fp_text value "Val**" (at 0.254 0.127) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp d584894d-f9b6-4c2c-bde0-4d63457304a6)
-  )
-  (fp_circle (center 0 0) (end 0.6 -1)
-    (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp f37297de-86c6-4a8b-ac51-166b38162935))
-  (pad "1" thru_hole circle (at 0 0) (size 2.2 2.2) (drill 1.3) (layers "*.Cu" "*.Mask") (tstamp 4700d676-b62f-4f7c-8368-e8869895cb74))
+(footprint "THT_JumperLead"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+	(tags "resistor")
+	(property "Reference" "REF**"
+		(at 0.127 0.127 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "dfbd80c2-9411-4d77-842a-1ee5ffeb61f3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TestPoint"
+		(at 0.254 0.127 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e329e44f-9332-4444-be08-f325544ebd64")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a0749305-5440-4943-8b03-52744a15034f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ffc2368a-f38d-41b3-9aae-c8388c8e1a2d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "N/A"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0902f5df-ce4c-4198-a7ab-2e43c5a45ff0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Notes" "This is for attaching a wire to a shorting button for reseting the protection circuit. Place close to R11 battery terminals. "
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "99457e37-90e8-4b7a-9d20-06e8ebc5aeee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Number" "N/A"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f363ec0d-fef3-48a6-b70f-5a30efc2c866")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Stock" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8bdc4606-327b-4065-9226-db7a5800de29")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Type" "DNP"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a108d10e-344b-4c1c-a6ca-1d2a4fa59895")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "VIO" "VIO [1.2-5.5] (3.3V compatible)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "23c40290-e9e3-4143-9fe1-d968d9556942")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "exclude_from_bom" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d091f1a4-9640-49d6-889a-f4adc5fd4f5e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole exclude_from_bom)
+	(fp_circle
+		(center 0 0)
+		(end 0.6 -1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "2cdc84cd-c5da-407e-adc2-e2f3efc02b89")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.2 2.2)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "88868426-2996-46be-8463-b4d7ccb1d9b1")
+	)
+	(embedded_fonts no)
 )

@@ -1,21 +1,153 @@
-(footprint "NetTie-_SMD_Pad6mil" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (descr "Net tie, 2 pin, 0.5mm square SMD pads")
-  (tags "net tie")
-  (attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
-  (net_tie_pad_groups "1, 2")
-  (fp_text reference "REF**" (at 0 -1.2) (layer "F.SilkS") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp eba058f4-175e-4413-b550-93e1748b898d)
-  )
-  (fp_text value "NetTie-_SMD_Pad6mil" (at 0 1.2) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 55decc6c-ccba-49a9-9c58-e53b55d22ed2)
-  )
-  (fp_rect (start -0.19 -0.0754) (end 0 0.0754)
-    (stroke (width 0.01) (type default)) (fill none) (layer "F.Fab") (tstamp b2302b5b-739e-43cd-920c-21dfc682904a))
-  (fp_rect (start 0 -0.0754) (end 0.19 0.0754)
-    (stroke (width 0.01) (type default)) (fill none) (layer "F.Fab") (tstamp f0341c67-52a0-4f85-b96a-b303b4a45d40))
-  (pad "1" smd rect (at -0.09 0) (size 0.2 0.1524) (layers "F.Cu") (tstamp 1745e8e7-cb05-4e0c-be57-60ff31465fb9))
-  (pad "2" smd rect (at 0.09 0) (size 0.2 0.1524) (layers "F.Cu") (tstamp b531e0f4-5d47-4a72-8a54-a3eaafb85b86))
+(footprint "NetTie-_SMD_Pad6mil"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Net tie, 2 pin, 0.5mm square SMD pads")
+	(tags "net tie")
+	(property "Reference" "REF**"
+		(at 0 -1.2 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f3c5fc79-7195-4e26-8291-b9fa10c61674")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "NetTie_2"
+		(at 0 1.2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9c030406-165b-4c5d-95bd-73be1d7c5b0d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1db7fe5f-05b5-448d-84c1-9c670c5e53a7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dab1467a-2c4e-4414-bdb2-21c2ece101bd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "N/A"
+		(at 239.7 -17.5 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7ee82535-f78d-4e0c-8ee3-eb3fe1d0950f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Number" "N/A"
+		(at 239.7 -17.5 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "827cdb2c-ae00-475e-abd0-b35de68594e0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Stock" ""
+		(at 239.7 -17.5 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "82b06385-1630-4f18-90f9-2ae8add1ba2f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Type" "DNP"
+		(at 239.7 -17.5 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "63551ce9-5a5b-40a6-a437-9bcdcda5250d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "exclude_from_bom" ""
+		(at 239.7 -17.5 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e7b1c4df-0f20-446b-8c43-3e44ad7b7da5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(net_tie_pad_groups "1, 2")
+	(fp_rect
+		(start -0.19 -0.0754)
+		(end 0 0.0754)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "f08ccd29-8a9e-4dd3-b363-cdf0633d0810")
+	)
+	(fp_rect
+		(start 0 -0.0754)
+		(end 0.19 0.0754)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "314113f3-2565-4ea3-b9c8-0644b899cc8e")
+	)
+	(pad "1" smd rect
+		(at -0.09 0)
+		(size 0.2 0.1524)
+		(layers "F.Cu")
+		(uuid "4c04e88c-e091-42b3-bfa4-6defe1a7cf02")
+	)
+	(pad "2" smd rect
+		(at 0.09 0)
+		(size 0.2 0.1524)
+		(layers "F.Cu")
+		(uuid "5bdbc9b6-568e-4951-9425-9c9b59b58f50")
+	)
+	(embedded_fonts no)
 )

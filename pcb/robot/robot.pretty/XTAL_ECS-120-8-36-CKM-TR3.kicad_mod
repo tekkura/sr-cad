@@ -1,39 +1,241 @@
-(footprint "XTAL_ECS-120-8-36-CKM-TR3" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (attr smd)
-  (fp_text reference "REF**" (at 0 0) (layer "F.Fab")
-      (effects (font (size 0.480799 0.480799) (thickness 0.1202)))
-    (tstamp 7637b7f0-ca7a-4b5b-87d4-4f7d6be2e100)
-  )
-  (fp_text value "XTAL_ECS-120-8-36-CKM-TR3" (at 0.127 2.032) (layer "F.Fab") hide
-      (effects (font (size 0.480187 0.480187) (thickness 0.120047)))
-    (tstamp a48dec6e-9c59-4627-9457-b342f5cfd86d)
-  )
-  (fp_line (start -1.7 -1.4) (end -1.7 1.4)
-    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp d8b12aa0-0dff-4803-b9d4-527b49d41ed9))
-  (fp_line (start -1.7 1.4) (end 1.7 1.4)
-    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp eb349df2-4a59-4790-a39d-56105461a48e))
-  (fp_line (start 1.7 -1.4) (end -1.7 -1.4)
-    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp f77f9a19-51f0-4e5c-8349-b8add3e5bddb))
-  (fp_line (start 1.7 1.4) (end 1.7 -1.4)
-    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 0279683a-da18-4fb4-856a-1ebbd464ae62))
-  (fp_line (start -1.25 -1) (end -1.25 1)
-    (stroke (width 0.127) (type solid)) (layer "F.Fab") (tstamp 3bbe7a50-f6dc-42e3-9120-7b92c434381b))
-  (fp_line (start -1.25 1) (end 1.25 1)
-    (stroke (width 0.127) (type solid)) (layer "F.Fab") (tstamp 677ec22c-252c-4f8b-b7f5-3a75bb20ef03))
-  (fp_line (start 1.25 -1) (end -1.25 -1)
-    (stroke (width 0.127) (type solid)) (layer "F.Fab") (tstamp 0fc4463d-7816-4bcc-96b4-d72739668d43))
-  (fp_line (start 1.25 1) (end 1.25 -1)
-    (stroke (width 0.127) (type solid)) (layer "F.Fab") (tstamp 303f732b-cfbb-4f4f-b8e8-5bbb320df1f0))
-  (fp_circle (center -1.651 1.397) (end -1.551 1.397)
-    (stroke (width 0.2) (type solid)) (fill none) (layer "F.Fab") (tstamp a90b7599-994f-4b77-ae78-0244c841349f))
-  (pad "1" smd rect (at -0.85 0.65 90) (size 1 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f3dacfce-482c-4a0c-a91c-416292e6442f))
-  (pad "2" smd rect (at 0.85 0.65 90) (size 1 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp afb3e832-6b1f-4324-9888-b8f30d0d8c6d))
-  (pad "3" smd rect (at 0.85 -0.65 90) (size 1 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 752dbad2-c0ec-4bf1-874b-d7a2f37ae612))
-  (pad "4" smd rect (at -0.85 -0.65 90) (size 1 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a93472d1-b61a-48af-adfd-61158db7c25a))
-  (model "${KIPRJMOD}/packages3D/ECS-120-8-36-CKM-TR3.step"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 0))
-  )
+(footprint "XTAL_ECS-120-8-36-CKM-TR3"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "49a4d848-0ea5-4aed-b469-4190b5b6181a")
+		(effects
+			(font
+				(size 0.480799 0.480799)
+				(thickness 0.1202)
+			)
+		)
+	)
+	(property "Value" "ECS-120-8-36-CKM-TR3"
+		(at 0.127 2.032 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e1c9603e-0998-44d2-ab33-846c69bb0672")
+		(effects
+			(font
+				(size 0.480187 0.480187)
+				(thickness 0.120047)
+			)
+		)
+	)
+	(property "Datasheet" "https://ecsxtal.com/store/pdf/ECX-2236.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "15688b29-3473-4a1e-9c83-9923e18aa883")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "12 MHz ±10ppm Crystal 8pF 150 Ohms 4-SMD, No Lead"
+		(at -59.06 202.7 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "28df7523-b731-4cec-a478-0240ba66588e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "ECS Inc."
+		(at -59.06 202.7 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b03f32c1-6446-40c1-8d4d-e691ec3d1922")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Number" "ECS-120-8-36-CKM-TR3"
+		(at -59.06 202.7 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d5c295df-40cf-49f2-8d8d-bc49123eda45")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Stock" ""
+		(at -59.06 202.7 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "25524950-42ae-4f18-821c-8aac320520f0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Type" "SMD"
+		(at -59.06 202.7 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "77d26fe0-5058-47d7-a5d6-77a662f810b3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "VIO" "Default to [2.5-3.3V] but can change via VOLTAGE_SELECT register"
+		(at -59.06 202.7 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dc115a2e-0273-4083-8aea-6a25f9010698")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.7 -1.4)
+		(end -1.7 1.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0345208e-3758-4a8b-89b3-1abc764e244a")
+	)
+	(fp_line
+		(start -1.7 1.4)
+		(end 1.7 1.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d870bb67-1607-469d-8296-b067c4d472af")
+	)
+	(fp_line
+		(start 1.7 -1.4)
+		(end -1.7 -1.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "72c8cbc8-7b2a-4f61-9cb8-928e5d53205e")
+	)
+	(fp_line
+		(start 1.7 1.4)
+		(end 1.7 -1.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fbcc23cb-93ac-47c6-9f73-f2d93a0f0082")
+	)
+	(fp_line
+		(start -1.25 -1)
+		(end -1.25 1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "58cdae2e-1006-4866-b126-fed066bd7419")
+	)
+	(fp_line
+		(start -1.25 1)
+		(end 1.25 1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f79f4653-b086-483f-b4cb-16d0d008f8c4")
+	)
+	(fp_line
+		(start 1.25 -1)
+		(end -1.25 -1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d8a1ca57-fe26-42ec-8a02-d3a693f15e7b")
+	)
+	(fp_line
+		(start 1.25 1)
+		(end 1.25 -1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fa3619e7-6128-4f91-a25d-b26a4ccf54bb")
+	)
+	(fp_circle
+		(center -1.651 1.397)
+		(end -1.551 1.397)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6fc7406b-e0cb-4b1b-a2be-364bb49e8a05")
+	)
+	(pad "1" smd rect
+		(at -0.85 0.65 90)
+		(size 1 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "780ee824-4c41-49df-9e9d-324911e1471a")
+	)
+	(pad "2" smd rect
+		(at 0.85 0.65 90)
+		(size 1 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6478f83f-db40-4ab7-8e33-6f61b38676cf")
+	)
+	(pad "3" smd rect
+		(at 0.85 -0.65 90)
+		(size 1 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3382f604-e88d-4a55-961b-4fa93e5a1706")
+	)
+	(pad "4" smd rect
+		(at -0.85 -0.65 90)
+		(size 1 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b41a3804-ebdf-49b8-9bf6-8309b72891ea")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/packages3D/ECS-120-8-36-CKM-TR3.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )

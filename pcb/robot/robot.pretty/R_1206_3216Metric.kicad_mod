@@ -1,52 +1,242 @@
-(footprint "R_1206_3216Metric" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
-  (tags "resistor")
-  (property "Description" "ISense")
-  (property "Manufacturer" "Panasonic")
-  (property "Part Number" "ERJ-8CWJR010V")
-  (property "Sheetfile" "USB-PD-ExtChg.kicad_sch")
-  (property "Sheetname" "USB-PD-ExtChg")
-  (property "ki_description" "Resistor")
-  (property "ki_keywords" "R res resistor")
-  (attr smd)
-  (fp_text reference "REF**" (at 0 -1.82) (layer "F.SilkS") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 7fba58e4-1a4f-4f67-9eca-92f1212b97a3)
-  )
-  (fp_text value "10m" (at 0 1.82) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp f5749608-0e9a-4f64-98b5-dcc75e77e12f)
-  )
-  (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
-      (effects (font (size 0.8 0.8) (thickness 0.12)))
-    (tstamp 639a9f35-8c38-4167-a2e0-81c8795c0023)
-  )
-  (fp_line (start -0.727064 -0.91) (end 0.727064 -0.91)
-    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 8014cbc4-a67c-4db9-ba67-771608ca0f49))
-  (fp_line (start -0.727064 0.91) (end 0.727064 0.91)
-    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 29456367-287d-455c-8522-831980f884d7))
-  (fp_line (start -2.28 -1.12) (end 2.28 -1.12)
-    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 8a1929fa-e6bd-489c-867b-fad0b9e5af4b))
-  (fp_line (start -2.28 1.12) (end -2.28 -1.12)
-    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp be0277b9-3715-49f9-9294-39b6c820fca9))
-  (fp_line (start 2.28 -1.12) (end 2.28 1.12)
-    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp c849aaec-88d2-4b52-a7b5-cbd364ddcc31))
-  (fp_line (start 2.28 1.12) (end -2.28 1.12)
-    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp eac1a5f9-ceef-4c9f-ab54-d7dfe823f1bd))
-  (fp_line (start -1.6 -0.8) (end 1.6 -0.8)
-    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 0a6bab68-6f03-44ca-9a3a-205767cde551))
-  (fp_line (start -1.6 0.8) (end -1.6 -0.8)
-    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 8e3bb045-e604-41e6-b0de-c41714277974))
-  (fp_line (start 1.6 -0.8) (end 1.6 0.8)
-    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 56022245-986c-4b82-baf1-2b4d3195fc63))
-  (fp_line (start 1.6 0.8) (end -1.6 0.8)
-    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp b0bec98e-ab51-4c37-a74b-59a6dae29bbc))
-  (pad "1" smd roundrect (at -1.4625 0) (size 1.125 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2222222222) (tstamp f34fb8a4-e251-4215-ae63-5a1179f401d0))
-  (pad "2" smd roundrect (at 1.4625 0) (size 1.125 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2222222222) (tstamp 9e675b22-93ea-499a-b62a-ff38e6f88553))
-  (model "${KIPRJMOD}/packages3D/R_1206_3216Metric.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "R_1206_3216Metric"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+	(tags "resistor")
+	(property "Reference" "REF**"
+		(at 0 -1.82 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "19a33043-9da0-4d37-a9a0-e3e3f1fa77a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "10m"
+		(at 0 1.82 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "10977f4b-f1e2-46e5-b047-e6f1e24983da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b198a2a5-b5f8-41c5-9daf-3af21dea2145")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "ISense"
+		(at 228.445723 -11.828061 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fe2ad104-d467-44ca-aa15-a17457371732")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Panasonic"
+		(at 228.445723 -11.828061 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "596ab0a8-8fc2-4e06-aa8a-ebe0c4bbb0d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Number" "ERJ-8CWJR010V"
+		(at 228.445723 -11.828061 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3281dcc8-29ff-43eb-8c40-b6e99e19671d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Stock" ""
+		(at 228.445723 -11.828061 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d02c707c-4caf-4093-8826-7902deac18a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Type" "SMD"
+		(at 228.445723 -11.828061 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00a6217f-126e-43a7-99fc-571d7d3123dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.727064 -0.91)
+		(end 0.727064 -0.91)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c21ab293-8d02-4e45-a16d-223d35db70ef")
+	)
+	(fp_line
+		(start -0.727064 0.91)
+		(end 0.727064 0.91)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dc59c08e-90ef-4602-96f2-aeeadbd3dacb")
+	)
+	(fp_line
+		(start -2.28 -1.12)
+		(end 2.28 -1.12)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dbc76538-f8de-4620-9d0d-8695b5db6217")
+	)
+	(fp_line
+		(start -2.28 1.12)
+		(end -2.28 -1.12)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e05f0f11-67ef-4509-8634-13377417276a")
+	)
+	(fp_line
+		(start 2.28 -1.12)
+		(end 2.28 1.12)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c3bd261d-73d3-4f07-93ee-0381d22bd3a8")
+	)
+	(fp_line
+		(start 2.28 1.12)
+		(end -2.28 1.12)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "52806feb-26bc-4304-8ecb-90079cd7374d")
+	)
+	(fp_line
+		(start -1.6 -0.8)
+		(end 1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7fea41b2-74ab-44a4-878e-8bc49548e724")
+	)
+	(fp_line
+		(start -1.6 0.8)
+		(end -1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2cc8e471-378e-4917-b8f1-7cdef70f5175")
+	)
+	(fp_line
+		(start 1.6 -0.8)
+		(end 1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5fab5ea5-2e29-4e09-adfd-d340e022f3ff")
+	)
+	(fp_line
+		(start 1.6 0.8)
+		(end -1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "edd56cc3-cda8-42ca-bec5-2b7728c07881")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "81aea47d-9eb9-430e-bdb1-544fe76881bb")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.4625 0)
+		(size 1.125 1.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2222222222)
+		(uuid "6e9f7e7f-c377-4a94-b87e-c29a5fd1efa3")
+	)
+	(pad "2" smd roundrect
+		(at 1.4625 0)
+		(size 1.125 1.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2222222222)
+		(uuid "5a927133-8cab-4950-a753-2beb76817eaa")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/packages3D/R_1206_3216Metric.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

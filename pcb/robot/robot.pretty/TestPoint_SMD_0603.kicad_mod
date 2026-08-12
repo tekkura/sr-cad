@@ -1,44 +1,235 @@
-(footprint "TestPoint_SMD_0603" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (descr "SMT Test Point- Micro Miniature 5015, http://www.keyelco.com/product-pdf.cfm?p=1353")
-  (tags "Test Point")
-  (attr smd)
-  (fp_text reference "REF**" (at 0 -2.25) (layer "F.SilkS") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 97e20a33-23ce-488e-8d88-e4e3f141dd6e)
-  )
-  (fp_text value "TestPoint_SMD_0603" (at 0 2.25) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp e3bfdba9-fc7f-4cb1-90e4-1ef435b3ee9a)
-  )
-  (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
-      (effects (font (size 0.6 0.6) (thickness 0.09)))
-    (tstamp a8dba3b9-a8ee-4a06-9484-ff444f7627ca)
-  )
-  (fp_line (start -0.508 -0.635) (end 0.508 -0.635)
-    (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp fcc8e57b-fa23-4e04-84ae-8e91687e88dc))
-  (fp_line (start 0.508 0.635) (end -0.508 0.635)
-    (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp 68f361ef-e1ab-4bb3-8f75-f193032716d7))
-  (fp_line (start -1.016 -0.635) (end 1.016 -0.635)
-    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 4861bfa2-c1cf-4d95-9fef-5eb446cfcd6d))
-  (fp_line (start -1.016 0.635) (end -1.016 -0.635)
-    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp da70176b-1e9e-41ee-8db4-1ff77eeb8f6c))
-  (fp_line (start 1.016 -0.635) (end 1.016 0.635)
-    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp b0040e9b-8366-4587-acaa-18f85e3ec3cd))
-  (fp_line (start 1.016 0.635) (end -1.016 0.635)
-    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 2111c496-68ea-4fbb-81a5-dda4e2a9bb21))
-  (fp_line (start -1.016 0.5) (end -1.016 -0.5)
-    (stroke (width 0.15) (type solid)) (layer "F.Fab") (tstamp b9e75866-b76e-4a29-9b62-ee843680338e))
-  (fp_line (start -0.889 0.635) (end 0.889 0.635)
-    (stroke (width 0.15) (type solid)) (layer "F.Fab") (tstamp 3c296ddc-f1a4-458d-a1e7-591b05dbfe7c))
-  (fp_line (start 0.889 -0.635) (end -0.889 -0.635)
-    (stroke (width 0.15) (type solid)) (layer "F.Fab") (tstamp f24168dd-a583-4327-acfb-c9c051ccf726))
-  (fp_line (start 1.016 -0.5) (end 1.016 0.5)
-    (stroke (width 0.15) (type solid)) (layer "F.Fab") (tstamp 547a89d4-e074-4932-bdfb-fe90ac2f7e21))
-  (pad "1" smd roundrect (at 0 0) (size 1.8 1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 6d1725ac-a682-467a-b920-d0030bba137f))
-  (model "${KIPRJMOD}/packages3D/RCUCTE.stp"
-    (offset (xyz 0 0 0.57))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 0))
-  )
+(footprint "TestPoint_SMD_0603"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SMT Test Point- Micro Miniature 5015, http://www.keyelco.com/product-pdf.cfm?p=1353")
+	(tags "Test Point")
+	(property "Reference" "REF**"
+		(at 0 -2.25 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "cc746ede-92fd-4d7e-b2eb-998ffcf71908")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SMD_0603"
+		(at 0 2.25 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6bdb6df3-f83b-47b7-9d1a-846197ff8a56")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8f124835-730e-4ed1-a108-89ea15028b30")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "SMD Test Point 0603 size."
+		(at 241.2 -15.6 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "096d1989-703d-4051-a4b5-b2791140871f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "KOA Speer Electronics, Inc."
+		(at 241.2 -15.6 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ffbbb7be-56c8-422d-8dc0-96d36b39e49a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Number" "RCUCTE"
+		(at 241.2 -15.6 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "33179091-f020-4c3f-8488-94e9ddeeeafc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Stock" ""
+		(at 241.2 -15.6 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e7d3ca19-802d-4416-97a0-1e0d156ba7cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Type" "SMD"
+		(at 241.2 -15.6 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "89475505-092a-4815-9b07-f82adad915c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.508 -0.635)
+		(end 0.508 -0.635)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2e2e257d-999a-4548-b1c4-3cd224b85459")
+	)
+	(fp_line
+		(start 0.508 0.635)
+		(end -0.508 0.635)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6d1ef9cf-c421-4d20-8455-1b69de32b81a")
+	)
+	(fp_line
+		(start -1.016 -0.635)
+		(end 1.016 -0.635)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8de4bd89-c3b9-4dbd-b6f4-a619377ccd65")
+	)
+	(fp_line
+		(start -1.016 0.635)
+		(end -1.016 -0.635)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4f1464ca-fdf7-4b15-abee-86d4255e517c")
+	)
+	(fp_line
+		(start 1.016 -0.635)
+		(end 1.016 0.635)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "01f80f7c-31c5-4086-8163-514e8c495345")
+	)
+	(fp_line
+		(start 1.016 0.635)
+		(end -1.016 0.635)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fb020c96-1cfb-43e4-879c-687b24dfdb69")
+	)
+	(fp_line
+		(start -1.016 0.5)
+		(end -1.016 -0.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f916278d-048b-4792-9f96-26ff1f1d70bc")
+	)
+	(fp_line
+		(start -0.889 0.635)
+		(end 0.889 0.635)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ce92bc40-3b34-4ac9-a26f-55c432ef966d")
+	)
+	(fp_line
+		(start 0.889 -0.635)
+		(end -0.889 -0.635)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "97714354-ad4a-404e-a0b2-e73ba71ea367")
+	)
+	(fp_line
+		(start 1.016 -0.5)
+		(end 1.016 0.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f2279309-9b78-4796-a379-055ce2617c51")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "26a55332-f028-4f0f-bc34-b058927c09c7")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.09)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 1.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "ff2ebc8e-a86d-4860-b2aa-ed64fe09d5e7")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/packages3D/RCUCTE.stp"
+		(offset
+			(xyz 0 0 0.57)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )

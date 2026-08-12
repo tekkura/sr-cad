@@ -5,256 +5,6 @@
 	(uuid "c2161da6-74db-4841-8543-a45c7145dc67")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:NetTie_2"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "NT"
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "NetTie_2"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Net tie, 2 pins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "net tie short"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Net*Tie*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NetTie_2_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "NetTie_2_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "robot:C"
 			(pin_numbers
 				(hide yes)
@@ -1493,6 +1243,132 @@
 						)
 					)
 					(number "E1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "robot:NetTie_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "NT"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NetTie_2"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Net tie, 2 pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "net tie short"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Net*Tie*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NetTie_2_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NetTie_2_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3016,7 +2892,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1da5e6b5-92ec-4684-a44b-09177a0dcaa9")
-		(property "Reference" "U6"
+		(property "Reference" "U23"
 			(at 194.31 104.14 0)
 			(effects
 				(font
@@ -3202,7 +3078,7 @@
 		(instances
 			(project "robot"
 				(path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/427922e5-a943-4728-8788-709c0c3b2395"
-					(reference "U6")
+					(reference "U23")
 					(unit 1)
 				)
 			)
@@ -3217,7 +3093,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "268276a4-aa4a-4b19-8e4c-8c3baba8f0f2")
-		(property "Reference" "C28"
+		(property "Reference" "C43"
 			(at 160.02 113.0299 0)
 			(effects
 				(font
@@ -3306,7 +3182,7 @@
 		(instances
 			(project "robot"
 				(path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/427922e5-a943-4728-8788-709c0c3b2395"
-					(reference "C28")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -3323,7 +3199,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f6a9a9b-88fc-481c-92cf-ee894efc5f1f")
-		(property "Reference" "U5"
+		(property "Reference" "U21"
 			(at 78.74 109.22 0)
 			(effects
 				(font
@@ -3430,14 +3306,14 @@
 		(instances
 			(project "robot"
 				(path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/427922e5-a943-4728-8788-709c0c3b2395"
-					(reference "U5")
+					(reference "U21")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:NetTie_2")
+		(lib_id "robot:NetTie_2")
 		(at 218.44 104.775 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3445,7 +3321,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "35369576-9e33-41ab-940a-7e31b1b86374")
-		(property "Reference" "NT15"
+		(property "Reference" "NT14"
 			(at 220.345 103.505 90)
 			(effects
 				(font
@@ -3534,7 +3410,7 @@
 		(instances
 			(project "robot"
 				(path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/427922e5-a943-4728-8788-709c0c3b2395"
-					(reference "NT15")
+					(reference "NT14")
 					(unit 1)
 				)
 			)
@@ -3549,7 +3425,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38a8cf5a-9c9a-4772-810c-c33322de00ab")
-		(property "Reference" "C32"
+		(property "Reference" "C51"
 			(at 223.52 95.25 0)
 			(effects
 				(font
@@ -3636,7 +3512,7 @@
 		(instances
 			(project "robot"
 				(path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/427922e5-a943-4728-8788-709c0c3b2395"
-					(reference "C32")
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -3651,7 +3527,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "40dc7f61-fc44-47b3-af38-8f77cde90e35")
-		(property "Reference" "C27"
+		(property "Reference" "C39"
 			(at 141.605 91.4399 0)
 			(effects
 				(font
@@ -3741,14 +3617,14 @@
 		(instances
 			(project "robot"
 				(path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/427922e5-a943-4728-8788-709c0c3b2395"
-					(reference "C27")
+					(reference "C39")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "robot:R")
 		(at 105.41 129.54 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3756,7 +3632,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "40f623de-9069-4cce-a11a-20c2cd3af7a7")
-		(property "Reference" "R40"
+		(property "Reference" "R70"
 			(at 105.664 131.826 90)
 			(effects
 				(font
@@ -3843,7 +3719,7 @@
 		(instances
 			(project "robot"
 				(path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/427922e5-a943-4728-8788-709c0c3b2395"
-					(reference "R40")
+					(reference "R70")
 					(unit 1)
 				)
 			)
@@ -3858,7 +3734,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4dc3c631-a50a-49e3-aa61-98793940b588")
-		(property "Reference" "R20"
+		(property "Reference" "R71"
 			(at 114.935 114.2999 0)
 			(effects
 				(font
@@ -3947,7 +3823,7 @@
 		(instances
 			(project "robot"
 				(path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/427922e5-a943-4728-8788-709c0c3b2395"
-					(reference "R20")
+					(reference "R71")
 					(unit 1)
 				)
 			)
@@ -3963,7 +3839,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c802776-019d-4191-be26-e60766a7622c")
-		(property "Reference" "C25"
+		(property "Reference" "C38"
 			(at 128.905 91.4399 0)
 			(effects
 				(font
@@ -4053,7 +3929,7 @@
 		(instances
 			(project "robot"
 				(path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/427922e5-a943-4728-8788-709c0c3b2395"
-					(reference "C25")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -4068,7 +3944,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d13af0d-42d0-4782-b6ee-314c6d1cfbb2")
-		(property "Reference" "C24"
+		(property "Reference" "C33"
 			(at 48.26 119.3799 0)
 			(effects
 				(font
@@ -4157,7 +4033,7 @@
 		(instances
 			(project "robot"
 				(path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/427922e5-a943-4728-8788-709c0c3b2395"
-					(reference "C24")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -4172,7 +4048,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6e40a191-897a-4919-b141-fc9cb6e49c15")
-		(property "Reference" "C29"
+		(property "Reference" "C41"
 			(at 158.115 91.44 0)
 			(effects
 				(font
@@ -4259,7 +4135,7 @@
 		(instances
 			(project "robot"
 				(path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/427922e5-a943-4728-8788-709c0c3b2395"
-					(reference "C29")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -4275,7 +4151,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7f2e713f-8c03-4143-8922-6a5ab474366b")
-		(property "Reference" "TP19"
+		(property "Reference" "TP28"
 			(at 98.552 134.112 0)
 			(effects
 				(font
@@ -4362,7 +4238,7 @@
 		(instances
 			(project "robot"
 				(path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/427922e5-a943-4728-8788-709c0c3b2395"
-					(reference "TP19")
+					(reference "TP28")
 					(unit 1)
 				)
 			)
@@ -4377,7 +4253,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "abda0e72-df66-43bf-8809-eab671c114c5")
-		(property "Reference" "C34"
+		(property "Reference" "C55"
 			(at 248.92 95.25 0)
 			(effects
 				(font
@@ -4464,7 +4340,7 @@
 		(instances
 			(project "robot"
 				(path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/427922e5-a943-4728-8788-709c0c3b2395"
-					(reference "C34")
+					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -4480,7 +4356,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aea1956d-9cee-4f5b-8f3a-6963f38ee79b")
-		(property "Reference" "L1"
+		(property "Reference" "L3"
 			(at 195.58 67.31 90)
 			(effects
 				(font
@@ -4568,7 +4444,7 @@
 		(instances
 			(project "robot"
 				(path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/427922e5-a943-4728-8788-709c0c3b2395"
-					(reference "L1")
+					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -4583,7 +4459,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b390d833-59f5-48a3-82b2-918c3521d615")
-		(property "Reference" "C33"
+		(property "Reference" "C52"
 			(at 236.22 95.25 0)
 			(effects
 				(font
@@ -4670,7 +4546,7 @@
 		(instances
 			(project "robot"
 				(path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/427922e5-a943-4728-8788-709c0c3b2395"
-					(reference "C33")
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -4685,7 +4561,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b65f37b7-6fe7-4979-8802-4541bf5c87ea")
-		(property "Reference" "C30"
+		(property "Reference" "C46"
 			(at 184.15 66.04 90)
 			(effects
 				(font
@@ -4772,7 +4648,7 @@
 		(instances
 			(project "robot"
 				(path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/427922e5-a943-4728-8788-709c0c3b2395"
-					(reference "C30")
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -4787,7 +4663,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c533fdd1-ae0a-44ce-9d8e-9b102e9a8220")
-		(property "Reference" "TP18"
+		(property "Reference" "TP27"
 			(at 100.33 122.428 0)
 			(effects
 				(font
@@ -4874,7 +4750,7 @@
 		(instances
 			(project "robot"
 				(path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/427922e5-a943-4728-8788-709c0c3b2395"
-					(reference "TP18")
+					(reference "TP27")
 					(unit 1)
 				)
 			)
@@ -4890,7 +4766,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7bbe81d-4ba6-4d74-8a17-2b2f96653644")
-		(property "Reference" "R19"
+		(property "Reference" "R66"
 			(at 59.69 119.3799 0)
 			(effects
 				(font
@@ -4979,7 +4855,7 @@
 		(instances
 			(project "robot"
 				(path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/427922e5-a943-4728-8788-709c0c3b2395"
-					(reference "R19")
+					(reference "R66")
 					(unit 1)
 				)
 			)
@@ -4994,7 +4870,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d77c9ebb-9c74-4b77-8d1c-17e7d6bc4675")
-		(property "Reference" "C26"
+		(property "Reference" "C40"
 			(at 148.59 106.6799 0)
 			(effects
 				(font
@@ -5083,14 +4959,14 @@
 		(instances
 			(project "robot"
 				(path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/427922e5-a943-4728-8788-709c0c3b2395"
-					(reference "C26")
+					(reference "C40")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "robot:R")
 		(at 105.41 127 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5098,7 +4974,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d9ac84ca-d617-4f34-94b7-a1414d1f6649")
-		(property "Reference" "R53"
+		(property "Reference" "R69"
 			(at 105.41 124.46 90)
 			(effects
 				(font
@@ -5185,7 +5061,7 @@
 		(instances
 			(project "robot"
 				(path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/427922e5-a943-4728-8788-709c0c3b2395"
-					(reference "R53")
+					(reference "R69")
 					(unit 1)
 				)
 			)
@@ -5200,7 +5076,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dfa5a089-c576-40fe-835e-94e0510f7ede")
-		(property "Reference" "C31"
+		(property "Reference" "C48"
 			(at 205.74 66.04 90)
 			(effects
 				(font
@@ -5287,7 +5163,7 @@
 		(instances
 			(project "robot"
 				(path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/427922e5-a943-4728-8788-709c0c3b2395"
-					(reference "C31")
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -5303,7 +5179,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5eaeb11-ea54-49ac-920f-b364f9b7473d")
-		(property "Reference" "R21"
+		(property "Reference" "R72"
 			(at 123.825 114.2999 0)
 			(effects
 				(font
@@ -5392,7 +5268,7 @@
 		(instances
 			(project "robot"
 				(path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/427922e5-a943-4728-8788-709c0c3b2395"
-					(reference "R21")
+					(reference "R72")
 					(unit 1)
 				)
 			)
@@ -5408,7 +5284,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "e6153a48-eb68-4cbc-92ef-c36cfd4df38e")
-		(property "Reference" "C91"
+		(property "Reference" "C57"
 			(at 262.89 91.4399 0)
 			(effects
 				(font
@@ -5506,7 +5382,7 @@
 		(instances
 			(project "robot"
 				(path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/427922e5-a943-4728-8788-709c0c3b2395"
-					(reference "C91")
+					(reference "C57")
 					(unit 1)
 				)
 			)

@@ -1702,7 +1702,7 @@
 		(uuid "1f7d9496-bb97-45a6-821c-c58d998bfcd9")
 	)
 	(junction
-		(at 44.45 116.84)
+		(at 38.1 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "22c88851-bcde-4158-a028-b45c047a63a3")
@@ -1933,6 +1933,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 127) (xy 60.96 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d6bc79e-2750-4be0-a9fa-d3558240000e")
+	)
+	(wire
+		(pts
 			(xy 171.45 92.71) (xy 171.45 95.25)
 		)
 		(stroke
@@ -2033,7 +2043,17 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 116.84) (xy 44.45 116.84)
+			(xy 58.42 129.54) (xy 60.96 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cd3c451-dd92-4337-ae4c-a32d27e8f864")
+	)
+	(wire
+		(pts
+			(xy 34.29 116.84) (xy 38.1 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2073,7 +2093,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 116.84) (xy 57.15 116.84)
+			(xy 38.1 116.84) (xy 57.15 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2303,7 +2323,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 129.54) (xy 60.96 129.54)
+			(xy 45.72 129.54) (xy 50.8 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2343,7 +2363,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 127) (xy 60.96 127)
+			(xy 45.72 127) (xy 50.8 127)
 		)
 		(stroke
 			(width 0)
@@ -2637,7 +2657,7 @@
 	)
 	(hierarchical_label "SDA"
 		(shape input)
-		(at 54.61 129.54 180)
+		(at 45.72 129.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2681,7 +2701,7 @@
 	)
 	(hierarchical_label "3V3"
 		(shape input)
-		(at 40.64 116.84 180)
+		(at 34.29 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2692,7 +2712,7 @@
 	)
 	(hierarchical_label "AGND"
 		(shape input)
-		(at 44.45 124.46 270)
+		(at 38.1 124.46 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2802,7 +2822,7 @@
 	)
 	(hierarchical_label "SCL"
 		(shape input)
-		(at 54.61 127 180)
+		(at 45.72 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3307,6 +3327,108 @@
 			(project "robot"
 				(path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/427922e5-a943-4728-8788-709c0c3b2395"
 					(reference "U21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "robot:R")
+		(at 54.61 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2f9ace61-37ce-43d3-bb34-8be326d181eb")
+		(property "Reference" "R122"
+			(at 54.61 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 54.61 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "robot:R_0603_1608Metric"
+			(at 54.61 128.778 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Stackpole Electronics"
+			(at 54.61 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RMCF0603ZT0R00"
+			(at 54.61 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "15"
+			(at 54.61 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 54.61 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62b9c9ec-3eb4-4e7d-b8bb-dce8161ddf3d")
+		)
+		(pin "2"
+			(uuid "c7454582-94cb-48f6-a611-648d525e9ef3")
+		)
+		(instances
+			(project "robot"
+				(path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/427922e5-a943-4728-8788-709c0c3b2395"
+					(reference "R122")
 					(unit 1)
 				)
 			)
@@ -3830,6 +3952,108 @@
 		)
 	)
 	(symbol
+		(lib_id "robot:R")
+		(at 54.61 129.54 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "57342161-2e4a-45d8-ba2f-0bbdb21caa42")
+		(property "Reference" "R123"
+			(at 54.864 131.826 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 54.61 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "robot:R_0603_1608Metric"
+			(at 54.61 131.318 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Stackpole Electronics"
+			(at 54.61 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RMCF0603ZT0R00"
+			(at 54.61 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "15"
+			(at 54.61 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 54.61 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "138c92e1-719d-4c84-8f3b-4f4fa04d1804")
+		)
+		(pin "2"
+			(uuid "4e1ff0ba-2325-495f-88d8-dd730b61c794")
+		)
+		(instances
+			(project "robot"
+				(path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/427922e5-a943-4728-8788-709c0c3b2395"
+					(reference "R123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "robot:C")
 		(at 125.095 93.98 0)
 		(unit 1)
@@ -3937,7 +4161,7 @@
 	)
 	(symbol
 		(lib_id "robot:C")
-		(at 44.45 120.65 0)
+		(at 38.1 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3945,7 +4169,7 @@
 		(dnp no)
 		(uuid "5d13af0d-42d0-4782-b6ee-314c6d1cfbb2")
 		(property "Reference" "C33"
-			(at 48.26 119.3799 0)
+			(at 41.91 119.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3954,7 +4178,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 48.26 121.9199 0)
+			(at 41.91 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3963,7 +4187,7 @@
 			)
 		)
 		(property "Footprint" "robot:C_0402_1005Metric"
-			(at 45.4152 124.46 0)
+			(at 39.0652 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3972,7 +4196,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 120.65 0)
+			(at 38.1 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3981,7 +4205,7 @@
 			)
 		)
 		(property "Description" "6.3V"
-			(at 50.8 124.46 0)
+			(at 44.45 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3989,7 +4213,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung"
-			(at 44.45 120.65 0)
+			(at 38.1 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3998,7 +4222,7 @@
 			)
 		)
 		(property "Part Number" "CL05A104KA5NNNC"
-			(at 44.45 120.65 0)
+			(at 38.1 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4007,7 +4231,7 @@
 			)
 		)
 		(property "Stock" ""
-			(at 44.45 120.65 0)
+			(at 38.1 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4016,7 +4240,7 @@
 			)
 		)
 		(property "Type" "SMD"
-			(at 44.45 120.65 0)
+			(at 38.1 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -2782,6 +2782,16 @@
 		)
 		(uuid "33bd4b59-b933-408d-bc95-a95a729e3d22")
 	)
+	(wire
+		(pts
+			(xy 220.98 99.06) (xy 229.87 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "348685a3-ff99-46f3-a00e-d922750e4df9")
+	)
 	(bus
 		(pts
 			(xy 217.17 60.96) (xy 217.17 73.66)
@@ -4179,6 +4189,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 67.31) (xy 78.74 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d412acaa-5b87-4a66-89a1-62dbbe20e24d")
+	)
+	(wire
+		(pts
 			(xy 213.36 125.73) (xy 212.09 125.73)
 		)
 		(stroke
@@ -4699,6 +4719,16 @@
 		)
 		(uuid "13168af2-e94e-4981-b341-add33bfa44fb")
 	)
+	(label "SHDN"
+		(at 72.39 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "14e21e2a-5eed-4f69-946b-19b9cf877b45")
+	)
 	(label "AGND"
 		(at 110.49 191.135 0)
 		(effects
@@ -4768,6 +4798,16 @@
 			(justify left bottom)
 		)
 		(uuid "232694b1-f43d-4a22-bd64-bef5dddcc135")
+	)
+	(label "SHDN"
+		(at 220.98 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "23aaea56-ffcd-433d-9209-8de1926d33c3")
 	)
 	(label "I2C0_SCL"
 		(at 219.71 55.88 0)
@@ -12705,6 +12745,16 @@
 				(justify left)
 			)
 		)
+		(pin "SHDN" input
+			(at 229.87 99.06 180)
+			(uuid "b923bcbd-dd8c-45f2-84e7-a4bde0602f5f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "robot"
 				(path "/0c7b298e-2d07-4b1f-b033-e95f02d45089"
@@ -12824,6 +12874,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "SHDN" input
+			(at 78.74 67.31 180)
+			(uuid "23c9913b-caf7-469f-9b27-a69f7322e18b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

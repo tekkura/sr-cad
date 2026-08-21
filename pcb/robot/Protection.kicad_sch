@@ -5,6 +5,339 @@
 	(uuid "e97b9a01-140d-4a79-b2ab-fbdb47df2c1a")
 	(paper "B")
 	(lib_symbols
+		(symbol "easyeda2kicad:0402WGF1104TCE"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0402WGF1104TCE"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:R0402"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Others_Uniroyal-Elec-0402WGF1104TCE_C133039.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL(厚声)"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "0402WGF1104TCE"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C133039"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Resistors"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0402WGF1104TCE_0_1"
+				(rectangle
+					(start -2.54 1.02)
+					(end 2.54 -1.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "easyeda2kicad:MCP6541T-I_OT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MCP6541T-I/OT"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/_MICROCHIP_MCP6541T-I-OT_MCP6541T-I-OT_C80839.html"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "MICROCHIP(美国微芯)"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "MCP6541T-I/OT"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C80839"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Comparators"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MCP6541T-I_OT_0_1"
+				(rectangle
+					(start -10.16 5.08)
+					(end 10.16 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -8.89 3.81)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "VIN+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "VIN-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "robot:0402WGJ0474TCE"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4162,7 +4495,7 @@
 	)
 	(text "inrush current = C_L * 4.2*0.8 / dt\n\nC_L = 10uF\ndt = 2478us\n\ninrush current = 13.5mA. \n\nNot sure how much C_L actually is, \nbut may be up to a few hundred uF max.\nSo inrush current might be a \nfew hundred mA"
 		(exclude_from_sim no)
-		(at 281.305 71.12 0)
+		(at 266.954 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4241,6 +4574,12 @@
 		(uuid "1c9728fa-7c41-43e2-9aa9-c0a5f4b36ccc")
 	)
 	(junction
+		(at 299.72 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e7bdaea-9802-4781-87f0-47971750555c")
+	)
+	(junction
 		(at 180.34 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4317,6 +4656,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "75d87db7-881e-4eb4-9826-c2885843c2bc")
+	)
+	(junction
+		(at 331.47 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "776758b8-ef2b-4123-a23f-01be0ebcd455")
 	)
 	(junction
 		(at 352.425 198.12)
@@ -4403,6 +4748,12 @@
 		(uuid "c0334d2b-d521-4234-85dc-319564c63ed3")
 	)
 	(junction
+		(at 317.5 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c52cf6a8-a054-464f-9ec8-426f7145fa45")
+	)
+	(junction
 		(at 160.655 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4413,6 +4764,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d1ccb8ac-3037-46af-96fc-69e723fe646a")
+	)
+	(junction
+		(at 259.08 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d37570e9-22ad-4464-9e77-abd20d35f80e")
 	)
 	(junction
 		(at 99.06 156.21)
@@ -4836,6 +5193,26 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 59.69) (xy 259.08 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f217884-b324-4171-82a7-1d81850f3408")
+	)
+	(wire
+		(pts
+			(xy 267.97 46.99) (xy 270.51 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "411eee0c-4d72-4a33-914c-910c1c25605a")
+	)
+	(wire
+		(pts
 			(xy 316.23 91.44) (xy 316.23 96.52)
 		)
 		(stroke
@@ -4883,6 +5260,16 @@
 			(type default)
 		)
 		(uuid "45204778-4e5d-4587-9992-a847a939da7d")
+	)
+	(wire
+		(pts
+			(xy 269.24 81.28) (xy 282.575 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "473b2727-cc67-4697-8bb4-cda230121ccd")
 	)
 	(wire
 		(pts
@@ -4976,6 +5363,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 31.75) (xy 299.72 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54b32ad4-80c0-4482-b898-705ef8644e93")
+	)
+	(wire
+		(pts
 			(xy 83.82 135.89) (xy 107.95 135.89)
 		)
 		(stroke
@@ -5006,6 +5403,26 @@
 	)
 	(wire
 		(pts
+			(xy 331.47 44.45) (xy 331.47 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56928468-97d4-4a97-b5dd-cd17eae443e8")
+	)
+	(wire
+		(pts
+			(xy 295.91 49.53) (xy 306.07 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58fbb26c-221e-4515-8ee2-9c83c79a1e8b")
+	)
+	(wire
+		(pts
 			(xy 140.97 156.21) (xy 143.51 156.21)
 		)
 		(stroke
@@ -5033,6 +5450,16 @@
 			(type default)
 		)
 		(uuid "5c20736d-321b-4fa9-9c35-329cb3ed939e")
+	)
+	(wire
+		(pts
+			(xy 299.72 44.45) (xy 331.47 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "655fe62a-cc1e-4733-8057-7fa89333b875")
 	)
 	(wire
 		(pts
@@ -5146,7 +5573,7 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 91.44) (xy 332.105 91.44)
+			(xy 327.66 91.44) (xy 331.47 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5223,6 +5650,16 @@
 			(type default)
 		)
 		(uuid "8465bdac-7e29-4fbc-9cc3-c700f439eb06")
+	)
+	(wire
+		(pts
+			(xy 259.08 35.56) (xy 259.08 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8708d762-ff05-42d7-bc7b-06db64c1c411")
 	)
 	(wire
 		(pts
@@ -5396,6 +5833,26 @@
 	)
 	(wire
 		(pts
+			(xy 313.69 49.53) (xy 317.5 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a45a5558-7b91-4baf-9745-9950a5a09507")
+	)
+	(wire
+		(pts
+			(xy 331.47 91.44) (xy 332.105 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a872eae8-9ac6-47e8-9217-6179e23a40f9")
+	)
+	(wire
+		(pts
 			(xy 203.2 101.6) (xy 203.2 109.22)
 		)
 		(stroke
@@ -5413,6 +5870,16 @@
 			(type default)
 		)
 		(uuid "aac1ef25-6ae8-4332-b387-ca79081d7fc5")
+	)
+	(wire
+		(pts
+			(xy 269.24 90.17) (xy 269.24 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab473137-bdfc-41a5-b48e-dfcff9145aeb")
 	)
 	(wire
 		(pts
@@ -5486,6 +5953,16 @@
 	)
 	(wire
 		(pts
+			(xy 295.91 44.45) (xy 299.72 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b164b7ad-a1dd-4b05-b673-6960d804d8a3")
+	)
+	(wire
+		(pts
 			(xy 180.34 184.15) (xy 180.34 181.61)
 		)
 		(stroke
@@ -5506,6 +5983,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 44.45) (xy 270.51 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b304e44c-dfbe-4eac-a9c6-f0d13170c665")
+	)
+	(wire
+		(pts
 			(xy 50.8 135.89) (xy 71.12 135.89)
 		)
 		(stroke
@@ -5513,6 +6000,16 @@
 			(type default)
 		)
 		(uuid "b3a27d9e-5320-48fe-991e-9d8d323b4cfb")
+	)
+	(wire
+		(pts
+			(xy 259.08 49.53) (xy 270.51 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b67194f3-78e2-4277-9748-76747a0cb87a")
 	)
 	(wire
 		(pts
@@ -5566,16 +6063,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 81.28) (xy 282.575 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8e854c4-e425-473f-bcff-45d51651f4ec")
-	)
-	(wire
-		(pts
 			(xy 210.82 146.05) (xy 140.97 146.05)
 		)
 		(stroke
@@ -5603,6 +6090,16 @@
 			(type default)
 		)
 		(uuid "be3c5be8-0de7-47fa-84db-732ff7df171f")
+	)
+	(wire
+		(pts
+			(xy 317.5 49.53) (xy 317.5 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfd9fa8c-2097-4123-a3a5-d02cb16c7052")
 	)
 	(wire
 		(pts
@@ -5666,6 +6163,16 @@
 	)
 	(wire
 		(pts
+			(xy 299.72 31.75) (xy 299.72 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cebe1ba2-8b4a-4c7d-9982-6a6658576622")
+	)
+	(wire
+		(pts
 			(xy 150.495 118.11) (xy 156.845 118.11)
 		)
 		(stroke
@@ -5683,16 +6190,6 @@
 			(type default)
 		)
 		(uuid "d1990fa0-c092-4ac6-bc32-88e9779281df")
-	)
-	(wire
-		(pts
-			(xy 269.24 90.17) (xy 269.24 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3cd7aaf-6a92-409a-a773-c37e95b57c42")
 	)
 	(wire
 		(pts
@@ -5773,6 +6270,16 @@
 			(type default)
 		)
 		(uuid "de1ec112-c87d-4ad2-95a3-2cf6e0dfdcdb")
+	)
+	(wire
+		(pts
+			(xy 259.08 45.72) (xy 259.08 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df74c4ca-d8fd-4af5-b490-4e83256e22f1")
 	)
 	(wire
 		(pts
@@ -5936,6 +6443,17 @@
 		)
 		(uuid "0e9d9214-18f0-4e9a-aa13-f8611962575d")
 	)
+	(hierarchical_label "SHDN"
+		(shape input)
+		(at 267.97 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3043686c-6c56-459f-a236-65b7668139c8")
+	)
 	(hierarchical_label "PGND"
 		(shape input)
 		(at 78.74 132.08 180)
@@ -6024,6 +6542,17 @@
 		)
 		(uuid "96b87207-4448-43bb-8768-e232401d1c6f")
 	)
+	(hierarchical_label "PGND"
+		(shape input)
+		(at 259.08 60.96 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bee4fd52-1a85-4ac0-bf0a-89089509c645")
+	)
 	(hierarchical_label "PACK+"
 		(shape input)
 		(at 411.48 81.28 0)
@@ -6078,6 +6607,17 @@
 			(justify left)
 		)
 		(uuid "fafa5bde-da94-4ea9-8a5e-791c7f80b17e")
+	)
+	(hierarchical_label "PGND"
+		(shape input)
+		(at 267.97 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fca95a5c-52d5-452f-bdaa-67997086b97a")
 	)
 	(netclass_flag ""
 		(length 2.54)
@@ -7460,6 +8000,110 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:MCP6541T-I_OT")
+		(at 283.21 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "529786a3-eec8-4f88-8055-dc385829ef93")
+		(property "Reference" "U34"
+			(at 283.21 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP6541T-I/OT"
+			(at 283.21 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR"
+			(at 283.21 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/_MICROCHIP_MCP6541T-I-OT_MCP6541T-I-OT_C80839.html"
+			(at 283.21 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 283.21 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MICROCHIP(美国微芯)"
+			(at 283.21 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MCP6541T-I/OT"
+			(at 283.21 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C80839"
+			(at 283.21 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "c652a931-b947-4bf8-8223-2f7cf3b14b87")
+		)
+		(pin "2"
+			(uuid "55d9ccb4-ccee-4bba-be8d-1e18fab10a92")
+		)
+		(pin "3"
+			(uuid "4ed02fa4-f003-4e26-8409-4fd4b9a17d5f")
+		)
+		(pin "1"
+			(uuid "bfef4db1-d7ad-42e5-91ad-279bf1032d22")
+		)
+		(pin "5"
+			(uuid "1d679759-e356-4a2c-b6a8-4605fa605dba")
+		)
+		(instances
+			(project "robot"
+				(path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/aaf20b87-68dc-43c9-a7d3-4ceda8b87424"
+					(reference "U34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "robot:C")
 		(at 167.005 105.41 90)
 		(unit 1)
@@ -8821,6 +9465,109 @@
 		)
 	)
 	(symbol
+		(lib_id "robot:R")
+		(at 309.88 49.53 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f01e91b-d2fe-4693-86dd-9987fdbdaa04")
+		(property "Reference" "R134"
+			(at 309.88 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 309.88 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "robot:R_0402_1005Metric"
+			(at 309.88 47.752 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 309.88 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 309.88 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 309.88 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0402WGF1003TCE"
+			(at 309.88 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "100"
+			(at 309.88 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 309.88 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91e72a4a-2287-4cb3-bf73-199cbacf9c68")
+		)
+		(pin "2"
+			(uuid "c4ecae95-e718-48c4-8377-6f89964ac89c")
+		)
+		(instances
+			(project "robot"
+				(path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/aaf20b87-68dc-43c9-a7d3-4ceda8b87424"
+					(reference "R134")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "robot:C")
 		(at 78.74 127 0)
 		(unit 1)
@@ -9742,6 +10489,109 @@
 		)
 	)
 	(symbol
+		(lib_id "robot:0402WGJ0474TCE")
+		(at 259.08 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9895694d-e905-43c3-8019-bf46272615c9")
+		(property "Reference" "R133"
+			(at 256.032 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0402WGJ0474TCE"
+			(at 255.27 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0402"
+			(at 266.7 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_470KR-474-5_C25562.html"
+			(at 269.24 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "470KΩ"
+			(at 261.366 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 271.78 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGJ0474TCE"
+			(at 274.32 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25562"
+			(at 276.86 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0402WGJ0474TCE"
+			(at 259.08 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aedf7b58-aa75-43d7-b9a6-03cb3d663e51")
+		)
+		(pin "1"
+			(uuid "17e0922d-17a5-4f4a-afb3-80d56884fbab")
+		)
+		(instances
+			(project "robot"
+				(path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/aaf20b87-68dc-43c9-a7d3-4ceda8b87424"
+					(reference "R133")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "robot:R")
 		(at 147.32 156.21 90)
 		(unit 1)
@@ -10147,6 +10997,103 @@
 			(project "robot"
 				(path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/aaf20b87-68dc-43c9-a7d3-4ceda8b87424"
 					(reference "R78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:0402WGF1104TCE")
+		(at 259.08 40.64 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc365ffa-8204-4ead-a815-0acbf88a056e")
+		(property "Reference" "R125"
+			(at 261.62 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.1MΩ"
+			(at 261.62 41.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0402"
+			(at 251.46 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Others_Uniroyal-Elec-0402WGF1104TCE_C133039.html"
+			(at 248.92 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0402WGF1104TCE"
+			(at 259.08 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 246.38 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1104TCE"
+			(at 243.84 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C133039"
+			(at 241.3 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83e70f9e-4f66-41f2-bb86-b1c9400ae7c2")
+		)
+		(pin "2"
+			(uuid "0f74d819-5fb3-44f3-a341-cda2be0a83f9")
+		)
+		(instances
+			(project ""
+				(path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/aaf20b87-68dc-43c9-a7d3-4ceda8b87424"
+					(reference "R125")
 					(unit 1)
 				)
 			)

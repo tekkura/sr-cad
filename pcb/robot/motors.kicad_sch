@@ -814,6 +814,177 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "easyeda2kicad:CC0402FRNPO9BN221"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CC0402FRNPO9BN221"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:C0402"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0402FRNPO9BN221_C326765.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "YAGEO(国巨)"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "CC0402FRNPO9BN221"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C326765"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CC0402FRNPO9BN221_0_1"
+				(polyline
+					(pts
+						(xy -0.51 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.51 -2.03) (xy -0.51 2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.51 2.03) (xy 0.51 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0.51 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "easyeda2kicad:FRC2512F2R70TS"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3615,6 +3786,12 @@
 		(uuid "4cce4088-bd44-40ce-b5d8-fb9758cb6ca4")
 	)
 	(junction
+		(at 119.38 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "512eee16-d8ec-4e29-be89-c72a0e25fc06")
+	)
+	(junction
 		(at 62.23 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3789,6 +3966,12 @@
 		(uuid "f694762b-98ef-4101-80df-4c55f36b8585")
 	)
 	(junction
+		(at 119.38 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f873611e-e5f1-4cbf-a449-8192900d430d")
+	)
+	(junction
 		(at 68.58 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3893,6 +4076,16 @@
 			(type default)
 		)
 		(uuid "0eb00c01-5571-46dc-98f4-638c247f7d64")
+	)
+	(wire
+		(pts
+			(xy 119.38 198.12) (xy 121.92 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f7a42f8-6349-4161-b4f6-c1caf373e0d6")
 	)
 	(wire
 		(pts
@@ -4116,7 +4309,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 185.42) (xy 121.92 185.42)
+			(xy 105.41 185.42) (xy 119.38 185.42)
 		)
 		(stroke
 			(width 0)
@@ -4316,6 +4509,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 185.42) (xy 121.92 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5981f7f0-3674-4fa6-965a-2c975ad72b8b")
+	)
+	(wire
+		(pts
 			(xy 59.69 160.02) (xy 59.69 172.72)
 		)
 		(stroke
@@ -4463,6 +4666,16 @@
 			(type default)
 		)
 		(uuid "739a4f07-4817-4c31-b5f6-3486b8e7437d")
+	)
+	(wire
+		(pts
+			(xy 119.38 187.96) (xy 119.38 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75a9f96e-fbf1-4189-b1e5-14b73427baa6")
 	)
 	(wire
 		(pts
@@ -4966,7 +5179,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 198.12) (xy 121.92 198.12)
+			(xy 106.68 198.12) (xy 119.38 198.12)
 		)
 		(stroke
 			(width 0)
@@ -5182,7 +5395,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "ede774cb-c251-44e8-a21b-533c064c8c77")
+		(uuid "f016db04-55a6-439a-9d2b-4b21d63eec5a")
 	)
 	(wire
 		(pts
@@ -6616,6 +6829,100 @@
 			(project "robot"
 				(path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/4bf796fd-fdb4-45d1-808a-a634d5f4571e"
 					(reference "M2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:CC0402FRNPO9BN221")
+		(at 119.38 193.04 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "405642b1-a198-4ca6-99e0-12a8f26bd48d")
+		(property "Reference" "C136"
+			(at 123.19 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220pF"
+			(at 115.824 193.294 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:C0402"
+			(at 111.76 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0402FRNPO9BN221_C326765.html"
+			(at 109.22 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CC0402FRNPO9BN221"
+			(at 119.38 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO(国巨)"
+			(at 106.68 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0402FRNPO9BN221"
+			(at 104.14 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C326765"
+			(at 101.6 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c7203f2-9242-44a8-ae91-450cc0512548")
+		)
+		(pin "2"
+			(uuid "39fffc17-3655-4f1e-b5cc-b7b95c7d9237")
+		)
+		(instances
+			(project ""
+				(path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/4bf796fd-fdb4-45d1-808a-a634d5f4571e"
+					(reference "C136")
 					(unit 1)
 				)
 			)

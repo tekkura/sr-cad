@@ -814,6 +814,201 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "easyeda2kicad:APXK160ARA101MF611"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "APXK160ARA101MF611"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:CAP-SMD_BD6.3-L6.6-W6.6-FD"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C2162384.pdf"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "NCC(日本贵弥功)"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "APXK160ARA101MF611"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C2162384"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Solid Polymer Electrolytic Capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "APXK160ARA101MF611_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.51 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.29 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.78 1.78) (xy -1.78 0.76)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.51 1.78) (xy -0.51 -1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.51 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.13 -1.75)
+					(mid 0.4201 0.0241)
+					(end 1.15 1.79)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "easyeda2kicad:CC0402FRNPO9BN221"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3744,10 +3939,16 @@
 		(uuid "0715e8b5-e2f2-440f-a0ed-b1124d4dd2ab")
 	)
 	(junction
-		(at 144.78 40.64)
+		(at 130.81 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2259d7c5-1dd6-4711-b0ee-40502e48f668")
+		(uuid "19fcb646-5d7f-4fa1-8d1d-3f36315b5cfb")
+	)
+	(junction
+		(at 121.92 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ffef8d0-b4b0-41aa-a61c-1a63c4234c61")
 	)
 	(junction
 		(at 106.68 101.6)
@@ -3762,22 +3963,10 @@
 		(uuid "3c3d2f26-f680-4171-8bf4-2f8559bd973d")
 	)
 	(junction
-		(at 144.78 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3e6899f1-fb45-4e70-9e09-27a6ec09753a")
-	)
-	(junction
 		(at 129.54 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "40806e6f-a1ca-4ba3-9f99-ffd247168d08")
-	)
-	(junction
-		(at 156.21 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4c1ca280-6c2a-4e0e-9e69-1319c1b88205")
 	)
 	(junction
 		(at 106.68 92.71)
@@ -3810,12 +3999,6 @@
 		(uuid "5b0be2bc-85f3-4a62-adbe-3717027330b1")
 	)
 	(junction
-		(at 109.22 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5d5a769b-e021-4e9c-a9f0-95f2acc8e5c9")
-	)
-	(junction
 		(at 59.69 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3840,28 +4023,34 @@
 		(uuid "6839bb44-a29e-4640-8772-3de1faa8ff9a")
 	)
 	(junction
-		(at 124.46 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7748384a-c7d2-46cc-8f17-e90cefc3fd96")
-	)
-	(junction
 		(at 93.98 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e124352-8341-4c9a-a9ae-aaf0541b0eb7")
 	)
 	(junction
-		(at 133.35 40.64)
+		(at 109.22 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "922ab89c-eb7a-474b-b31b-65dcfcdf182f")
+		(uuid "87ef19e9-aaa8-4c7e-bb43-a9ff25329b5e")
+	)
+	(junction
+		(at 146.05 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89915089-3c82-45d6-ab68-555cab84a95f")
 	)
 	(junction
 		(at 67.31 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92e39c51-b907-4ac0-b990-53adb9c0ad20")
+	)
+	(junction
+		(at 121.92 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93a94c01-2cf9-48be-8ed7-b5194dece8c9")
 	)
 	(junction
 		(at 106.68 180.34)
@@ -3906,12 +4095,6 @@
 		(uuid "b6b5e826-ae84-46fe-a8c0-d18aaf095ea9")
 	)
 	(junction
-		(at 124.46 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b743acb2-c23b-4465-a87b-3ca6b24ffa3a")
-	)
-	(junction
 		(at 44.45 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3954,16 +4137,22 @@
 		(uuid "eec4dff4-7756-41b5-90de-0f87cf95dba9")
 	)
 	(junction
-		(at 137.16 92.71)
+		(at 146.05 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f1c33a84-4b48-4ad0-87bd-e891755775af")
+		(uuid "f16a5115-dabc-4f58-8303-8aa6857e2c02")
 	)
 	(junction
 		(at 73.66 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f694762b-98ef-4101-80df-4c55f36b8585")
+	)
+	(junction
+		(at 133.35 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f81335c3-dc9c-403c-8651-f8f4daca6500")
 	)
 	(junction
 		(at 119.38 198.12)
@@ -3976,6 +4165,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fac5a87f-31f0-4560-a758-e60327c115bc")
+	)
+	(junction
+		(at 153.67 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fcf12370-e880-4cbb-ba7d-e431892fd0d7")
 	)
 	(wire
 		(pts
@@ -4139,6 +4334,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 92.71) (xy 140.97 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a0848b2-d3a8-4a51-88e9-fe7548d13582")
+	)
+	(wire
+		(pts
 			(xy 252.73 105.41) (xy 252.73 129.54)
 		)
 		(stroke
@@ -4186,16 +4391,6 @@
 			(type default)
 		)
 		(uuid "221cf65b-611b-4833-9a65-d92bd2236dd2")
-	)
-	(wire
-		(pts
-			(xy 156.21 38.1) (xy 156.21 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2538bbc0-58a9-4331-8adf-a6c97a850db7")
 	)
 	(wire
 		(pts
@@ -4289,16 +4484,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 101.6) (xy 109.22 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30ad8af0-92af-4a25-ae13-6258fc25a855")
-	)
-	(wire
-		(pts
 			(xy 68.58 173.99) (xy 68.58 175.26)
 		)
 		(stroke
@@ -4326,6 +4511,16 @@
 			(type default)
 		)
 		(uuid "36918e03-3d19-4524-932d-709e1dcb0a2f")
+	)
+	(wire
+		(pts
+			(xy 109.22 102.87) (xy 121.92 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "373af9d6-58ad-4d8c-bc5e-2f181af3fd62")
 	)
 	(wire
 		(pts
@@ -4369,13 +4564,23 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 100.33) (xy 137.16 101.6)
+			(xy 121.92 102.87) (xy 130.81 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "462b6305-7b35-4701-b9fb-b6db577fb884")
+		(uuid "3d4b14ad-c51a-4427-b737-90c3e49574c4")
+	)
+	(wire
+		(pts
+			(xy 133.35 40.64) (xy 133.35 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4235d58a-9d13-4514-a74f-aa606f89c477")
 	)
 	(wire
 		(pts
@@ -4429,16 +4634,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 101.6) (xy 124.46 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d17f26b-620d-41d1-9697-10f1dc282143")
-	)
-	(wire
-		(pts
 			(xy 201.93 140.97) (xy 210.82 140.97)
 		)
 		(stroke
@@ -4466,16 +4661,6 @@
 			(type default)
 		)
 		(uuid "5545390c-6573-42d9-b320-806be9ffb37b")
-	)
-	(wire
-		(pts
-			(xy 129.54 30.48) (xy 144.78 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "569eea0f-1651-4375-894d-aa3cfcd7f3a9")
 	)
 	(wire
 		(pts
@@ -4529,7 +4714,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 101.6) (xy 109.22 105.41)
+			(xy 109.22 101.6) (xy 109.22 102.87)
 		)
 		(stroke
 			(width 0)
@@ -4739,16 +4924,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 40.64) (xy 133.35 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7eece387-b375-4f1f-8aee-bbcf830ef6f4")
-	)
-	(wire
-		(pts
 			(xy 49.53 81.28) (xy 49.53 83.82)
 		)
 		(stroke
@@ -4789,23 +4964,13 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 30.48) (xy 156.21 30.48)
+			(xy 129.54 30.48) (xy 146.05 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "89226c29-5169-448c-8a15-38fffa8b8af6")
-	)
-	(wire
-		(pts
-			(xy 144.78 40.64) (xy 156.21 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89b8dd71-28c6-46fb-b952-43fa720184cf")
 	)
 	(wire
 		(pts
@@ -4889,6 +5054,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 40.64) (xy 153.67 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98ebd795-a273-44ce-aab0-850bf0f08745")
+	)
+	(wire
+		(pts
 			(xy 85.09 160.02) (xy 93.98 160.02)
 		)
 		(stroke
@@ -4919,6 +5094,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 40.64) (xy 133.35 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b53a36f-44ee-4fd6-86e2-27d849370325")
+	)
+	(wire
+		(pts
 			(xy 35.56 120.65) (xy 35.56 123.19)
 		)
 		(stroke
@@ -4926,16 +5111,6 @@
 			(type default)
 		)
 		(uuid "9d04f675-268b-4216-89b3-71a03ba4d6f4")
-	)
-	(wire
-		(pts
-			(xy 144.78 38.1) (xy 144.78 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3d0577a-9e06-4a22-86ca-3db154b1262b")
 	)
 	(wire
 		(pts
@@ -5019,16 +5194,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 92.71) (xy 137.16 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b985b8b5-3ee4-4936-ae18-208ef6d6a943")
-	)
-	(wire
-		(pts
 			(xy 59.69 196.85) (xy 59.69 199.39)
 		)
 		(stroke
@@ -5109,6 +5274,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 92.71) (xy 130.81 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c48db75b-ef73-45b1-af83-aae4dae7533a")
+	)
+	(wire
+		(pts
 			(xy 82.55 168.91) (xy 80.01 168.91)
 		)
 		(stroke
@@ -5116,6 +5291,16 @@
 			(type default)
 		)
 		(uuid "c7072536-af45-4edd-b58b-c12fb57bdcfe")
+	)
+	(wire
+		(pts
+			(xy 153.67 30.48) (xy 165.1 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7787f21-5d1c-47e9-b69f-96e402ecbfd3")
 	)
 	(wire
 		(pts
@@ -5136,16 +5321,6 @@
 			(type default)
 		)
 		(uuid "cafcbd97-91ea-4971-a05d-8a3e7de3db82")
-	)
-	(wire
-		(pts
-			(xy 124.46 100.33) (xy 124.46 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbd2cb69-30f8-40e9-a1c2-b78ff682a3c3")
 	)
 	(wire
 		(pts
@@ -5279,23 +5454,13 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 92.71) (xy 124.46 92.71)
+			(xy 109.22 102.87) (xy 109.22 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d701a89c-e382-4a93-a183-1be983bb83ff")
-	)
-	(wire
-		(pts
-			(xy 156.21 30.48) (xy 165.1 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc3fc2ce-e956-46a0-b4bd-761401000212")
+		(uuid "dc632d6e-ff29-49b2-a524-dc48ac67a337")
 	)
 	(wire
 		(pts
@@ -5309,17 +5474,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 40.64) (xy 133.35 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0431dfd-aa2c-4bfc-8c84-f73e229b6fea")
-	)
-	(wire
-		(pts
-			(xy 137.16 92.71) (xy 140.97 92.71)
+			(xy 106.68 92.71) (xy 121.92 92.71)
 		)
 		(stroke
 			(width 0)
@@ -5396,6 +5551,16 @@
 			(type default)
 		)
 		(uuid "f016db04-55a6-439a-9d2b-4b21d63eec5a")
+	)
+	(wire
+		(pts
+			(xy 146.05 30.48) (xy 153.67 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1e1ae54-5b78-4796-a7d1-2dfbac2f467c")
 	)
 	(wire
 		(pts
@@ -6175,6 +6340,101 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:APXK160ARA101MF611")
+		(at 146.05 35.56 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0fc753cf-276c-44ab-931a-f6c7a1b913e1")
+		(property "Reference" "C132"
+			(at 149.098 36.068 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "APXK160ARA101MF611"
+			(at 149.86 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:CAP-SMD_BD6.3-L6.6-W6.6-FD"
+			(at 138.43 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2162384.pdf"
+			(at 135.89 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "NCC(日本贵弥功)"
+			(at 133.35 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "APXK160ARA101MF611"
+			(at 130.81 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2162384"
+			(at 128.27 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6c58b41f-1ace-44ac-8e15-f46356528462")
+		)
+		(pin "1"
+			(uuid "6092ecfa-3466-4227-b8e4-42aef03c8182")
+		)
+		(instances
+			(project ""
+				(path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/4bf796fd-fdb4-45d1-808a-a634d5f4571e"
+					(reference "C132")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "robot:SN74AHC125RGYR")
 		(at 219.71 132.08 0)
 		(unit 1)
@@ -6407,6 +6667,101 @@
 			(project "robot"
 				(path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/4bf796fd-fdb4-45d1-808a-a634d5f4571e"
 					(reference "R127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:APXK160ARA101MF611")
+		(at 153.67 35.56 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "18790b85-74e8-4fd1-94cc-d79b1d80f209")
+		(property "Reference" "C133"
+			(at 156.718 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "APXK160ARA101MF611"
+			(at 157.48 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:CAP-SMD_BD6.3-L6.6-W6.6-FD"
+			(at 146.05 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2162384.pdf"
+			(at 143.51 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "NCC(日本贵弥功)"
+			(at 140.97 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "APXK160ARA101MF611"
+			(at 138.43 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2162384"
+			(at 135.89 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5753816b-ae3d-4b67-b74a-e835cde08855")
+		)
+		(pin "1"
+			(uuid "3d1a1fee-a72b-4eb9-a8e0-72758c49ebe1")
+		)
+		(instances
+			(project "robot"
+				(path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/4bf796fd-fdb4-45d1-808a-a634d5f4571e"
+					(reference "C133")
 					(unit 1)
 				)
 			)
@@ -7551,111 +7906,6 @@
 		)
 	)
 	(symbol
-		(lib_id "robot:C")
-		(at 144.78 34.29 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "6e891ef8-8077-4ce3-b39f-e61fbe0d8da9")
-		(property "Reference" "C132"
-			(at 140.97 31.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100uF"
-			(at 140.97 34.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "robot:CP_Elec_APXJ100ARA271MF61G"
-			(at 143.8148 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 144.78 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10V"
-			(at 138.43 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 144.78 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "GRM31CD80J107MEA8K"
-			(at 144.78 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "20"
-			(at 144.78 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
-			(at 144.78 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "674dc6e3-d34c-4ea2-b519-243f1ae9817c")
-		)
-		(pin "2"
-			(uuid "669765e4-d774-4e2c-a0e2-708ad8aa6f6d")
-		)
-		(instances
-			(project "robot"
-				(path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/4bf796fd-fdb4-45d1-808a-a634d5f4571e"
-					(reference "C132")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "robot:R")
 		(at 58.42 54.61 0)
 		(unit 1)
@@ -8356,111 +8606,6 @@
 	)
 	(symbol
 		(lib_id "robot:C")
-		(at 137.16 96.52 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "9bd2d730-63cb-480b-8dea-2fcc415b3ea0")
-		(property "Reference" "C135"
-			(at 133.35 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100uF"
-			(at 133.35 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "robot:CP_Elec_APXJ100ARA271MF61G"
-			(at 136.1948 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10V"
-			(at 130.81 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 137.16 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "GRM31CD80J107MEA8K"
-			(at 137.16 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "20"
-			(at 137.16 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
-			(at 137.16 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d7a97003-903d-42e6-89dd-c1c6013cb16a")
-		)
-		(pin "2"
-			(uuid "dc0fc2e4-1648-4547-8309-daf2a7a7b352")
-		)
-		(instances
-			(project "robot"
-				(path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/4bf796fd-fdb4-45d1-808a-a634d5f4571e"
-					(reference "C135")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "robot:C")
 		(at 106.68 191.77 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8756,111 +8901,6 @@
 			(project ""
 				(path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/4bf796fd-fdb4-45d1-808a-a634d5f4571e"
 					(reference "U32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "robot:C")
-		(at 156.21 34.29 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "a5ad6260-006d-454b-b6ec-9f35f66b6b54")
-		(property "Reference" "C133"
-			(at 152.4 31.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100uF"
-			(at 152.4 34.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "robot:CP_Elec_APXJ100ARA271MF61G"
-			(at 155.2448 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.21 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10V"
-			(at 149.86 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 156.21 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "GRM31CD80J107MEA8K"
-			(at 156.21 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "20"
-			(at 156.21 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
-			(at 156.21 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9e750b30-21d3-4a8e-906b-45f5937dec8c")
-		)
-		(pin "2"
-			(uuid "bbc1f354-6529-47cc-80e9-a49e49cb9b4e")
-		)
-		(instances
-			(project "robot"
-				(path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/4bf796fd-fdb4-45d1-808a-a634d5f4571e"
-					(reference "C133")
 					(unit 1)
 				)
 			)
@@ -9366,6 +9406,101 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:APXK160ARA101MF611")
+		(at 130.81 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "bbe8fad0-2eca-4c12-ac1d-a35719becfcb")
+		(property "Reference" "C135"
+			(at 134.366 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "APXK160ARA101MF611"
+			(at 134.62 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:CAP-SMD_BD6.3-L6.6-W6.6-FD"
+			(at 123.19 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2162384.pdf"
+			(at 120.65 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "NCC(日本贵弥功)"
+			(at 118.11 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "APXK160ARA101MF611"
+			(at 115.57 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2162384"
+			(at 113.03 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "23fd4748-224c-4d4e-a447-fca829b0bad8")
+		)
+		(pin "1"
+			(uuid "76d3c37b-000b-4a5d-986f-4ade7e962c2b")
+		)
+		(instances
+			(project "robot"
+				(path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/4bf796fd-fdb4-45d1-808a-a634d5f4571e"
+					(reference "C135")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "robot:C")
 		(at 106.68 96.52 0)
 		(unit 1)
@@ -9563,111 +9698,6 @@
 			(project "robot"
 				(path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/4bf796fd-fdb4-45d1-808a-a634d5f4571e"
 					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "robot:C")
-		(at 124.46 96.52 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "c0b687c1-55c0-4643-9e33-ab06a91bcbe8")
-		(property "Reference" "C134"
-			(at 120.65 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100uF"
-			(at 120.65 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "robot:CP_Elec_APXJ100ARA271MF61G"
-			(at 123.4948 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10V"
-			(at 118.11 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 124.46 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "GRM31CD80J107MEA8K"
-			(at 124.46 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "20"
-			(at 124.46 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
-			(at 124.46 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e6a628dc-f491-4634-8c6b-9a4693645b1f")
-		)
-		(pin "2"
-			(uuid "b0cbaaf4-048b-475e-9b1c-7b7fc3130412")
-		)
-		(instances
-			(project "robot"
-				(path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/4bf796fd-fdb4-45d1-808a-a634d5f4571e"
-					(reference "C134")
 					(unit 1)
 				)
 			)
@@ -10324,6 +10354,101 @@
 			(project "robot"
 				(path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/4bf796fd-fdb4-45d1-808a-a634d5f4571e"
 					(reference "R132")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:APXK160ARA101MF611")
+		(at 121.92 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4f11c1e-2f26-4f0e-9e63-0a287c96c61d")
+		(property "Reference" "C134"
+			(at 124.714 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "APXK160ARA101MF611"
+			(at 125.73 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:CAP-SMD_BD6.3-L6.6-W6.6-FD"
+			(at 114.3 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2162384.pdf"
+			(at 111.76 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "NCC(日本贵弥功)"
+			(at 109.22 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "APXK160ARA101MF611"
+			(at 106.68 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2162384"
+			(at 104.14 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5e32051c-40e7-4a82-bfd0-bbd60dea2e09")
+		)
+		(pin "1"
+			(uuid "934a512e-7807-41a2-bfa6-c347ccea2c5c")
+		)
+		(instances
+			(project "robot"
+				(path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/4bf796fd-fdb4-45d1-808a-a634d5f4571e"
+					(reference "C134")
 					(unit 1)
 				)
 			)

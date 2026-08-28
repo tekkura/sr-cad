@@ -3065,6 +3065,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 50.8) (xy 229.87 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b35f620-0413-464e-a925-5709e33b4aa6")
+	)
+	(wire
+		(pts
 			(xy 139.7 119.38) (xy 148.59 119.38)
 		)
 		(stroke
@@ -3354,6 +3364,16 @@
 			(type default)
 		)
 		(uuid "78d01403-f1b2-44c1-81f6-d73c041e0eed")
+	)
+	(wire
+		(pts
+			(xy 172.72 115.57) (xy 176.53 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7afbb5dc-7850-45f0-a6e1-361a7d26f244")
 	)
 	(wire
 		(pts
@@ -3875,16 +3895,6 @@
 		)
 		(uuid "b09a9c54-02f7-4810-9ba7-b5117c3a731f")
 	)
-	(wire
-		(pts
-			(xy 139.7 127) (xy 148.59 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b12796a3-85b6-432b-b0ee-0084e5f1dc3d")
-	)
 	(bus
 		(pts
 			(xy 127 71.755) (xy 127 76.2)
@@ -4046,16 +4056,6 @@
 			(type default)
 		)
 		(uuid "c3067d3b-322f-4b54-b7eb-d2674e6f46f0")
-	)
-	(wire
-		(pts
-			(xy 139.7 129.54) (xy 148.59 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c30be55b-671b-44de-ab74-22242e94534a")
 	)
 	(wire
 		(pts
@@ -4246,6 +4246,16 @@
 			(type default)
 		)
 		(uuid "d7e63086-71f3-47ce-b40c-6576d15de2bc")
+	)
+	(wire
+		(pts
+			(xy 139.7 129.54) (xy 148.59 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d87c8036-6dbb-484a-825f-c0a6bd6743c4")
 	)
 	(wire
 		(pts
@@ -4601,6 +4611,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 127) (xy 148.59 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa8ac864-9fc7-4ae1-ae40-2beb1eedd6aa")
+	)
+	(wire
+		(pts
 			(xy 116.205 99.06) (xy 116.205 93.98)
 		)
 		(stroke
@@ -4660,7 +4680,7 @@
 		(uuid "09730b6f-47ec-474a-81ab-498756035027")
 	)
 	(label "AGND"
-		(at 139.7 129.54 0)
+		(at 176.53 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4808,6 +4828,16 @@
 			(justify left bottom)
 		)
 		(uuid "23aaea56-ffcd-433d-9209-8de1926d33c3")
+	)
+	(label "GPIO22"
+		(at 139.7 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "243958ab-dc86-41b8-9870-5865f0659a0a")
 	)
 	(label "I2C0_SCL"
 		(at 219.71 55.88 0)
@@ -5180,7 +5210,7 @@
 		(uuid "7ae9cb1c-5ee1-4536-86b8-b1bb7eec96f9")
 	)
 	(label "VRect"
-		(at 139.7 127 0)
+		(at 139.7 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5618,6 +5648,16 @@
 			(justify right bottom)
 		)
 		(uuid "e0704a8a-224a-4188-ba83-16da1ab7e3cf")
+	)
+	(label "GPIO22"
+		(at 220.98 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e0f02a47-ce15-4384-8718-53c66e607ec9")
 	)
 	(label "GPIO20"
 		(at 139.7 119.38 0)
@@ -12562,6 +12602,16 @@
 				(justify right)
 			)
 		)
+		(pin "GPIO22" input
+			(at 229.87 50.8 180)
+			(uuid "ff4377ee-eccf-4e86-9a16-ce0145ce3788")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "robot"
 				(path "/0c7b298e-2d07-4b1f-b033-e95f02d45089"
@@ -13118,13 +13168,13 @@
 			)
 		)
 		(pin "GND" input
-			(at 148.59 129.54 180)
+			(at 172.72 115.57 0)
 			(uuid "74e8a21f-8619-4915-b55d-36c514d56a2f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "USB_SNS" input
@@ -13358,8 +13408,18 @@
 			)
 		)
 		(pin "WLC_SNS" input
-			(at 148.59 127 180)
+			(at 148.59 129.54 180)
 			(uuid "843dc554-61d9-438b-8fed-7b13184f49a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO22" input
+			(at 148.59 127 180)
+			(uuid "b63b4e38-734a-4fdd-be7e-d480e9a2b831")
 			(effects
 				(font
 					(size 1.27 1.27)

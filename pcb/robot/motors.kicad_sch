@@ -1009,177 +1009,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "easyeda2kicad:CC0402FRNPO9BN221"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "CC0402FRNPO9BN221"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:C0402"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0402FRNPO9BN221_C326765.html"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "YAGEO(国巨)"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "CC0402FRNPO9BN221"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C326765"
-				(at 0 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CC0402FRNPO9BN221_0_1"
-				(polyline
-					(pts
-						(xy -0.51 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.51 -2.03) (xy -0.51 2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 2.03) (xy 0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 0.51 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "easyeda2kicad:FRC2512F2R70TS"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3945,6 +3774,12 @@
 		(uuid "19fcb646-5d7f-4fa1-8d1d-3f36315b5cfb")
 	)
 	(junction
+		(at 119.38 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f40a8dd-8db4-4c65-9671-eef46642067d")
+	)
+	(junction
 		(at 121.92 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4155,12 +3990,6 @@
 		(uuid "f81335c3-dc9c-403c-8651-f8f4daca6500")
 	)
 	(junction
-		(at 119.38 198.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f873611e-e5f1-4cbf-a449-8192900d430d")
-	)
-	(junction
 		(at 68.58 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4271,16 +4100,6 @@
 			(type default)
 		)
 		(uuid "0eb00c01-5571-46dc-98f4-638c247f7d64")
-	)
-	(wire
-		(pts
-			(xy 119.38 198.12) (xy 121.92 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f7a42f8-6349-4161-b4f6-c1caf373e0d6")
 	)
 	(wire
 		(pts
@@ -4611,6 +4430,16 @@
 			(type default)
 		)
 		(uuid "4993f174-5155-4af9-aac0-adba5cc00069")
+	)
+	(wire
+		(pts
+			(xy 119.38 195.58) (xy 119.38 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49e2df60-78ef-49e2-b7e5-7b2b56d30c64")
 	)
 	(wire
 		(pts
@@ -5554,6 +5383,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 198.12) (xy 121.92 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0878fd4-62d2-4edf-ac24-a754b23bac1c")
+	)
+	(wire
+		(pts
 			(xy 146.05 30.48) (xy 153.67 30.48)
 		)
 		(stroke
@@ -6419,6 +6258,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "APXK160ARA101MF611"
+			(at 146.05 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6c58b41f-1ace-44ac-8e15-f46356528462")
 		)
@@ -6639,7 +6487,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "FRC2512F2R70TS"
+		(property "Part Number" "FRC2512F2R70TS"
 			(at 68.58 168.91 0)
 			(effects
 				(font
@@ -6745,6 +6593,15 @@
 		)
 		(property "LCSC Part" "C2162384"
 			(at 135.89 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "APXK160ARA101MF611"
+			(at 153.67 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7190,100 +7047,6 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:CC0402FRNPO9BN221")
-		(at 119.38 193.04 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "405642b1-a198-4ca6-99e0-12a8f26bd48d")
-		(property "Reference" "C136"
-			(at 123.19 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220pF"
-			(at 115.824 193.294 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:C0402"
-			(at 111.76 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0402FRNPO9BN221_C326765.html"
-			(at 109.22 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CC0402FRNPO9BN221"
-			(at 119.38 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO(国巨)"
-			(at 106.68 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CC0402FRNPO9BN221"
-			(at 104.14 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C326765"
-			(at 101.6 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6c7203f2-9242-44a8-ae91-450cc0512548")
-		)
-		(pin "2"
-			(uuid "39fffc17-3655-4f1e-b5cc-b7b95c7d9237")
-		)
-		(instances
-			(project ""
-				(path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/4bf796fd-fdb4-45d1-808a-a634d5f4571e"
-					(reference "C136")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "robot:Conn_01x06_MountingPin")
 		(at 232.41 52.07 0)
 		(unit 1)
@@ -7569,7 +7332,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0402WGF4123TCE"
+		(property "Part Number" "0402WGF4123TCE"
 			(at 137.16 177.8 0)
 			(effects
 				(font
@@ -7663,7 +7426,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "FRC2512F2R70TS"
+		(property "Part Number" "FRC2512F2R70TS"
 			(at 68.58 162.56 0)
 			(effects
 				(font
@@ -7796,6 +7559,110 @@
 			(project "robot"
 				(path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/4bf796fd-fdb4-45d1-808a-a634d5f4571e"
 					(reference "R93")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "robot:C")
+		(at 119.38 191.77 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a2f456e-9f12-4b82-a427-d8ed2c9b8844")
+		(property "Reference" "C136"
+			(at 115.57 193.0401 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 115.57 190.5001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "robot:C_0402_1005Metric"
+			(at 118.4148 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10V"
+			(at 116.84 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 119.38 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL05A104KA5NNNC"
+			(at 119.38 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" ""
+			(at 119.38 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 119.38 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aab10e34-9844-4749-a71b-01f4ffc3fa37")
+		)
+		(pin "2"
+			(uuid "293bc848-e5ea-4aef-be58-5d7dc2613cf9")
+		)
+		(instances
+			(project "robot"
+				(path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/4bf796fd-fdb4-45d1-808a-a634d5f4571e"
+					(reference "C136")
 					(unit 1)
 				)
 			)
@@ -8380,7 +8247,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603WAF1003T5E"
+		(property "Part Number" "0603WAF1003T5E"
 			(at 44.45 191.77 0)
 			(effects
 				(font
@@ -8769,7 +8636,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603WAF5904T5E"
+		(property "Part Number" "0603WAF5904T5E"
 			(at 83.82 180.34 0)
 			(effects
 				(font
@@ -8864,7 +8731,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MCP6541T-I/OT"
+		(property "Part Number" "MCP6541T-I/OT"
 			(at 92.71 200.66 0)
 			(effects
 				(font
@@ -9061,7 +8928,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MAX6006AEUR+T"
+		(property "Part Number" "MAX6006AEUR+T"
 			(at 132.08 209.55 0)
 			(effects
 				(font
@@ -9267,7 +9134,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "AO3400A"
+		(property "Part Number" "AO3400A"
 			(at 100.33 162.56 0)
 			(effects
 				(font
@@ -9467,7 +9334,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "APXK160ARA101MF611"
+		(property "Part Number" "APXK160ARA101MF611"
 			(at 115.57 97.79 0)
 			(effects
 				(font
@@ -10326,7 +10193,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603WAF1003T5E"
+		(property "Part Number" "0603WAF1003T5E"
 			(at 87.63 181.61 0)
 			(effects
 				(font
@@ -10421,7 +10288,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "APXK160ARA101MF611"
+		(property "Part Number" "APXK160ARA101MF611"
 			(at 106.68 97.79 0)
 			(effects
 				(font
@@ -10621,7 +10488,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603WAF3483T5E"
+		(property "Part Number" "0603WAF3483T5E"
 			(at 44.45 177.8 0)
 			(effects
 				(font
@@ -11005,7 +10872,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "FRC2512F2R70TS"
+		(property "Part Number" "FRC2512F2R70TS"
 			(at 68.58 175.26 0)
 			(effects
 				(font

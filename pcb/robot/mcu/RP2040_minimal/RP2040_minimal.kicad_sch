@@ -2943,10 +2943,6 @@
 		(at 367.03 260.35)
 		(uuid "815a3afa-c653-481f-ba6d-237e8c0abb49")
 	)
-	(no_connect
-		(at 254 167.64)
-		(uuid "fa240cad-c263-4658-a0b8-27198948230e")
-	)
 	(wire
 		(pts
 			(xy 186.69 93.98) (xy 186.69 81.28)
@@ -4279,7 +4275,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 167.64) (xy 254 167.64)
+			(xy 231.14 167.64) (xy 246.38 167.64)
 		)
 		(stroke
 			(width 0)
@@ -4896,16 +4892,6 @@
 			(type default)
 		)
 		(uuid "fda7bfbb-f8ef-4a94-b8d2-e039ac2b1cbf")
-	)
-	(label "GPIO22"
-		(at 254 167.64 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "030b3532-31b7-42d1-9fbf-fcc660bb9519")
 	)
 	(label "GPIO25"
 		(at 340.36 168.91 180)
@@ -5674,6 +5660,17 @@
 			(justify left)
 		)
 		(uuid "a3e3ff5f-a917-459a-b0ad-a906ad6b5ee5")
+	)
+	(hierarchical_label "GPIO22"
+		(shape input)
+		(at 246.38 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a8a094e9-c8c6-43b1-ae94-dfb8805cea8b")
 	)
 	(hierarchical_label "GPIO12"
 		(shape input)

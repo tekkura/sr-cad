@@ -1636,7 +1636,7 @@
 	)
 	(text "Don't need.\nCan read everything we need from I2C"
 		(exclude_from_sim no)
-		(at 127.254 126.746 0)
+		(at 122.682 134.366 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1680,7 +1680,7 @@
 	)
 	(text "VIO Cap\nEffective Cap: 0.3 - 1.5 uF\nESR 100 mOhm"
 		(exclude_from_sim no)
-		(at 153.67 121.92 0)
+		(at 168.656 110.236 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1732,12 +1732,6 @@
 		(uuid "2d849af2-19bf-4c3e-a551-bcb4ce1d4579")
 	)
 	(junction
-		(at 144.78 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "33cab4b4-efac-43e5-910d-344bd99d29a9")
-	)
-	(junction
 		(at 187.96 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1768,12 +1762,6 @@
 		(uuid "52dd209c-5cac-4a74-85d1-51525eff94a1")
 	)
 	(junction
-		(at 171.45 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5ef419c2-e656-4a7a-a2c6-2340d95c4f6b")
-	)
-	(junction
 		(at 196.85 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1784,6 +1772,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "75adeee3-09dc-43c6-b4d9-82f37519ab06")
+	)
+	(junction
+		(at 167.64 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "763aa747-f084-416f-9ba3-4d173c51355f")
 	)
 	(junction
 		(at 218.44 97.79)
@@ -1814,6 +1808,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "94f5ceb3-6e6e-44f8-8467-abf6eda980d5")
+	)
+	(junction
+		(at 130.81 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99e458cc-d6c8-4fdf-a5df-bdf28f3296b1")
 	)
 	(junction
 		(at 199.39 73.66)
@@ -1888,6 +1888,12 @@
 		(uuid "e2598a18-fb20-4c34-bc25-d53078f84cbe")
 	)
 	(junction
+		(at 170.18 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6380f75-7e2e-4c87-b004-3488bbdab2aa")
+	)
+	(junction
 		(at 171.45 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1933,6 +1939,26 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 104.14) (xy 171.45 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "090c4aeb-b1ba-4af0-bdec-bf753e67d490")
+	)
+	(wire
+		(pts
+			(xy 171.45 118.11) (xy 170.18 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b7256ab-7ec1-4bf8-a315-4c2754e015fa")
+	)
+	(wire
+		(pts
 			(xy 58.42 127) (xy 60.96 127)
 		)
 		(stroke
@@ -1953,13 +1979,13 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 104.14) (xy 171.45 104.14)
+			(xy 167.64 124.46) (xy 167.64 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1179ba79-9b14-484f-95aa-b0bf71c635f9")
+		(uuid "174e6b80-4b14-45d0-9e37-c4d856f78e04")
 	)
 	(wire
 		(pts
@@ -2043,6 +2069,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 115.57) (xy 167.64 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36cc0563-09f3-4150-b52e-08d4f460b74b")
+	)
+	(wire
+		(pts
 			(xy 58.42 129.54) (xy 60.96 129.54)
 		)
 		(stroke
@@ -2070,6 +2106,16 @@
 			(type default)
 		)
 		(uuid "42edc22c-6617-4b51-9c95-4256906654c9")
+	)
+	(wire
+		(pts
+			(xy 166.37 124.46) (xy 167.64 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4411c170-ab27-4e04-a669-ed8249d39131")
 	)
 	(wire
 		(pts
@@ -2163,6 +2209,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 115.57) (xy 170.18 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62d9536b-8228-480e-b267-915990f21331")
+	)
+	(wire
+		(pts
 			(xy 189.23 140.97) (xy 191.77 140.97)
 		)
 		(stroke
@@ -2210,6 +2266,16 @@
 			(type default)
 		)
 		(uuid "6b18dacc-9d8d-4aba-bf41-391bcbdc0dca")
+	)
+	(wire
+		(pts
+			(xy 167.64 115.57) (xy 170.18 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dfa1dce-dd5f-49b6-a2c0-1b313b65ae4f")
 	)
 	(wire
 		(pts
@@ -2280,16 +2346,6 @@
 			(type default)
 		)
 		(uuid "863b3ace-3597-49f5-bde5-5387ee4701ed")
-	)
-	(wire
-		(pts
-			(xy 166.37 115.57) (xy 171.45 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9018c30a-8427-4494-bb13-5a9d82f5e0f1")
 	)
 	(wire
 		(pts
@@ -2493,7 +2549,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.285 104.14) (xy 144.78 104.14)
+			(xy 121.285 104.14) (xy 130.81 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2510,16 +2566,6 @@
 			(type default)
 		)
 		(uuid "d78509d2-f79d-41ce-8c9e-97608313b375")
-	)
-	(wire
-		(pts
-			(xy 171.45 115.57) (xy 171.45 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7bc3ee0-d6c3-4eea-a9fa-0b835f4262e4")
 	)
 	(wire
 		(pts
@@ -2553,6 +2599,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 115.57) (xy 157.48 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ece702db-4591-42f1-805e-1a4532014f7c")
+	)
+	(wire
+		(pts
 			(xy 121.285 111.76) (xy 121.285 104.14)
 		)
 		(stroke
@@ -2560,6 +2616,16 @@
 			(type default)
 		)
 		(uuid "ed7fb7c2-7d36-4a58-918e-9a3f9879602b")
+	)
+	(wire
+		(pts
+			(xy 170.18 115.57) (xy 171.45 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edc3af63-c62e-4b03-bafd-677bb2120f19")
 	)
 	(wire
 		(pts
@@ -2573,7 +2639,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 110.49) (xy 171.45 110.49)
+			(xy 142.24 110.49) (xy 171.45 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2601,16 +2667,6 @@
 		)
 		(uuid "feedcd61-1ba9-41ac-b1c6-a0ce02062984")
 	)
-	(label "1V8"
-		(at 166.37 115.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "762b6943-2790-4fb0-b49c-a03df59dae6c")
-	)
 	(hierarchical_label "PGND"
 		(shape input)
 		(at 254 97.79 270)
@@ -2621,6 +2677,17 @@
 			(justify right)
 		)
 		(uuid "02bf6c8a-e977-438f-84cc-322b9fc9f271")
+	)
+	(hierarchical_label "AGND"
+		(shape input)
+		(at 166.37 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "11c71498-87cc-44cd-86f6-d0a52f8ed1fe")
 	)
 	(hierarchical_label "1V8"
 		(shape input)
@@ -2688,6 +2755,17 @@
 		)
 		(uuid "44d593ff-7e4b-4f74-953b-32f9a26fe6d4")
 	)
+	(hierarchical_label "GPIO22"
+		(shape input)
+		(at 156.21 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4fa07228-f3fd-4578-a2e9-8bc2c3284ff8")
+	)
 	(hierarchical_label "PGND"
 		(shape input)
 		(at 184.15 140.97 270)
@@ -2723,7 +2801,7 @@
 	)
 	(hierarchical_label "AGND"
 		(shape input)
-		(at 156.21 118.11 270)
+		(at 142.24 118.11 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2789,7 +2867,7 @@
 	)
 	(hierarchical_label "AGND"
 		(shape input)
-		(at 144.78 111.76 270)
+		(at 130.81 111.76 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3106,7 +3184,7 @@
 	)
 	(symbol
 		(lib_id "robot:C")
-		(at 156.21 114.3 0)
+		(at 142.24 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3114,7 +3192,7 @@
 		(dnp no)
 		(uuid "268276a4-aa4a-4b19-8e4c-8c3baba8f0f2")
 		(property "Reference" "C43"
-			(at 160.02 113.0299 0)
+			(at 137.922 112.268 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3123,7 +3201,7 @@
 			)
 		)
 		(property "Value" "2.2uF"
-			(at 160.02 115.5699 0)
+			(at 143.002 117.602 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3132,7 +3210,7 @@
 			)
 		)
 		(property "Footprint" "robot:C_0603_1608Metric"
-			(at 157.1752 118.11 0)
+			(at 143.2052 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3141,7 +3219,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 114.3 0)
+			(at 142.24 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3150,7 +3228,7 @@
 			)
 		)
 		(property "Description" "10V"
-			(at 162.56 118.11 0)
+			(at 145.034 112.014 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3158,7 +3236,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung"
-			(at 156.21 114.3 0)
+			(at 142.24 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3167,7 +3245,7 @@
 			)
 		)
 		(property "Part Number" "CL10A225KP8NNNC"
-			(at 156.21 114.3 0)
+			(at 142.24 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3176,7 +3254,7 @@
 			)
 		)
 		(property "Stock" ""
-			(at 156.21 114.3 0)
+			(at 142.24 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3185,7 +3263,7 @@
 			)
 		)
 		(property "Type" "SMD"
-			(at 156.21 114.3 0)
+			(at 142.24 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3849,6 +3927,111 @@
 	)
 	(symbol
 		(lib_id "robot:R")
+		(at 167.64 119.38 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "428c50bb-30ca-4297-a9b2-e28e691f462b")
+		(property "Reference" "R136"
+			(at 165.1 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 165.1 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "robot:R_0603_1608Metric"
+			(at 165.862 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Walsin Technology"
+			(at 167.64 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "WR06X1002FTL"
+			(at 167.64 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "100"
+			(at 167.64 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 167.64 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b6a2713-3478-498f-a536-f64f2b4514d8")
+		)
+		(pin "2"
+			(uuid "3121ff1b-351d-4e08-8fff-3119a2943bd3")
+		)
+		(instances
+			(project "robot"
+				(path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/427922e5-a943-4728-8788-709c0c3b2395"
+					(reference "R136")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "robot:R")
 		(at 112.395 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3946,6 +4129,108 @@
 			(project "robot"
 				(path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/427922e5-a943-4728-8788-709c0c3b2395"
 					(reference "R71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "robot:R")
+		(at 161.29 115.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4fd57b0f-589a-4c6f-b0e0-731506e88ddf")
+		(property "Reference" "R135"
+			(at 161.29 111.506 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 161.29 113.538 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "robot:R_0603_1608Metric"
+			(at 161.29 117.348 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 161.29 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Walsin Technology"
+			(at 161.29 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "WR06X1002FTL"
+			(at 161.29 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "100"
+			(at 161.29 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 161.29 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2afd6e3a-35be-4a4d-ac0f-12db24fcd1bd")
+		)
+		(pin "2"
+			(uuid "c281170d-1bdc-4016-9b1d-710f15d4ffb6")
+		)
+		(instances
+			(project "robot"
+				(path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/427922e5-a943-4728-8788-709c0c3b2395"
+					(reference "R135")
 					(unit 1)
 				)
 			)
@@ -5087,7 +5372,7 @@
 	)
 	(symbol
 		(lib_id "robot:C")
-		(at 144.78 107.95 0)
+		(at 130.81 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5095,7 +5380,7 @@
 		(dnp no)
 		(uuid "d77c9ebb-9c74-4b77-8d1c-17e7d6bc4675")
 		(property "Reference" "C40"
-			(at 148.59 106.6799 0)
+			(at 134.62 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5104,7 +5389,7 @@
 			)
 		)
 		(property "Value" "0.47uF"
-			(at 148.59 109.2199 0)
+			(at 134.62 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5113,7 +5398,7 @@
 			)
 		)
 		(property "Footprint" "robot:C_0603_1608Metric"
-			(at 145.7452 111.76 0)
+			(at 131.7752 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5122,7 +5407,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 107.95 0)
+			(at 130.81 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5131,7 +5416,7 @@
 			)
 		)
 		(property "Description" "4V"
-			(at 149.86 111.76 0)
+			(at 135.89 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5139,7 +5424,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung"
-			(at 144.78 107.95 0)
+			(at 130.81 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5148,7 +5433,7 @@
 			)
 		)
 		(property "Part Number" "CL10B474KO8NNNC"
-			(at 144.78 107.95 0)
+			(at 130.81 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5157,7 +5442,7 @@
 			)
 		)
 		(property "Stock" ""
-			(at 144.78 107.95 0)
+			(at 130.81 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5166,7 +5451,7 @@
 			)
 		)
 		(property "Type" "SMD"
-			(at 144.78 107.95 0)
+			(at 130.81 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)

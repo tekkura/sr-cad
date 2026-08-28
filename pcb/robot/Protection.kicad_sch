@@ -8061,7 +8061,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MCP6541T-I/OT"
+		(property "Part Number" "MCP6541T-I/OT"
 			(at 283.21 64.77 0)
 			(effects
 				(font
@@ -11066,7 +11066,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0402WGF1104TCE"
+		(property "Part Number" "0402WGF1104TCE"
 			(at 243.84 40.64 0)
 			(effects
 				(font

@@ -8141,7 +8141,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "RC0402FR-07422RL"
+		(property "Part Number" "RC0402FR-07422RL"
 			(at 288.29 107.95 0)
 			(effects
 				(font
@@ -10000,7 +10000,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "RC0402FR-07100RL"
+		(property "Part Number" "RC0402FR-07100RL"
 			(at 332.74 82.55 0)
 			(effects
 				(font
@@ -10989,7 +10989,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "S0"
 			(at 379.73 132.715 90)
 			(effects
 				(font
@@ -13031,6 +13031,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 328.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TPS22950CDDCR"
 			(at 328.93 93.98 0)
 			(effects
 				(font

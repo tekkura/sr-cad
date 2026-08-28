@@ -1866,7 +1866,7 @@
 			(uuid "bcd233b0-da02-4f0f-97e3-87462e8a241c")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "${KIPRJMOD}/packages3D/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3024,7 +3024,7 @@
 			(uuid "75924e2d-165a-4d9f-b85b-775dfe4012e4")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/CAP-SMD_BD6.3-L6.6-W6.6-FD.wrl"
+		(model "${KIPRJMOD}/packages3D/CAP-SMD_BD6.3-L6.6-W6.6-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4002,7 +4002,7 @@
 			(uuid "d41e8dd6-2db8-4d89-b941-a41642e12d45")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/R0603.wrl"
+		(model "${KIPRJMOD}/packages3D/R0603.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4327,7 +4327,7 @@
 			(uuid "098746ef-64b1-4d1a-a81e-bb1aae6c052e")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-5_L2.9-W1.6-H1.1-LS2.8-P0.95.wrl"
+		(model "${KIPRJMOD}/packages3D/SOT-23-5_L2.9-W1.6-H1.1-LS2.8-P0.95.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5861,7 +5861,7 @@
 			(uuid "db467008-be86-4631-b176-e83a779437f7")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/R0603.wrl"
+		(model "${KIPRJMOD}/packages3D/R0603.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12104,7 +12104,7 @@
 			(uuid "99e6da7a-86cc-4b58-a9a2-f9fae0e5824c")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/CAP-SMD_BD6.3-L6.6-W6.6-FD.wrl"
+		(model "${KIPRJMOD}/packages3D/CAP-SMD_BD6.3-L6.6-W6.6-FD.wrl"
 			(hide yes)
 			(offset
 				(xyz 0 0 0)
@@ -18144,7 +18144,7 @@
 			(uuid "f8a7a878-0133-4e07-813c-b8129b63c12b")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/CAP-SMD_BD6.3-L6.6-W6.6-FD.wrl"
+		(model "${KIPRJMOD}/packages3D/CAP-SMD_BD6.3-L6.6-W6.6-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19189,7 +19189,7 @@
 			(uuid "fe4990dc-890e-40d3-ad76-d4cd3d9421c9")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/R0402_L1.0-W0.5-H0.4.wrl"
+		(model "${KIPRJMOD}/packages3D/R0402_L1.0-W0.5-H0.4.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21375,7 +21375,7 @@
 			(uuid "e0571978-835a-4cd5-9cd4-3f76d33a4e0c")
 		)
 		(embedded_fonts no)
-		(model "/home/bo/git/robot-pcb/kicad/robot/packages3D/C_1206_3216Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/C_1206_3216Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -28033,7 +28033,7 @@
 			(uuid "08010e4b-87a9-4308-9c4d-74f48fffd75d")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/R0402_L1.0-W0.5-H0.4.wrl"
+		(model "${KIPRJMOD}/packages3D/R0402_L1.0-W0.5-H0.4.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -32495,7 +32495,7 @@
 			(uuid "e96fd0fd-48a4-4182-9668-4313695fc7f3")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/R2512_L6.3-W3.2-H0.6.wrl"
+		(model "${KIPRJMOD}/packages3D/R2512_L6.3-W3.2-H0.6.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -36505,7 +36505,7 @@
 			(uuid "8fe6a88e-a735-4e63-9af1-faff174c0e47")
 		)
 		(embedded_fonts no)
-		(model "/home/bo/git/robot-pcb/kicad/robot/packages3D/C_1206_3216Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/C_1206_3216Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -38755,7 +38755,7 @@
 			(uuid "88d8712f-9607-4eca-9685-66d96633d05f")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/R0603.wrl"
+		(model "${KIPRJMOD}/packages3D/R0603.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -39562,7 +39562,7 @@
 			(uuid "e101eff3-4aa9-4b95-acab-25a83615a9f7")
 		)
 		(embedded_fonts no)
-		(model "/home/bo/git/robot-pcb/kicad/robot/packages3D/C_1206_3216Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/C_1206_3216Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -41508,7 +41508,7 @@
 			(uuid "3532b9bf-2827-4685-97b4-6a9ec6d1fa57")
 		)
 		(embedded_fonts no)
-		(model "/home/bo/git/robot-pcb/kicad/robot/packages3D/C_1206_3216Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/C_1206_3216Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -41830,7 +41830,7 @@
 			(uuid "3758b608-7a78-45e1-a69e-1966a3476150")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/CAP-SMD_BD6.3-L6.6-W6.6-FD.wrl"
+		(model "${KIPRJMOD}/packages3D/CAP-SMD_BD6.3-L6.6-W6.6-FD.wrl"
 			(hide yes)
 			(offset
 				(xyz 0 0 0)
@@ -42741,7 +42741,7 @@
 			(uuid "edd73839-64c1-46cd-bafa-3db700854a95")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/R0402_L1.0-W0.5-H0.4.wrl"
+		(model "${KIPRJMOD}/packages3D/R0402_L1.0-W0.5-H0.4.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -47482,7 +47482,7 @@
 			(uuid "b9def9aa-b28f-4572-b79d-d88655c82250")
 		)
 		(embedded_fonts no)
-		(model "/home/bo/git/robot-pcb/kicad/robot/packages3D/C_1206_3216Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/C_1206_3216Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -60919,7 +60919,7 @@
 			(uuid "a83f9ce1-2d7f-4752-9115-1ec3e7efc137")
 		)
 		(embedded_fonts no)
-		(model "/home/bo/git/robot-pcb/kicad/robot/packages3D/C_1206_3216Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/C_1206_3216Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -61182,7 +61182,7 @@
 			(uuid "397c5fd0-d901-4c74-a803-84bab741f847")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.wrl"
+		(model "${KIPRJMOD}/packages3D/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -61664,7 +61664,7 @@
 			(uuid "ef744f6d-efe1-43cd-b192-eddbf4661438")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/R2512_L6.3-W3.2-H0.6.wrl"
+		(model "${KIPRJMOD}/packages3D/R2512_L6.3-W3.2-H0.6.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -62439,7 +62439,7 @@
 			(uuid "23ce7575-a274-4ba8-895c-830ea08e75ae")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.wrl"
+		(model "${KIPRJMOD}/packages3D/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -65099,7 +65099,7 @@
 			(uuid "e0ec78c3-ed3b-4e05-b1ea-55b3de1da9c8")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/R0402_L1.0-W0.5-H0.4.wrl"
+		(model "${KIPRJMOD}/packages3D/R0402_L1.0-W0.5-H0.4.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -102673,7 +102673,7 @@
 			(uuid "693cdd70-5f23-43a6-a4ad-9c95c36bb479")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/R0603.wrl"
+		(model "${KIPRJMOD}/packages3D/R0603.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -104088,7 +104088,7 @@
 			(uuid "b7a92258-4214-4798-9ef5-080c9cb6d529")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-5_L2.9-W1.6-H1.1-LS2.8-P0.95.wrl"
+		(model "${KIPRJMOD}/packages3D/SOT-23-5_L2.9-W1.6-H1.1-LS2.8-P0.95.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -105128,7 +105128,7 @@
 			(uuid "6a8789f4-3212-425c-b0ed-ae315b3e2a07")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "${KIPRJMOD}/packages3D/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -105636,7 +105636,7 @@
 			(uuid "4d569b5f-a01f-4f3f-b0fb-3766a9735175")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/R2512_L6.3-W3.2-H0.6.wrl"
+		(model "${KIPRJMOD}/packages3D/R2512_L6.3-W3.2-H0.6.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
